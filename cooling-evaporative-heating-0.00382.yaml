@@ -1,0 +1,16 @@
+process: cooling-evaporative-heating-0.00382
+flow: 
+     heat:
+          value: -0.3289474
+          unit: MJ
+     cooling:
+          value: 1
+          unit: MJ
+capacity:  
+     value: 0.00382
+     ref: http://www.sciencedirect.com/science/article/pii/S0360132301001044, Table 2
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: cooling

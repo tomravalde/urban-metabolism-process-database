@@ -1,0 +1,16 @@
+process: conventionalAirConditioning-0.003517
+flow: 
+     elec:
+          value: 1.248223
+          unit: MJ
+     cooling:
+          value: 1
+          unit: MJ
+capacity:  
+     value: 0.003517
+     ref: http://www.sciencedirect.com/science/article/pii/S0306261900000660
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: cooling

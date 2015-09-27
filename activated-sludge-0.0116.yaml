@@ -1,0 +1,28 @@
+process: activated-sludge-0.0116
+flow: 
+     wastewater:
+          value: 1.06383
+          unit: kg
+     elec:
+          value: 0.003255319
+          unit: MJ
+     activatedSludge:
+          value: 0.06595745
+          unit: kg
+     sludge:
+          value: -0.06595745
+          unit: kg
+     effluent:
+          value: -1
+          unit: kg
+     CO2:
+          value: -0.0006223404
+          unit: kg
+capacity:  
+     value: 0.0116
+     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000001
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: effluent

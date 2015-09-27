@@ -1,0 +1,28 @@
+process: biochemical_woodChips_ethanol-0.00783
+flow: 
+     biomass:
+          value: -2.36895
+          unit: kg
+     water:
+          value: -1.807496
+          unit: kg
+     CO2:
+          value: 1.586629
+          unit: kg
+     ethanol:
+          value: 0.3224513
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     waste:
+          value: 0.07878638
+          unit: kg
+capacity:  
+     value: 0.00783
+     ref: http://link.springer.com/article/10.1007/s00267-010-9494-2#page-10
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: elec

@@ -1,0 +1,31 @@
+process: biomass-to-methanol-5.06
+flow: 
+     wood:
+          value: -4.468937
+          unit: kg
+     water:
+          value: -1.265778
+          unit: kg
+     elec:
+          value: -2.39013
+          unit: MJ
+     heat:
+          value: 4.501727
+          unit: MJ
+     methanol:
+          value: 1
+          unit: kg
+     wastewater:
+          value: 1.493776
+          unit: kg
+     ash:
+          value: 0.3445194
+          unit: kg
+capacity:  
+     value: 5.06
+     ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960
+trl:  
+     level: r
+     ref: http://www.biofuelstp.eu/methanol.html
+     justification: slowly emerging
+main: methanol

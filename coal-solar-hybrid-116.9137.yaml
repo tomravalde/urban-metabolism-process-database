@@ -1,0 +1,28 @@
+process: coal-solar-hybrid-116.9137
+flow: 
+     coal:
+          value: -0.02309396
+          unit: kg
+     solar:
+          value: -2.221083
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.009921848
+          unit: kg
+     CO2:
+          value: 0.05371483
+          unit: kg
+     ash:
+          value: 0.002283736
+          unit: kg
+capacity:  
+     value: 116.9137
+     ref: http://ac.els-cdn.com/S0038092X10003579/1-s2.0-S0038092X10003579-main.pdf?_tid=1a0b674a-e43b-11e4-81ca-00000aab0f26&acdnat=1429190501_060240121a4d342af3824f25a3c98ac3
+trl:  
+     level: ml
+     ref: http://www.gizmag.com/first-solarcoal-hybrid-power-station/15728/
+     justification: First demonstration project in Colorado (2010)
+main: elec

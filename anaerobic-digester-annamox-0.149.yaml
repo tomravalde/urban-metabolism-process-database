@@ -1,0 +1,28 @@
+process: anaerobic-digester-annamox-0.149
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     heat:
+          value: -0.2961026
+          unit: MJ
+     elec:
+          value: -0.1543716
+          unit: MJ
+     methane:
+          value: 0.09341281
+          unit: kg
+     CO2:
+          value: 0.08321619
+          unit: kg
+     digestate:
+          value: 0.7314249
+          unit: kg
+capacity:  
+     value: 0.149
+     ref: http://www.sciencedirect.com/science/article/pii/S0960852410013404
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: wastewater

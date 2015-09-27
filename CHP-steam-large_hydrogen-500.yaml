@@ -1,0 +1,22 @@
+process: CHP-steam-large_hydrogen-500
+flow: 
+     hydrogen:
+          value: -0.0176
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1
+          unit: MJ
+     waterNonPotable:
+          value: 0.3475
+          unit: kg
+capacity:  
+     value: 500500
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+trl:  
+     level: cc
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+     justification: 
+main: elecheat

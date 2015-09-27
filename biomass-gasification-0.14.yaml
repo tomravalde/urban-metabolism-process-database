@@ -1,0 +1,28 @@
+process: biomass-gasification-0.14
+flow: 
+     biomass:
+          value: -0.02800179
+          unit: kg
+     CO2:
+          value: 0.008092518
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 0.1814516
+          unit: MJ
+     ash:
+          value: 0.002240143
+          unit: kg
+     water:
+          value: -0.46931
+          unit: kg
+capacity:  
+     value: 0.14
+     ref: https://www.ashden.org/biomass-gasification
+trl:  
+     level: r
+     ref: http://www.eubia.org/index.php/about-biomass/pyrolysis-and-gasification/gasification
+     justification: Commercial penetration still low due to costs (2012)
+main: elec

@@ -1,0 +1,31 @@
+process: microalgae-biodiesel-0.00317
+flow: 
+     algaeDry:
+          value: -5.617978
+          unit: kg
+     elec:
+          value: -22.92135
+          unit: MJ
+     heat:
+          value: -26.51685
+          unit: MJ
+     biodiesel:
+          value: 1
+          unit: kg
+     digestate:
+          value: 1.741573
+          unit: kg
+     CO2:
+          value: 2.292135
+          unit: kg
+     methane:
+          value: 4.511236
+          unit: kg
+capacity:  
+     value: 0.00317
+     ref: http://www.cmclinnovations.com/wp-content/uploads/2014/01/The-future-viability-of-algae-derived-biodiesel-under-economic-and-technical-uncertainties.pdf
+trl:  
+     level: ml
+     ref: http://pubs.acs.org/doi/pdf/10.1021/ie403273b
+     justification: Simulations (showing the economic viability of the process)
+main: biodiesel

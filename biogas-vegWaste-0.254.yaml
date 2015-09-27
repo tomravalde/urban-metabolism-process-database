@@ -1,0 +1,22 @@
+process: biogas-vegWaste-0.254
+flow: 
+     vegWaste:
+          value: -5.075884
+          unit: kg
+     methane:
+          value: 1
+          unit: kg
+     CO2:
+          value: 1.624131
+          unit: kg
+     digestate:
+          value: 1.522765
+          unit: kg
+capacity:  
+     value: 0.254
+     ref: http://www.iea-biogas.net/files/daten-redaktion/download/publi-task37/upgrading_rz_low_final.pdf, http://www.engineeringtoolbox.com/gas-density-d_158.html
+trl:  
+     level: c
+     ref: http://www.sgc.se/ckfinder/userfiles/files/SGC270.pdf
+     justification: Identifies existing plants
+main: methane

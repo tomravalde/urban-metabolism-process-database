@@ -1,0 +1,22 @@
+process: CHP-steam-large_gasNatural-500
+flow: 
+     gasNatural:
+          value: -0.04665
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.12775
+          unit: kg
+capacity:  
+     value: 500500
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+trl:  
+     level: cc
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+     justification: 
+main: elecheat

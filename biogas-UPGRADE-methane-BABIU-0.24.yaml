@@ -1,0 +1,25 @@
+process: biogas-UPGRADE-methane-BABIU-0.24
+flow: 
+     elec:
+          value: -0.9184509
+          unit: MJ
+     water:
+          value: 0
+          unit: kg
+     biogas:
+          value: -3.065696
+          unit: kg
+     methane:
+          value: 1
+          unit: kg
+     ash:
+          value: 0
+          unit: kg
+capacity:  
+     value: 0.24
+     ref: http://www.iea-biogas.net/files/daten-redaktion/download/publi-task37/upgrading_rz_low_final.pdf, http://www.engineeringtoolbox.com/gas-density-d_158.html
+trl:  
+     level: c
+     ref: http://www.sgc.se/ckfinder/userfiles/files/SGC270.pdf
+     justification: Identifies existing plants
+main: methane

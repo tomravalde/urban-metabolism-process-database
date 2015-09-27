@@ -1,0 +1,25 @@
+process: district-cogen-heating-230
+flow: 
+     fuel:
+          value: -1.666667
+          unit: MJ
+     elec:
+          value: 0.4166667
+          unit: MJ
+     water:
+          value: -0.1956667
+          unit: kg
+     heat:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.1576667
+          unit: kg
+capacity:  
+     value: 230
+     ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243
+     justification: 
+main: heat

@@ -1,0 +1,22 @@
+process: CHP-steam-small_liquidFuel_hydrogen-0.5
+flow: 
+     hydrogen:
+          value: -0.1408
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 15
+          unit: MJ
+     waterNonPotable:
+          value: 2.778
+          unit: kg
+capacity:  
+     value: 0.5
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+trl:  
+     level: c
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+     justification: 
+main: elec

@@ -1,0 +1,31 @@
+process: coalLooping_hydrogen-elec-300
+flow: 
+     coal:
+          value: -0.09347222
+          unit: kg
+     water:
+          value: -0.1393333
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.002316667
+          unit: kg
+     ash:
+          value: 0.03966111
+          unit: kg
+     wastewater:
+          value: 0.1491694
+          unit: kg
+     heat:
+          value: 1.01
+          unit: MJ
+capacity:  
+     value: 300
+     ref: http://www.sciencedirect.com/science/article/pii/S0360319913028863
+trl:  
+     level: m
+     ref: http://oee.osu.edu/successful-200-hour-continuous-operation-of-coal-direct-chemical-looping-combustion-technology.html
+     justification: Still at Pilot stage
+main: elec

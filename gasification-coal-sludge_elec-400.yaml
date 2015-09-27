@@ -1,0 +1,25 @@
+process: gasification-coal-sludge_elec-400
+flow: 
+     coal:
+          value: -0.1014183
+          unit: kg
+     sludge:
+          value: 0.02535457
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.4682672
+          unit: kg
+     CO2:
+          value: 0.01896944
+          unit: kg
+capacity:  
+     value: 400
+     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000002
+trl:  
+     level: m
+     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000002
+     justification: 400-500 MW
+main: elec

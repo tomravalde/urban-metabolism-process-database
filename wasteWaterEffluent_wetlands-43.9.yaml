@@ -1,0 +1,19 @@
+process: wasteWaterEffluent_wetlands-43.9
+flow: 
+     effluent:
+          value: -1
+          unit: kg
+     elec:
+          value: -0.000594
+          unit: MJ
+     waterNonPotable:
+          value: 1
+          unit: kg
+capacity:  
+     value: 43.9
+     ref: http://water.epa.gov/infrastructure/septic/upload/wetlands-subsurface_flow.pdf
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S1364032112003541
+     justification: Current examples
+main: effluentwaterNonPotable

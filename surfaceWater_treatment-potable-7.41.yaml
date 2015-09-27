@@ -1,0 +1,19 @@
+process: surfaceWater_treatment-potable-7.41
+flow: 
+     surfaceWater:
+          value: -1
+          unit: kg
+     elec:
+          value: -9e-04
+          unit: MJ
+     waterPotable:
+          value: 1
+          unit: kg
+capacity:  
+     value: 7.41
+     ref: http://www.algor.com/news_pub/cust_app/jardine/jardine.asp, http://www.dagua.com/small-medium-flow-rates.php
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: surfaceWaterwaterPotable

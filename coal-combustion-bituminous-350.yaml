@@ -1,0 +1,28 @@
+process: coal-combustion-bituminous-350
+flow: 
+     coal:
+          value: -0.1333333
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 2.333333
+          unit: MJ
+     water:
+          value: -0.8666667
+          unit: kg
+     CO2:
+          value: 0.3083333
+          unit: kg
+     ash:
+          value: 0.01333333
+          unit: kg
+capacity:  
+     value: 350
+     ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf
+trl:  
+     level: c
+     ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf
+     justification: 
+main: elec

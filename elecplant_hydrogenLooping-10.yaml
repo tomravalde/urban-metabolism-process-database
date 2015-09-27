@@ -1,0 +1,25 @@
+process: elecplant_hydrogenLooping-10
+flow: 
+     coal:
+          value: -0.08534684
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.0108106
+          unit: kg
+     waterPotable:
+          value: -0.6819619
+          unit: kg
+     ash:
+          value: 0.008534684
+          unit: kg
+capacity:  
+     value: 10
+     ref: https://en.wikipedia.org/wiki/Fusina_hydrogen_power_station
+trl:  
+     level: r
+     ref: https://en.wikipedia.org/wiki/Fusina_hydrogen_power_station
+     justification: First plant, operational in 2009
+main: elec

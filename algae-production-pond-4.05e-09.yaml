@@ -1,0 +1,22 @@
+process: algae-production-pond-4.05e-09
+flow: 
+     algae:
+          value: 1
+          unit: kg
+     water:
+          value: -2857.184
+          unit: kg
+     elec:
+          value: -3.7845
+          unit: MJ
+     CO2:
+          value: -1.8
+          unit: kg
+capacity:  
+     value: 4.05E-09
+     ref: http://www.sciencedirect.com/science/article/pii/S0960852409012449, Assume as above, for a production pond
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: algae

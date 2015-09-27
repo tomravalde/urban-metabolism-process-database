@@ -1,0 +1,25 @@
+process: gasification-waste-high-temp_steam-12.02
+flow: 
+     waste:
+          value: -0.296173
+          unit: kg
+     heat:
+          value: -5.357737
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.9151414
+          unit: kg
+     CO2:
+          value: 0.4658902
+          unit: kg
+capacity:  
+     value: 12.02
+     ref: 
+trl:  
+     level: c
+     ref: https://www.netl.doe.gov/File%20Library/Research/Coal/energy%20systems/gasification/gasifipedia/5-ASADAL_BOARD_bbs02.pdf
+     justification: List of commercial plants
+main: elec

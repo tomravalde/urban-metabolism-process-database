@@ -1,0 +1,31 @@
+process: cofiring-boiler_coal-biomass-10
+flow: 
+     coal:
+          value: -0.08640035
+          unit: kg
+     biomass:
+          value: -0.01006873
+          unit: kg
+     heat:
+          value: 1.162791
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.8672778
+          unit: kg
+     CO2:
+          value: 0.09249366
+          unit: kg
+     ash:
+          value: 0.09647067
+          unit: kg
+capacity:  
+     value: 10
+     ref: http://www.sciencedirect.com/science/article/pii/S0961953408001797, Fig 2
+trl:  
+     level: c
+     ref: http://ac.els-cdn.com/S0961953408001797/1-s2.0-S0961953408001797-main.pdf?_tid=25c3ac72-311c-11e5-8dd1-00000aab0f26&acdnat=1437643446_daf999bfd08b78ac4c259d5201502c92
+     justification: Just discusses the economic feasibility of the technology
+main: elec

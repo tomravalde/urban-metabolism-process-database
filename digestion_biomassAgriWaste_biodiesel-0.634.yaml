@@ -1,0 +1,22 @@
+process: digestion_biomassAgriWaste_biodiesel-0.634
+flow: 
+     biomassAgriWaste:
+          value: -25.78306
+          unit: kg
+     biodiesel:
+          value: 1
+          unit: kg
+     elec:
+          value: 10.07723
+          unit: MJ
+     heat:
+          value: 13.26684
+          unit: MJ
+capacity:  
+     value: 0.634
+     ref: 
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S0960852411008327
+     justification: 
+main: biodiesel

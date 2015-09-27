@@ -1,0 +1,34 @@
+process: anaerobicDigestion_sludge_usedOil-1796.361
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     oilUsed:
+          value: -0.2345679
+          unit: kg
+     effluent:
+          value: 0.9621648
+          unit: kg
+     water:
+          value: 0.01423042
+          unit: kg
+     digestate:
+          value: 0.001193084
+          unit: kg
+     methane:
+          value: 7.408669e-05
+          unit: kg
+     CO2:
+          value: 3.752443e-05
+          unit: kg
+     elec:
+          value: -0.001002095
+          unit: MJ
+capacity:  
+     value: 1796.361
+     ref: http://www.sciencedirect.com/science/article/pii/S0960148112003552
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: wastewater

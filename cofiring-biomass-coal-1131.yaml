@@ -1,0 +1,31 @@
+process: cofiring-biomass-coal-1131
+flow: 
+     coal:
+          value: -0.07714286
+          unit: kg
+     biomass:
+          value: -0.06857143
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1.857143
+          unit: MJ
+     water:
+          value: -0.8571429
+          unit: kg
+     CO2:
+          value: 0.185
+          unit: kg
+     ash:
+          value: 0.015
+          unit: kg
+capacity:  
+     value: 1131
+     ref: http://www.rwe.com/web/cms/en/1754834/rwe-generation-se/about-us/energy-mix/biomass/
+trl:  
+     level: c
+     ref: http://www.rwe.com/web/cms/en/1754834/rwe-generation-se/about-us/energy-mix/biomass/
+     justification: 
+main: elec

@@ -1,0 +1,22 @@
+process: review-biomass-MFC-elec-butannol-1.27
+flow: 
+     biomass:
+          value: -0.7142857
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: -0.2057143
+          unit: MJ
+     digestate:
+          value: 0.2142857
+          unit: kg
+capacity:  
+     value: 1.27
+     ref: Assume as for methane
+trl:  
+     level: m
+     ref: http://www.sciencedirect.com/science/article/pii/S1002007114000860
+     justification: Not yet cost efficient for commercial implementation
+main: elec

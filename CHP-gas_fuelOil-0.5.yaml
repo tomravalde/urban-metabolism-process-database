@@ -1,0 +1,22 @@
+process: CHP-gas_fuelOil-0.5
+flow: 
+     oil:
+          value: -0.06943333
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1.2
+          unit: MJ
+     CO2:
+          value: 0.247
+          unit: kg
+capacity:  
+     value: 0.5
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+trl:  
+     level: c
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+     justification: 
+main: elec

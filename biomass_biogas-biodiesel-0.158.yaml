@@ -1,0 +1,28 @@
+process: biomass_biogas-biodiesel-0.158
+flow: 
+     biomass:
+          value: -2.018464
+          unit: kg
+     water:
+          value: -0.2112154
+          unit: kg
+     wastewater:
+          value: 0.2112154
+          unit: kg
+     biodiesel:
+          value: 1
+          unit: kg
+     ethanol:
+          value: 0.2434058
+          unit: kg
+     heat:
+          value: -5.037983
+          unit: MJ
+capacity:  
+     value: 0.158
+     ref: http://www.biofuelstp.eu/btl.html
+trl:  
+     level: r
+     ref: http://www.biofuelstp.eu/btl.html
+     justification: Proposed projects, some existing projects, and some pilot plants
+main: biodiesel

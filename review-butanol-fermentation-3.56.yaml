@@ -1,0 +1,22 @@
+process: review-butanol-fermentation-3.56
+flow: 
+     biomass:
+          value: -5.555556
+          unit: kg
+     butanol:
+          value: 1
+          unit: kg
+     heat:
+          value: -1.6
+          unit: MJ
+     digestate:
+          value: 1.666667
+          unit: kg
+capacity:  
+     value: 3.56
+     ref: http://www.ecn.nl/docs/library/report/2009/l09117.pdf, http://www.greencarcongress.com/2005/07/boosting_biomas.html
+trl:  
+     level: r
+     ref: http://biofuel.org.uk/third-generation-biofuels.html
+     justification: Òseveral commercial-scale facilities have been developed and are on the brink of making butanol and [sic] more popular biofuel than ethanolÓ
+main: butanol

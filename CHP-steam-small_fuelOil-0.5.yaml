@@ -1,0 +1,22 @@
+process: CHP-steam-small_fuelOil-0.5
+flow: 
+     fuelOil:
+          value: -20
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 15
+          unit: MJ
+     CO2:
+          value: 1.482
+          unit: kg
+capacity:  
+     value: 0.5
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+trl:  
+     level: c
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+     justification: 
+main: elec

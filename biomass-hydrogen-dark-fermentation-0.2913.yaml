@@ -1,0 +1,25 @@
+process: biomass-hydrogen-dark-fermentation-0.2913
+flow: 
+     biomass:
+          value: -218.45
+          unit: kg
+     elec:
+          value: -20.88
+          unit: MJ
+     hydrogen:
+          value: 1
+          unit: kg
+     CO2:
+          value: 24.59
+          unit: kg
+     methane:
+          value: 6.75
+          unit: kg
+capacity:  
+     value: 0.2913
+     ref: https://books.google.com/books?id=p53AAgAAQBAJ&pg=PA355&lpg=PA355&dq=biohydrogen+production+plant+capacity&source=bl&ots=tT2iWdMkvx&sig=Z8dyxvstdEDckfl3dveczmwGOkk&hl=en&sa=X&ved=0CFAQ6AEwBmoVChMItcbHoOSjxwIVaSPbCh1FmgQo#v=onepage&q=biohydrogen%20production%20plant%20capacity&f=false
+trl:  
+     level: ml
+     ref: http://www.sciencedirect.com/science/article/pii/S0360319907004065, http://www.sciencedirect.com/science/article/pii/S0360319914014827
+     justification: Not yet at commercial-scale (only lab)
+main: hydrogen

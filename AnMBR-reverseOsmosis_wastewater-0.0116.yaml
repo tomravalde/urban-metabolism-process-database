@@ -1,0 +1,25 @@
+process: AnMBR-reverseOsmosis_wastewater-0.0116
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     elec:
+          value: -0.0216
+          unit: MJ
+     methane:
+          value: 4.4e-05
+          unit: kg
+     CO2:
+          value: 2.26e-05
+          unit: kg
+     effluent:
+          value: 1
+          unit: kg
+capacity:  
+     value: 0.0116
+     ref: https://en.wikipedia.org/wiki/Membrane_bioreactor, http://www.sciencedirect.com/science/book/9781856174817
+trl:  
+     level: m
+     ref: http://www.iwaponline.com/wst/05605/0211/056050211.pdf
+     justification: Pilot plant
+main: wastewatereffluent

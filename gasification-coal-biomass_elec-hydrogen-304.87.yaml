@@ -1,0 +1,28 @@
+process: gasification-coal-biomass_elec-hydrogen-304.87
+flow: 
+     coal:
+          value: -0.120783
+          unit: kg
+     biomass:
+          value: -0.03019575
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.4690524
+          unit: kg
+     hydrogen:
+          value: 0.004619841
+          unit: kg
+     CO2:
+          value: 0.04389167
+          unit: kg
+capacity:  
+     value: 304.87
+     ref: 
+trl:  
+     level: m
+     ref: http://dc.engconfintl.org/cgi/viewcontent.cgi?article=1071&context=cfb10, http://www.hindawi.com/journals/ijfr/2012/363058/, http://eccc.uno.edu/pdf/Long-Wang-GT2011-45512.pdf
+     justification: Testing in 8 MW system in Austria, otherwise only lab and small-scale testing or simulations.
+main: elec

@@ -1,0 +1,25 @@
+process: gasification-coal-MSW_elec-500
+flow: 
+     coal:
+          value: -0.09868819
+          unit: kg
+     MSW:
+          value: -0.02467205
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.4692166
+          unit: kg
+     CO2:
+          value: 0.019775
+          unit: kg
+capacity:  
+     value: 500
+     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000001
+trl:  
+     level: m
+     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000001
+     justification: Simulated investigation
+main: elec

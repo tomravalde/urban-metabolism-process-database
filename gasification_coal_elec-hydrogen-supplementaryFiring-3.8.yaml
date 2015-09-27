@@ -1,0 +1,25 @@
+process: gasification_coal_elec-hydrogen-supplementaryFiring-3.8
+flow: 
+     coal:
+          value: -0.2731281
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -468.2196
+          unit: kg
+     hydrogen:
+          value: 0.002133
+          unit: kg
+     CO2:
+          value: 0.06763172
+          unit: kg
+capacity:  
+     value: 3.8
+     ref: http://www.sciencedirect.com/science/article/pii/S0360319910009183
+trl:  
+     level: m
+     ref: http://www.sciencedirect.com/science/article/pii/S0360319910009183
+     justification: Novel methodology
+main: elec

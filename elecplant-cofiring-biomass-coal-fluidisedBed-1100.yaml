@@ -1,0 +1,31 @@
+process: elecplant-cofiring-biomass-coal-fluidisedBed-1100
+flow: 
+     coal:
+          value: -0.88
+          unit: kg
+     biomass:
+          value: -0.032
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1.666667
+          unit: MJ
+     water:
+          value: -0.8666667
+          unit: kg
+     CO2:
+          value: 0.2096667
+          unit: kg
+     ash:
+          value: 0.01210667
+          unit: kg
+capacity:  
+     value: 1100
+     ref: https://en.wikipedia.org/wiki/List_of_largest_power_stations_in_the_world#Biomass
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: elec

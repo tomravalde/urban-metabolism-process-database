@@ -1,0 +1,22 @@
+process: review-hydrogen-fermentation-0.5996
+flow: 
+     biomass:
+          value: -118.3432
+          unit: kg
+     hydrogen:
+          value: 1
+          unit: kg
+     heat:
+          value: -34.08284
+          unit: MJ
+     digestate:
+          value: 35.50296
+          unit: kg
+capacity:  
+     value: 0.5996
+     ref: http://www.ecn.nl/docs/library/report/2009/l09117.pdf, http://www.greencarcongress.com/2005/07/boosting_biomas.htmlAssume same as ethanol fermentation
+trl:  
+     level: ml
+     ref: http://www.algaeindustrymagazine.com/developing-efficient-hydrogen-production-algae/
+     justification: No commercial examples found. Not yet economically competative
+main: hydrogen

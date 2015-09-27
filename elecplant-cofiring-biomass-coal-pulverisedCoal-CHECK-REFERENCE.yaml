@@ -1,0 +1,31 @@
+process: elecplant-cofiring-biomass-coal-pulverisedCoal-CHECK-REFERENCE
+flow: 
+     coal:
+          value: -0.09333333
+          unit: MJ
+     biomass:
+          value: -0.02133333
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1.666667
+          unit: MJ
+     consumption:
+          value: -0.8666667
+          unit: kg
+     CO2:
+          value: 0.222
+          unit: kg
+     ash:
+          value: 0.01154667
+          unit: kg
+capacity:  
+     value: CHECK-REFERENCE
+     ref: 
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: elec

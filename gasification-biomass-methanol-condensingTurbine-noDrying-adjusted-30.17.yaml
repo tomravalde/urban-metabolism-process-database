@@ -1,0 +1,22 @@
+process: gasification-biomass-methanol-condensingTurbine-noDrying-adjusted-30.17
+flow: 
+     biomass:
+          value: -3.587444
+          unit: kg
+     methanol:
+          value: 1
+          unit: kg
+     elec:
+          value: 1.03139
+          unit: MJ
+     water:
+          value: -0.4484305
+          unit: kg
+capacity:  
+     value: 30.17
+     ref: http://www.sciencedirect.com/science/article/pii/S0360544212005397
+trl:  
+     level: m
+     ref: http://ac.els-cdn.com/S136403211300614X/1-s2.0-S136403211300614X-main.pdf?_tid=a7b4bb14-3512-11e5-90f6-00000aab0f26&acdnat=1438079174_957ae7400820bbc7accfea07bccbbd81, https://www.ashden.org/biomass-gasification
+     justification: Barriers to gasification, but small-scale systems in India and China
+main: methanol

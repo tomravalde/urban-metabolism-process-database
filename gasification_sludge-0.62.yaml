@@ -1,0 +1,25 @@
+process: gasification_sludge-0.62
+flow: 
+     sludge:
+          value: -0.6880952
+          unit: kg
+     heat:
+          value: 0.002380952
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.4761905
+          unit: kg
+     slag:
+          value: 0.0006904762
+          unit: kg
+capacity:  
+     value: 0.62
+     ref: http://ac.els-cdn.com/S0196890408000502/1-s2.0-S0196890408000502-main.pdf?_tid=9d99a024-e745-11e4-b8a4-00000aacb35d&acdnat=1429524871_4bf9a9d88fede665c8aa127a7c1245da
+trl:  
+     level: c
+     ref: http://ac.els-cdn.com/S0196890408000502/1-s2.0-S0196890408000502-main.pdf?_tid=9d99a024-e745-11e4-b8a4-00000aacb35d&acdnat=1429524871_4bf9a9d88fede665c8aa127a7c1245da
+     justification: 2.85 MW power production (250 ton/day of sewage), assume minimum value is that for gasification-sewateSludge_hydrogen.yaml
+main: elec

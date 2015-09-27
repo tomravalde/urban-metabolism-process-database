@@ -1,0 +1,16 @@
+process: cooling-thermallyActivated_H2O-NH3_single-small-0.01
+flow: 
+     heat:
+          value: -1.818182
+          unit: MJ
+     cooling:
+          value: 1
+          unit: MJ
+capacity:  
+     value: 0.01
+     ref: http://www.sciencedirect.com/science/article/pii/S0360128510000493
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: cooling

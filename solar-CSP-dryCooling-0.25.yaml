@@ -1,0 +1,19 @@
+process: solar-CSP-dryCooling-0.25
+flow: 
+     solar:
+          value: -5.524862
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.07486188
+          unit: kg
+capacity:  
+     value: 0.25
+     ref: 
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S1364032113000634
+     justification: Current technologies available
+main: elec

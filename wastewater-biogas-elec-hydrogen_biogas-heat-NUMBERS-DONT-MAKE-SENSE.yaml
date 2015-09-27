@@ -1,0 +1,19 @@
+process: wastewater-biogas-elec-hydrogen_biogas-heat-NUMBERS-DONT-MAKE-SENSE
+flow: 
+     biogas:
+          value: 0.2128019
+          unit: kg
+     heat:
+          value: 1
+          unit: MJ
+     water:
+          value: 0.01196135
+          unit: MJ
+capacity:  
+     value: NUMBERS-DONT-MAKE-SENSE
+     ref: NUMBERS DON'T MAKE SENSE
+trl:  
+     level: CHECK HEAT VALUE
+     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000001
+     justification: Òactual data from a factoryÓ
+main: heat

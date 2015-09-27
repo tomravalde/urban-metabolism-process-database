@@ -1,0 +1,28 @@
+process: biochemical_wastePaper_ethanol-22.989
+flow: 
+     biomass:
+          value: -1.194811
+          unit: kg
+     water:
+          value: -2.792652
+          unit: kg
+     CO2:
+          value: 0.9495725
+          unit: kg
+     ethanol:
+          value: 0.2971107
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     waste:
+          value: 0.08226156
+          unit: kg
+capacity:  
+     value: 22.989
+     ref: http://link.springer.com/article/10.1007/s00267-010-9494-2#page-12
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: elec

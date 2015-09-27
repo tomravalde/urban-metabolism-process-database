@@ -1,0 +1,25 @@
+process: looping_hydrogen-elec-3.78
+flow: 
+     coal:
+          value: -0.2707533
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.4697334
+          unit: kg
+     hydrogen:
+          value: 0.01676623
+          unit: kg
+     ash:
+          value: 0.02782137
+          unit: kg
+capacity:  
+     value: 3.78
+     ref: http://www.sciencedirect.com/science/article/pii/S0360319912004624
+trl:  
+     level: m
+     ref: `
+     justification: Simulation
+main: elec

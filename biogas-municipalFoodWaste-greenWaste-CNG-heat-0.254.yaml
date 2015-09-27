@@ -1,0 +1,28 @@
+process: biogas-municipalFoodWaste-greenWaste-CNG-heat-0.254
+flow: 
+     elec:
+          value: -0.2191304
+          unit: MJ
+     heat:
+          value: 0
+          unit: MJ
+     biogas:
+          value: 0.0001470174
+          unit: kg
+     CNG:
+          value: 0.1197609
+          unit: kg
+     MSW:
+          value: -1
+          unit: kg
+     digestate:
+          value: 0.3
+          unit: kg
+capacity:  
+     value: 0.254
+     ref: http://www.biocycle.net/2010/02/23/anaerobic-digestion-of-msw-in-europe/. almost 200 digesters in Europe by end of 2010, assume as for biogas-agri.yaml
+trl:  
+     level: m
+     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000001
+     justification: Proposed pilot plant
+main: MSW

@@ -1,0 +1,19 @@
+process: leachateTreatment-electrodyalysis-13.89
+flow: 
+     leachate:
+          value: -1
+          unit: kg
+     elec:
+          value: 0.162
+          unit: MJ
+     effluent:
+          value: 1
+          unit: kg
+capacity:  
+     value: 13.89
+     ref: http://www.sciencedirect.com/science/article/pii/0011916494851840
+trl:  
+     level: r
+     ref: http://www.kakoki.co.jp/english/products/e-007/index.html
+     justification: Some examples of plants
+main: leachateeffluent

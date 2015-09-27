@@ -1,0 +1,19 @@
+process: wasteWaterEffluent_livingMachine-0.198
+flow: 
+     effluent:
+          value: -1
+          unit: kg
+     elec:
+          value: -0.005544
+          unit: MJ
+     waterNonPotable:
+          value: 1
+          unit: kg
+capacity:  
+     value: 0.198
+     ref: http://www.livingmachines.com/Portfolio/Municipal-Government/San-Francisco-Public-Utilities-Commission,-San-Fra.aspx, http://www.livingmachines.com/Portfolio/Schools-Universities/Guilford-County-Schools,-Greensboro,-NC.aspx
+trl:  
+     level: c
+     ref: http://www.livingmachines.com/Portfolio/Municipal-Government/San-Francisco-Public-Utilities-Commission,-San-Fra.aspx, http://www.livingmachines.com/Portfolio/Schools-Universities/Guilford-County-Schools,-Greensboro,-NC.aspx
+     justification: E.g. San Francisco municipal machine which 750000+900000 gallons per year. An example in a school saves over 2 million gallons per year
+main: effluentwaterNonPotable

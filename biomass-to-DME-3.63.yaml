@@ -1,0 +1,31 @@
+process: biomass-to-DME-3.63
+flow: 
+     wood:
+          value: -6.228506
+          unit: kg
+     water:
+          value: -1.764157
+          unit: kg
+     elec:
+          value: 2.363592
+          unit: MJ
+     heat:
+          value: 0.7260527
+          unit: MJ
+     DME:
+          value: 1
+          unit: kg
+     wastewater:
+          value: 2.475659
+          unit: kg
+     ash:
+          value: 0.4801681
+          unit: kg
+capacity:  
+     value: 3.63
+     ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960
+trl:  
+     level: m
+     ref: http://www.biofuelstp.eu/factsheets/dme-fact-sheet.html
+     justification: One demo plant (Sweden)
+main: DME

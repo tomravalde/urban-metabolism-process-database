@@ -1,0 +1,34 @@
+process: gasification-MSW-elec-80
+flow: 
+     MSW:
+          value: -0.680828
+          unit: kg
+     coke:
+          value: -0.03056918
+          unit: kg
+     gasNatural:
+          value: -0.001992733
+          unit: kg
+     slag:
+          value: 0.1177832
+          unit: kg
+     metal:
+          value: 0.01838235
+          unit: kg
+     ash:
+          value: 0.02246732
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -191.6667
+          unit: kg
+capacity:  
+     value: 80
+     ref: http://www.sciencedirect.com/science/article/pii/S0956053X11004788
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S0956053X11004788
+     justification: Investigating commercial plants (lots in Japan)
+main: elec

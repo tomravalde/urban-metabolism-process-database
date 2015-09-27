@@ -1,0 +1,19 @@
+process: distributed-engine-3
+flow: 
+     diesel:
+          value: -0.052075
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.18525
+          unit: kg
+capacity:  
+     value: 3
+     ref: 
+trl:  
+     level: c
+     ref: http://ac.els-cdn.com/S0301421504001715/1-s2.0-S0301421504001715-main.pdf?_tid=a7d4b58e-e99c-11e4-a857-00000aab0f01&acdnat=1429782156_3e08c80ab98112113d7145ecb8c45539
+     justification: India
+main: elec

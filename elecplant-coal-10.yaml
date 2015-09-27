@@ -1,0 +1,28 @@
+process: elecplant-coal-10
+flow: 
+     coal:
+          value: -0.1012658
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1.56962
+          unit: MJ
+     water:
+          value: -0.8670886
+          unit: kg
+     CO2:
+          value: 0.2341772
+          unit: kg
+     ash:
+          value: 0.01012658
+          unit: kg
+capacity:  
+     value: 10
+     ref: https://en.wikipedia.org/wiki/List_of_coal_power_stations. http://www.eia.doe.gov/electricity/
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: elec

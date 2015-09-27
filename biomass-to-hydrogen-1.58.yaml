@@ -1,0 +1,31 @@
+process: biomass-to-hydrogen-1.58
+flow: 
+     wood:
+          value: -31.57691
+          unit: kg
+     water:
+          value: -9.460287
+          unit: kg
+     elec:
+          value: -6.570941
+          unit: MJ
+     heat:
+          value: 26.82495
+          unit: MJ
+     hydrogen:
+          value: 1
+          unit: kg
+     wastewater:
+          value: 8.563348
+          unit: kg
+     ash:
+          value: 2.434328
+          unit: kg
+capacity:  
+     value: 1.58
+     ref: http://www.vtt.fi/inf/pdf/workingpapers/2009/W131.pdf
+trl:  
+     level: ml
+     ref: http://www.vtt.fi/inf/pdf/workingpapers/2009/W131.pdf
+     justification: Several demo plants to produce transport fuels, which could be adapted.
+main: hydrogen

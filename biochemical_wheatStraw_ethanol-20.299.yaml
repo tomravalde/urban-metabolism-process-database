@@ -1,0 +1,28 @@
+process: biochemical_wheatStraw_ethanol-20.299
+flow: 
+     biomass:
+          value: -1.268481
+          unit: kg
+     water:
+          value: -2.655057
+          unit: kg
+     CO2:
+          value: 1.319893
+          unit: kg
+     ethanol:
+          value: 0.2664335
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     waste:
+          value: 0.09316277
+          unit: kg
+capacity:  
+     value: 20.299
+     ref: http://link.springer.com/article/10.1007/s00267-010-9494-2#page-11
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: elec

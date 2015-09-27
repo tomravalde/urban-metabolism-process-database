@@ -1,0 +1,19 @@
+process: groundWater-pumping-DEFINE-ACCORDING-TO-LOCAL-CONSTRAINTS
+flow: 
+     groundWater:
+          value: -1
+          unit: kg
+     elec:
+          value: -0.00799
+          unit: MJ
+     groundWaterPumped:
+          value: 1
+          unit: kg
+capacity:  
+     value: DEFINE-ACCORDING-TO-LOCAL-CONSTRAINTS
+     ref: 
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: groundWatergroundWaterPumped

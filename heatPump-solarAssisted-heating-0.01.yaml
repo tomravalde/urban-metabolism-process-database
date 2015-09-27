@@ -1,0 +1,19 @@
+process: heatPump-solarAssisted-heating-0.01
+flow: 
+     solar:
+          value: -0.0006209524
+          unit: MJ
+     elec:
+          value: -7.857619e-06
+          unit: MJ
+     heat:
+          value: 1
+          unit: MJ
+capacity:  
+     value: 0.01
+     ref: http://www.sciencedirect.com/science/article/pii/S0378778811001812,
+trl:  
+     level: c
+     ref: http://www.solargeothermalheatpump.com/
+     justification: Commercial systems for sale
+main: heat

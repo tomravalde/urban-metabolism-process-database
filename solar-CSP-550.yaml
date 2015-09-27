@@ -1,0 +1,19 @@
+process: solar-CSP-550
+flow: 
+     solar:
+          value: -7.042254
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.06566901
+          unit: kg
+capacity:  
+     value: 550
+     ref: http://solarlove.org/largest-solar-power-plants-world/
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S1364032113000634
+     justification: Current technologies available
+main: elec

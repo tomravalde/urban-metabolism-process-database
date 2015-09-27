@@ -1,0 +1,19 @@
+process: distributed-fuelCells-elec-3
+flow: 
+     hydrogen:
+          value: -0.0175
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: 0.139
+          unit: kg
+capacity:  
+     value: 3
+     ref: 
+trl:  
+     level: cm
+     ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c4
+     justification: Different types and different stages of commercial availability
+main: elec

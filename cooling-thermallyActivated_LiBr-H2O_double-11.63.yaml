@@ -1,0 +1,16 @@
+process: cooling-thermallyActivated_LiBr-H2O_double-11.63
+flow: 
+     heat:
+          value: -0.9090909
+          unit: MJ
+     cooling:
+          value: 1
+          unit: MJ
+capacity:  
+     value: 11.63
+     ref: http://www.sciencedirect.com/science/article/pii/S0360128510000493
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: cooling

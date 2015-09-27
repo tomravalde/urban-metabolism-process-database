@@ -1,0 +1,16 @@
+process: biodiesel_boiler-0.025
+flow: 
+     biodiesel:
+          value: -0.03443333
+          unit: kg
+     heat:
+          value: 1
+          unit: MJ
+capacity:  
+     value: 0.025
+     ref: http://ac.els-cdn.com/S0360544204001215/1-s2.0-S0360544204001215-main.pdf?_tid=3bab3f92-e760-11e4-a574-00000aacb35d&acdnat=1429536303_c75fb9294d87d9c0f19a3a90498aae5b
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: heat

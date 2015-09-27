@@ -1,0 +1,16 @@
+process: cooling-thermallyActivated_adsorption-silica-1
+flow: 
+     heat:
+          value: -2.5
+          unit: MJ
+     cooling:
+          value: 1
+          unit: MJ
+capacity:  
+     value: 1
+     ref: http://www.sciencedirect.com/science/article/pii/S0360128510000493
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: cooling

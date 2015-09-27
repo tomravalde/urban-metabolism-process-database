@@ -1,0 +1,22 @@
+process: wastewater_anaerobicMembraneBioreactor-555.56
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     elec:
+          value: -0.0002088
+          unit: MJ
+     biogas:
+          value: 4.159e-05
+          unit: kg
+     effluent:
+          value: 1
+          unit: kg
+capacity:  
+     value: 555.56
+     ref: https://en.wikipedia.org/wiki/Membrane_bioreactor, http://www.sciencedirect.com/science/book/9781856174817
+trl:  
+     level: ml
+     ref: http://www.sciencedirect.com/science/article/pii/S1385894712006420
+     justification: Òthere is no description of real industrial applications in the literature and almost no pilot cases have been describedÓ
+main: wastewatereffluent

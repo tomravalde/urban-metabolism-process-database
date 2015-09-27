@@ -1,0 +1,22 @@
+process: review-methanogenic-digestion-0.122
+flow: 
+     biomass:
+          value: -3.861153
+          unit: kg
+     methane:
+          value: 1
+          unit: kg
+     heat:
+          value: -1.112012
+          unit: MJ
+     digestate:
+          value: 1.158346
+          unit: kg
+capacity:  
+     value: 0.122
+     ref: http://www.asiabiomass.jp/english/topics/0910_03.html
+trl:  
+     level: r
+     ref: http://ac.els-cdhttp://www.asiabiomass.jp/english/topics/0910_03.htmln.com/S0960852412016756/1-s2.0-S0960852412016756-main.pdf?_tid=53aa7c7e-36a8-11e5-a7eb-00000aacb360&acdnat=1438253409_dbb855f2cd094cb571476eb0a0084791, small scale:  http://www.sciencedirect.com/science/article/pii/S0960852414013625
+     justification: Pilot plants. Commercial promise.
+main: methane

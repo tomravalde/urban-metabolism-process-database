@@ -1,0 +1,28 @@
+process: biomass_ethanol-2.22
+flow: 
+     biomass:
+          value: -4.157161
+          unit: kg
+     ethanol:
+          value: 1
+          unit: kg
+     heat:
+          value: -2.95057
+          unit: MJ
+     elec:
+          value: -0.7376426
+          unit: MJ
+     water:
+          value: -0.7338403
+          unit: kg
+     wastewater:
+          value: 0.7338403
+          unit: kg
+capacity:  
+     value: 2.22
+     ref: https://en.wikipedia.org/wiki/Cellulosic_ethanol_commercialization
+trl:  
+     level: r
+     ref: https://en.wikipedia.org/wiki/Cellulosic_ethanol_commercialization
+     justification: First commercial-scale plants in 2013
+main: ethanol

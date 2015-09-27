@@ -1,0 +1,31 @@
+process: gasification_sludge_hydrogen-0.62
+flow: 
+     sludge:
+          value: 0.4548736
+          unit: kg
+     water:
+          value: 0.9205776
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     slag:
+          value: -0.1046931
+          unit: kg
+     heat:
+          value: -0.6389892
+          unit: MJ
+     hydrogen:
+          value: -0.001805054
+          unit: kg
+     CO2:
+          value: -0.0007220217
+          unit: kg
+capacity:  
+     value: 0.62
+     ref: http://www.netl.doe.gov/research/coal/energy-systems/gasification/gasifipedia/westinghouse
+trl:  
+     level: c
+     ref: http://www.netl.doe.gov/research/coal/energy-systems/gasification/gasifipedia/westinghouse
+     justification: Tons per day of MSW in existing plants: 24, 170, 300
+main: elec

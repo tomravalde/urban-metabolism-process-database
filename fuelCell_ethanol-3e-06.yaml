@@ -1,0 +1,19 @@
+process: fuelCell_ethanol-3e-06
+flow: 
+     ethanol:
+          value: -0.08813953
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.1545116
+          unit: kg
+capacity:  
+     value: 3E-06
+     ref: http://www.sciencedirect.com/science/article/pii/S030626191500094X
+trl:  
+     level: ml
+     ref: http://www.sciencedirect.com/science/article/pii/S030626191500094X
+     justification: Very early stage of development. A few prototypes.
+main: elec

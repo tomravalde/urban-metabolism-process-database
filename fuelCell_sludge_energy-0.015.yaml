@@ -1,0 +1,19 @@
+process: fuelCell_sludge_energy-0.015
+flow: 
+     sludge:
+          value: -160.5652
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     methane:
+          value: 0.2231856
+          unit: kg
+capacity:  
+     value: 0.015
+     ref: Assume as for fuelCell_ethanol, http://www.sciencedirect.com/science/article/pii/S030626191500094X
+trl:  
+     level: ml
+     ref: http://www.mmsd.com/-/media/MMSD/Documents/Water%20Quality/Reports/Using_Microbial_Fuel_Cells_513.pdf
+     justification: Technology needs testing Òat a transitional scale of 200-500 L, which will act as a bridge between fundamental research and future developmentÓ.
+main: elec

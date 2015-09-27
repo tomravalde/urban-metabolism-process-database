@@ -1,0 +1,22 @@
+process: wasteGas-0.5
+flow: 
+     gasLandfill:
+          value: -0.1201333
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1.2
+          unit: MJ
+     CO2:
+          value: 0.198
+          unit: kg
+capacity:  
+     value: 0.5
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+trl:  
+     level: c
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+     justification: 
+main: elec

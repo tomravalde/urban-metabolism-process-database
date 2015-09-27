@@ -1,0 +1,22 @@
+process: microCHP-fuelCell-methane-0.001
+flow: 
+     methane:
+          value: -0.07122544
+          unit: kg
+     heat:
+          value: 1.707342
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.2024302
+          unit: kg
+capacity:  
+     value: 0.001
+     ref: http://www.sciencedirect.com/science/article/pii/S037877881200196X
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S037877881200196X
+     justification: Paper analysis a Òtypical caseÓ
+main: elec

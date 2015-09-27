@@ -1,0 +1,19 @@
+process: CHP-biomass-0.005
+flow: 
+     biomass:
+          value: -0.6153846
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 6.692308
+          unit: MJ
+capacity:  
+     value: 0.005
+     ref: http://www.turboden.eu/en/public/downloads/report_on_lienz_plant.pdf
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: elec

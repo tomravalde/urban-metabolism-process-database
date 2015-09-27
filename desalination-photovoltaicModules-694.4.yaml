@@ -1,0 +1,19 @@
+process: desalination-photovoltaicModules-694.4
+flow: 
+     waterBrackish:
+          value: -3
+          unit: kg
+     water:
+          value: 1
+          unit: kg
+     elec:
+          value: -0.0126
+          unit: MJ
+capacity:  
+     value: 694.4
+     ref: http://www.sciencedirect.com/science/article/pii/S1364032110001553
+trl:  
+     level: rc
+     ref: http://www.sciencedirect.com/science/article/pii/S1364032110001553, http://reneweconomy.com.au/2015/saudis-build-worlds-first-large-scale-solar-powered-desalination-plant-82903
+     justification: Small rural installations. First large-scale to be commissions in 2017 (Saudi Arabia)
+main: water

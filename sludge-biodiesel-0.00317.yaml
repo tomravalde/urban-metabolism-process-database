@@ -1,0 +1,34 @@
+process: sludge-biodiesel-0.00317
+flow: 
+     sludge:
+          value: -26.3
+          unit: kg
+     heat:
+          value: -2.84
+          unit: MJ
+     methanol:
+          value: -0.10381
+          unit: kg
+     elec:
+          value: -2.1024
+          unit: MJ
+     water:
+          value: -0.505
+          unit: kg
+     biodiesel:
+          value: 1
+          unit: kg
+     waste:
+          value: 0.00455
+          unit: kg
+     fertilizer:
+          value: 0.00497
+          unit: kg
+capacity:  
+     value: 0.00317
+     ref: http://www.cmclinnovations.com/wp-content/uploads/2014/01/The-future-viability-of-algae-derived-biodiesel-under-economic-and-technical-uncertainties.pdf, http://www.susana.org/en/resources/library/details/1808
+trl:  
+     level: m
+     ref: http://pubs.acs.org/stoken/presspac/presspac/full/10.1021/ef1001106
+     justification: No commercial examples found. Still barriers for commercial viability.
+main: biodiesel

@@ -1,0 +1,19 @@
+process: fuelCell_leachate-0.015
+flow: 
+     leachate:
+          value: -2906977
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     wastewater:
+          value: 2906977
+          unit: kg
+capacity:  
+     value: 0.015
+     ref: Assume as for fuelCell_ethanol, http://www.sciencedirect.com/science/article/pii/S030626191500094X
+trl:  
+     level: ml
+     ref: http://download.springer.com/static/pdf/788/art%253A10.1007%252Fs12010-014-0854-x.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs12010-014-0854-x&token2=exp=1438078456~acl=%2Fstatic%2Fpdf%2F788%2Fart%25253A10.1007%25252Fs12010-014-0854-x.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252Fs12010-014-0854-x*~hmac=c831ca71d3351e434743b5d5cb15ff6605d8d1e564b0cb076bd7ceaf4194f44e
+     justification: Still in R&D stage, with questions about scaling-up.
+main: elec

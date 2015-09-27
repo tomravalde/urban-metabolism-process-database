@@ -1,0 +1,28 @@
+process: WtE-MSW_cogen-86
+flow: 
+     MSW:
+          value: -0.244
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: 0.868
+          unit: kg
+     heat:
+          value: 2.2
+          unit: MJ
+     ash:
+          value: 0.0608
+          unit: kg
+     CO2:
+          value: 0.1708
+          unit: kg
+capacity:  
+     value: 86
+     ref: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/221036/pb13889-incineration-municipal-waste.pdf
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: elec

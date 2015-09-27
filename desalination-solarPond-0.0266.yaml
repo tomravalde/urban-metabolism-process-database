@@ -1,0 +1,19 @@
+process: desalination-solarPond-0.0266
+flow: 
+     waterBrackish:
+          value: -3
+          unit: kg
+     water:
+          value: 1
+          unit: kg
+     elec:
+          value: -1.095
+          unit: MJ
+capacity:  
+     value: 0.0266
+     ref: 
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S1364032110001553
+     justification: 
+main: water

@@ -1,0 +1,22 @@
+process: algae-production-photobioreactor-tubular-0.00000295
+flow: 
+     algae:
+          value: 1
+          unit: kg
+     water:
+          value: -178.485
+          unit: kg
+     elec:
+          value: -158.958
+          unit: MJ
+     CO2:
+          value: -1.8
+          unit: kg
+capacity:  
+     value: 2.95E-06
+     ref: http://pubs.acs.org/doi/abs/10.1021/ie901459u
+trl:  
+     level: m
+     ref: https://en.wikipedia.org/wiki/Photobioreactor
+     justification: 
+main: algae

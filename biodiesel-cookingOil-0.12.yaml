@@ -1,0 +1,25 @@
+process: biodiesel-cookingOil-0.12
+flow: 
+     oilUsed:
+          value: -1.054545
+          unit: kg
+     elec:
+          value: -0.05318182
+          unit: MJ
+     methanol:
+          value: -0.0967375
+          unit: kg
+     biodiesel:
+          value: 1
+          unit: kg
+     water:
+          value: 0.01136364
+          unit: kg
+capacity:  
+     value: 0.12
+     ref: http://www.extension.org/pages/27537/commercial-and-large-scale-biodiesel-production-systems#.Va4YrR9Pabk, http://www.vegetableoildiesel.co.uk/
+trl:  
+     level: c
+     ref: http://www.extension.org/pages/27537/commercial-and-large-scale-biodiesel-production-systems#.Va4YrR9Pabk
+     justification: 
+main: biodiesel

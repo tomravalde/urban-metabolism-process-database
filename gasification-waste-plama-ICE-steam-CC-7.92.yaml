@@ -1,0 +1,25 @@
+process: gasification-waste-plama-ICE-steam-CC-7.92
+flow: 
+     waste:
+          value: -0.219151
+          unit: kg
+     heat:
+          value: -3.957552
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     water:
+          value: -0.06910168
+          unit: kg
+     CO2:
+          value: 0.3445212
+          unit: kg
+capacity:  
+     value: 7.92
+     ref: https://www.netl.doe.gov/File%20Library/Research/Coal/energy%20systems/gasification/gasifipedia/5-ASADAL_BOARD_bbs02.pdf
+trl:  
+     level: c
+     ref: 
+     justification: 10.13 MW, smaller-scale calculated from 150 tpd (http://www.nytimes.com/2012/09/11/science/plasma-gasification-raises-hopes-of-clean-energy-from-garbage.html)
+main: elec

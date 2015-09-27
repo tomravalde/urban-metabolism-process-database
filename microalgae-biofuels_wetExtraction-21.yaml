@@ -1,0 +1,28 @@
+process: microalgae-biofuels_wetExtraction-21
+flow: 
+     algae:
+          value: -5.042966
+          unit: kg
+     elec:
+          value: -1.803102
+          unit: MJ
+     heat:
+          value: -17.1713
+          unit: MJ
+     biodiesel:
+          value: 1
+          unit: kg
+     CO2:
+          value: 0.0141203
+          unit: kg
+     methane:
+          value: 0.02783717
+          unit: kg
+capacity:  
+     value: 21
+     ref: http://www.cmclinnovations.com/wp-content/uploads/2014/01/The-future-viability-of-algae-derived-biodiesel-under-economic-and-technical-uncertainties.pdf
+trl:  
+     level: r
+     ref: http://biomassmagazine.com/articles/8307/propel-solazyme-make-algae-biofuel-available-to-the-public
+     justification: Some commercial examples
+main: biodiesel

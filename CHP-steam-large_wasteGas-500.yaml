@@ -1,0 +1,34 @@
+process: CHP-steam-large_wasteGas-500
+flow: 
+     gasLandfill:
+          value: -0.09
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.1485
+          unit: kg
+     gasWaste:
+          value: -2.5
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.1485
+          unit: kg
+capacity:  
+     value: 500500500500
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+trl:  
+     level: cccc
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+     justification: 
+main: elecheatelecheat

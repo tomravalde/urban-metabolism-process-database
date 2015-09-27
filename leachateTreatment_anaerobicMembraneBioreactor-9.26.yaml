@@ -1,0 +1,25 @@
+process: leachateTreatment_anaerobicMembraneBioreactor-9.26
+flow: 
+     leachate:
+          value: -1
+          unit: kg
+     elec:
+          value: -0.0001692
+          unit: MJ
+     methane:
+          value: 0.000468
+          unit: kg
+     CO2:
+          value: 0.00071
+          unit: kg
+     effluent:
+          value: 1
+          unit: kg
+capacity:  
+     value: 9.26
+     ref: http://www.scirp.org/journal/PaperInformation.aspx?paperID=42423
+trl:  
+     level: r
+     ref: http://dynatecsystems.com/documents/Landfill%20Leachate%20-%20PA(1).pdf
+     justification: A few examples of industrial applications
+main: leachateeffluent

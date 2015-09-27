@@ -1,0 +1,19 @@
+process: wasteWaterEffluent-reuse_Singapore-CHECK-REFERENCE
+flow: 
+     effluent:
+          value: -1
+          unit: kg
+     elec:
+          value: -0.00297
+          unit: MJ
+     waterPotable:
+          value: 1
+          unit: kg
+capacity:  
+     value: CHECK-REFERENCE
+     ref: http://spectrum.ieee.org/energy/environment/singapores-water-cycle-wizardry
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: effluentwaterPotable

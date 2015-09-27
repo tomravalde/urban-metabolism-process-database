@@ -1,0 +1,28 @@
+process: combustion-coal-2400
+flow: 
+     coal:
+          value: -0.1212121
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 2.030303
+          unit: MJ
+     water:
+          value: -0.8666667
+          unit: kg
+     CO2:
+          value: 0.280303
+          unit: kg
+     ash:
+          value: 0.01212121
+          unit: kg
+capacity:  
+     value: 2400
+     ref: http://en.wikipedia.org/wiki/Combined_cycle
+trl:  
+     level: c
+     ref: http://en.wikipedia.org/wiki/Combined_cycle
+     justification: 
+main: elec

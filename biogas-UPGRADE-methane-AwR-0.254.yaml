@@ -1,0 +1,22 @@
+process: biogas-UPGRADE-methane-AwR-0.254
+flow: 
+     elec:
+          value: -0.4743552
+          unit: MJ
+     water:
+          value: -21.37563
+          unit: kg
+     biogas:
+          value: -3.018974
+          unit: kg
+     methane:
+          value: 1
+          unit: kg
+capacity:  
+     value: 0.254
+     ref: http://www.iea-biogas.net/files/daten-redaktion/download/publi-task37/upgrading_rz_low_final.pdf, http://www.engineeringtoolbox.com/gas-density-d_158.html
+trl:  
+     level: c
+     ref: http://www.sgc.se/ckfinder/userfiles/files/SGC270.pdf
+     justification: Identifies existing plants
+main: methane

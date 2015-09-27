@@ -1,0 +1,31 @@
+process: combustion-sludgeDigested-0.9474
+flow: 
+     digestate:
+          value: -4.644097
+          unit: kg
+     gasNatural:
+          value: -0.2361241
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 11.25781
+          unit: MJ
+     ash:
+          value: 0.78125
+          unit: kg
+     water:
+          value: -40.53819
+          unit: kg
+     CO2:
+          value: 0.646875
+          unit: kg
+capacity:  
+     value: 0.9474
+     ref: file:///home/tr608/Downloads/OTE_OiA_Sludge_incineration_plant_ERZ_Zurich_Zuric.pdf, http://www.seas.columbia.edu/earth/wtert/sofos/Ellyin_Thesis.pdf
+trl:  
+     level: c
+     ref: http://www.casaweb.org/biosolids/regulations/sewage-sludge-incineration
+     justification: 
+main: elec

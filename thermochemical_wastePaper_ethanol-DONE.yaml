@@ -1,0 +1,28 @@
+process: thermochemical_wastePaper_ethanol-DONE
+flow: 
+     biomass:
+          value: -3.903511
+          unit: kg
+     water:
+          value: -2.322801
+          unit: kg
+     CO2:
+          value: 2.670524
+          unit: kg
+     ethanol:
+          value: 1
+          unit: kg
+     elec:
+          value: -1.235878
+          unit: MJ
+     ash:
+          value: 0.0577432
+          unit: kg
+capacity:  
+     value: DONE
+     ref: DONE
+trl:  
+     level: DONE
+     ref: 
+     justification: 
+main: ethanol

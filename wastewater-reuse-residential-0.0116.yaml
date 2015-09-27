@@ -1,0 +1,19 @@
+process: wastewater-reuse-residential-0.0116
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     elec:
+          value: 0.002646
+          unit: MJ
+     waterPotable:
+          value: 1
+          unit: kg
+capacity:  
+     value: 0.0116
+     ref: http://www.infrastructurene.ws/2015/06/10/asias-largest-water-reuse-plant-gets-an-equipment-upgrade/
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: wastewaterwaterPotable

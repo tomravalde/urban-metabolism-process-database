@@ -1,0 +1,22 @@
+process: wastewater-biogas-elec-hydrogen_wastewater-biogas-0.0116
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     heat:
+          value: -0.03301724
+          unit: MJ
+     elec:
+          value: -0.05965517
+          unit: MJ
+     biogas:
+          value: 0.007433621
+          unit: kg
+capacity:  
+     value: 0.0116
+     ref: 
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000005
+     justification: Òactual data from a factoryÓ
+main: wastewater

@@ -1,0 +1,28 @@
+process: constructed-wetland-1.75
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     effluent:
+          value: 0.95
+          unit: kg
+     effluent:
+          value: -1
+          unit: kg
+     waterIrrigation:
+          value: 1
+          unit: kg
+     effluent:
+          value: -1
+          unit: kg
+     waterNonPotable:
+          value: 1
+          unit: kg
+capacity:  
+     value: 1.751.75
+     ref: http://water.epa.gov/infrastructure/septic/upload/wetlands-subsurface_flow.pdfhttp://water.epa.gov/infrastructure/septic/upload/wetlands-subsurface_flow.pdf
+trl:  
+     level: cc
+     ref: http://www.extension.umn.edu/environment/water/onsite-sewage-treatment/innovative-sewage-treatment-systems-series/constructed-wetlands/
+     justification: 
+main: wastewatereffluentwaterIrrigationeffluentwaterNonPotable

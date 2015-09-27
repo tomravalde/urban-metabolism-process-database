@@ -1,0 +1,19 @@
+process: wastewater-reuse-irrigation-0.0116
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     elec:
+          value: -0.01044
+          unit: MJ
+     waterIrrigation:
+          value: -1
+          unit: kg
+capacity:  
+     value: 0.0116
+     ref: http://www.water-technology.net/projects/as-samra-wastewater-treatment-plant-jordan/
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: wastewaterwaterIrrigation

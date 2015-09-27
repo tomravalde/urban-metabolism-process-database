@@ -1,0 +1,19 @@
+process: cooling-evaporative-cooling-0.00000108
+flow: 
+     heat:
+          value: -2.558816
+          unit: MJ
+     cooling:
+          value: 1
+          unit: MJ
+     water:
+          value: -10914.38
+          unit: kg
+capacity:  
+     value: 1.08E-06
+     ref: http://www.sciencedirect.com/science/article/pii/S0360132301001044, Table 3
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: cooling

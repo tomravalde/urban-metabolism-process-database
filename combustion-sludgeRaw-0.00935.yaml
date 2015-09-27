@@ -1,0 +1,31 @@
+process: combustion-sludgeRaw-0.00935
+flow: 
+     sludge:
+          value: -1.962081
+          unit: kg
+     gasNatural:
+          value: -0.04305109
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 5.069489
+          unit: MJ
+     water:
+          value: -0.6983025
+          unit: kg
+     CO2:
+          value: 0.1179409
+          unit: kg
+     ash:
+          value: 0.1984127
+          unit: kg
+capacity:  
+     value: 0.00935
+     ref: file:///home/tr608/Downloads/OTE_OiA_Sludge_incineration_plant_ERZ_Zurich_Zuric.pdf
+trl:  
+     level: c
+     ref: 
+     justification: Assume as above
+main: elec

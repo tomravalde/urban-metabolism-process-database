@@ -1,0 +1,19 @@
+process: distributed-gas-turbine-micro-0.03
+flow: 
+     gasNatural:
+          value: -0.05331429
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.1602857
+          unit: kg
+capacity:  
+     value: 0.03
+     ref: 
+trl:  
+     level: c
+     ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c5
+     justification: 
+main: elec

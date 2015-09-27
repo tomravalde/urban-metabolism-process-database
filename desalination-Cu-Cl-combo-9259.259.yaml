@@ -1,0 +1,22 @@
+process: desalination-Cu-Cl-combo-9259.259
+flow: 
+     heat:
+          value: -0.02777778
+          unit: MJ
+     seawater:
+          value: -2.999339
+          unit: kg
+     hydrogen:
+          value: 0.1102293
+          unit: kg
+     water:
+          value: 1
+          unit: kg
+capacity:  
+     value: 9259.259
+     ref: https://en.wikipedia.org/wiki/Desalination
+trl:  
+     level: ml
+     ref: 
+     justification: 
+main: water

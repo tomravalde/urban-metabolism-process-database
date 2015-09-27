@@ -1,0 +1,25 @@
+process: leachateTreatment_comboBiological-solarFenton-9.26
+flow: 
+     leachate:
+          value: -1
+          unit: kg
+     elec:
+          value: 0.036
+          unit: MJ
+     methanol:
+          value: -0.003
+          unit: kg
+     sludge:
+          value: 0.00135
+          unit: kg
+     effluent:
+          value: 1
+          unit: kg
+capacity:  
+     value: 9.26
+     ref: Assume the same as commercial models of AnMBRs
+trl:  
+     level: m
+     ref: http://www.sciencedirect.com/science/article/pii/S1385894711006796
+     justification: Examining several options to be Òtheoretically possible to be considered for reaching the two target COD limitsÓ
+main: leachateeffluent

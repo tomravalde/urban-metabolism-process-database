@@ -1,0 +1,28 @@
+process: thermochemical_cornStover_ethanol-DONE
+flow: 
+     biomass:
+          value: -4.623827
+          unit: kg
+     water:
+          value: -2.480357
+          unit: kg
+     CO2:
+          value: 4.213838
+          unit: kg
+     ethanol:
+          value: 1
+          unit: kg
+     elec:
+          value: -1.324171
+          unit: MJ
+     ash:
+          value: 0.3416026
+          unit: kg
+capacity:  
+     value: DONE
+     ref: DONE
+trl:  
+     level: DONE
+     ref: 
+     justification: 
+main: ethanol

@@ -1,0 +1,22 @@
+process: SAF-MBR_wastewater-63083.33
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     elec:
+          value: -0.0001692
+          unit: MJ
+     methane:
+          value: 1.59e-05
+          unit: MJ
+     effluent:
+          value: 1
+          unit: kg
+capacity:  
+     value: 63083.33
+     ref: http://enr.construction.com/infrastructure/water_dams/2012/extras/0328/slideshow.asp?slide=2
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S0960852412009327
+     justification: Commercial systems exist
+main: wastewatereffluent

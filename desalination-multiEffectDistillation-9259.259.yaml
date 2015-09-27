@@ -1,0 +1,22 @@
+process: desalination-multiEffectDistillation-9259.259
+flow: 
+     seawater:
+          value: 3
+          unit: kg
+     water:
+          value: 1
+          unit: kg
+     elec:
+          value: 0.0072
+          unit: MJ
+     heat:
+          value: 0.32
+          unit: MJ
+capacity:  
+     value: 9259.259
+     ref: https://en.wikipedia.org/wiki/Desalination
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: water

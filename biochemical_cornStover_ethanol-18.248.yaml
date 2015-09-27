@@ -1,0 +1,28 @@
+process: biochemical_cornStover_ethanol-18.248
+flow: 
+     biomass:
+          value: -1.493435
+          unit: kg
+     water:
+          value: -2.841672
+          unit: kg
+     CO2:
+          value: 1.305745
+          unit: kg
+     ethanol:
+          value: 0.3486149
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     waste:
+          value: 0.1036497
+          unit: kg
+capacity:  
+     value: 18.248
+     ref: http://link.springer.com/article/10.1007/s00267-010-9494-2#page-13, http://www.ethanolproducer.com/articles/8623/small-scale-step-forward
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: elec

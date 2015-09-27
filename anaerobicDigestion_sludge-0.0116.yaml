@@ -1,0 +1,31 @@
+process: anaerobicDigestion_sludge-0.0116
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     effluent:
+          value: 0.7793534
+          unit: kg
+     water:
+          value: 0.01152664
+          unit: kg
+     digestate:
+          value: 0.0009663982
+          unit: kg
+     methane:
+          value: 0.001665283
+          unit: kg
+     CO2:
+          value: 1.519739e-05
+          unit: kg
+     elec:
+          value: -0.0008116965
+          unit: MJ
+capacity:  
+     value: 0.0116
+     ref: http://www.sciencedirect.com/science/article/pii/S0960148112003552
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: wastewater

@@ -1,0 +1,19 @@
+process: solar-to-hydrogen_waterElectrolysis-41
+flow: 
+     solar:
+          value: -473.9336
+          unit: MJ
+     hydrogen:
+          value: 1
+          unit: kg
+     water:
+          value: -1.789573
+          unit: kg
+capacity:  
+     value: 41
+     ref: https://books.google.com/books?id=p53AAgAAQBAJ&pg=PA355&lpg=PA355&dq=biohydrogen+production+plant+capacity&source=bl&ots=tT2iWdMkvx&sig=Z8dyxvstdEDckfl3dveczmwGOkk&hl=en&sa=X&ved=0CFAQ6AEwBmoVChMItcbHoOSjxwIVaSPbCh1FmgQo#v=onepage&q=biohydrogen%20production%20plant%20capacity&f=false, http://www.amazon.co.uk/Post-Oil-Energy-Technology-Solar-Hydrogen-Demonstration/dp/1420070258
+trl:  
+     level: ml
+     ref: http://pubs.rsc.org/en/content/articlepdf/2014/ee/c4ee01453g
+     justification: Research to encourage commercially viable solar electrolysis hydrogen production
+main: hydrogen

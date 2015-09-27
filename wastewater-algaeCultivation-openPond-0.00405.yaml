@@ -1,0 +1,25 @@
+process: wastewater-algaeCultivation-openPond-0.00405
+flow: 
+     water:
+          value: -757.5758
+          unit: kg
+     fuel:
+          value: -45.45455
+          unit: MJ
+     algae:
+          value: 1
+          unit: kg
+     CO2:
+          value: 0.03030303
+          unit: kg
+     effluent:
+          value: 378.7879
+          unit: kg
+capacity:  
+     value: 0.00405
+     ref: http://www.sciencedirect.com/science/article/pii/S0960852409012449, Assume as above, for a production pond
+trl:  
+     level: ml
+     ref: http://pubs.acs.org/doi/pdf/10.1021/es5027689
+     justification: 
+main: algae

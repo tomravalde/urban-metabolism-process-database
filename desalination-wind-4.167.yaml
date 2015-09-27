@@ -1,0 +1,19 @@
+process: desalination-wind-4.167
+flow: 
+     waterBrackish:
+          value: 3
+          unit: kg
+     water:
+          value: 1
+          unit: kg
+     elec:
+          value: 0.0648
+          unit: MJ
+capacity:  
+     value: 4.167
+     ref: 
+trl:  
+     level: r
+     ref: http://www.sciencedirect.com/science/article/pii/S1364032110001553
+     justification: Two existing plants
+main: water

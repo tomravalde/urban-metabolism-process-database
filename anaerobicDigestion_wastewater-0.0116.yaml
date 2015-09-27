@@ -1,0 +1,25 @@
+process: anaerobicDigestion_wastewater-0.0116
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     methane:
+          value: 3.9e-05
+          unit: kg
+     elec:
+          value: -0.0001692
+          unit: MJ
+     CO2:
+          value: 0.01
+          unit: kg
+     digestate:
+          value: 0.01
+          unit: kg
+capacity:  
+     value: 0.0116
+     ref: https://en.wikipedia.org/wiki/Membrane_bioreactor, http://www.sciencedirect.com/science/book/9781856174817
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: wastewater

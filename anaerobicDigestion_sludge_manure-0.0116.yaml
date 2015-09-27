@@ -1,0 +1,34 @@
+process: anaerobicDigestion_sludge_manure-0.0116
+flow: 
+     wastewater:
+          value: -1
+          unit: kg
+     manurePoultry:
+          value: -0.4285714
+          unit: kg
+     effluent:
+          value: 1.113362
+          unit: kg
+     water:
+          value: 0.01646662
+          unit: kg
+     digestate:
+          value: 0.001380569
+          unit: kg
+     methane:
+          value: 6.429109e-05
+          unit: kg
+     CO2:
+          value: 3.284418e-05
+          unit: kg
+     elec:
+          value: -0.001159566
+          unit: MJ
+capacity:  
+     value: 0.0116
+     ref: http://www.sciencedirect.com/science/article/pii/S0960148112003552
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: wastewater

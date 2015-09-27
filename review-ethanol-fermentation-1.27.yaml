@@ -1,0 +1,22 @@
+process: review-ethanol-fermentation-1.27
+flow: 
+     biomass:
+          value: -0.001785714
+          unit: kg
+     ethanol:
+          value: 1
+          unit: MJ
+     heat:
+          value: -0.5339286
+          unit: MJ
+     digestate:
+          value: 0.5357143
+          unit: kg
+capacity:  
+     value: 1.27
+     ref: Assume as for methane
+trl:  
+     level: m
+     ref: http://www.biofuelstp.eu/algae-aquatic-biomass.html
+     justification: Still at the R&D stage (e.g. Algenol Biofuels, India)
+main: ethanol

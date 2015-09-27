@@ -1,0 +1,19 @@
+process: wastewater-biogas-elec-hydrogen_elec-hydrogen_HTE-0.00000136
+flow: 
+     elec:
+          value: -483.7758
+          unit: MJ
+     water:
+          value: -7522.124
+          unit: kg
+     hydrogen:
+          value: 1
+          unit: kg
+capacity:  
+     value: 1.36E-06
+     ref: 
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000002
+     justification: Òactual data from a factoryÓ
+main: hydrogen

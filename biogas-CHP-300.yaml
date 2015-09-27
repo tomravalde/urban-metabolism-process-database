@@ -1,0 +1,22 @@
+process: biogas-CHP-300
+flow: 
+     biogas:
+          value: -0.0003123362
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1.032583
+          unit: MJ
+     CO2:
+          value: 0
+          unit: kg
+capacity:  
+     value: 300
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf, Assume as for other similar CHP processes
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: elec

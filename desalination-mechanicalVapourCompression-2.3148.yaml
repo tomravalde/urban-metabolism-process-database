@@ -1,0 +1,28 @@
+process: desalination-mechanicalVapourCompression-2.3148
+flow: 
+     seawater:
+          value: 3
+          unit: kg
+     water:
+          value: 1
+          unit: kg
+     elec:
+          value: 0.01764
+          unit: MJ
+     seawater:
+          value: -1
+          unit: kg
+     water:
+          value: 1
+          unit: kg
+     elec:
+          value: -0.036
+          unit: MJ
+capacity:  
+     value: 2.3148
+     ref: https://en.wikipedia.org/wiki/Desalination
+trl:  
+     level: r
+     ref: 
+     justification: 
+main: waterseawaterwater

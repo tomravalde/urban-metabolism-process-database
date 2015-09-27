@@ -1,0 +1,28 @@
+process: biogas-MSW-food-0.254
+flow: 
+     foodWaste:
+          value: 6.923098
+          unit: kg
+     methane:
+          value: -1.453851
+          unit: kg
+     heat:
+          value: 1.993852
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     CO2:
+          value: -2.250007
+          unit: kg
+     digestate:
+          value: -2.076929
+          unit: kg
+capacity:  
+     value: 0.254
+     ref: http://www.biocycle.net/2010/02/23/anaerobic-digestion-of-msw-in-europe/. almost 200 digesters in Europe by end of 2010, assume as for biogas-agri.yaml
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S0960148111005957
+     justification: 
+main: elec

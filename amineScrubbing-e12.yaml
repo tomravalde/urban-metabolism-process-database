@@ -1,0 +1,19 @@
+process: amineScrubbing-e12
+flow: 
+     elec:
+          value: -1.332
+          unit: MJ
+     CO2:
+          value: -1
+          unit: kg
+     water:
+          value: -0.0303
+          unit: kg
+capacity:  
+     value: e12
+     ref: 
+trl:  
+     level: c
+     ref: 
+     justification: 
+main: CO2

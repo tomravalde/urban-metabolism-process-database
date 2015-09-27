@@ -1,0 +1,19 @@
+process: solar-to-hydrogen_thermochemical-41
+flow: 
+     solar:
+          value: -315.4574
+          unit: MJ
+     hydrogen:
+          value: 1
+          unit: kg
+     water:
+          value: -1.786751
+          unit: kg
+capacity:  
+     value: 41
+     ref: https://books.google.com/books?id=p53AAgAAQBAJ&pg=PA355&lpg=PA355&dq=biohydrogen+production+plant+capacity&source=bl&ots=tT2iWdMkvx&sig=Z8dyxvstdEDckfl3dveczmwGOkk&hl=en&sa=X&ved=0CFAQ6AEwBmoVChMItcbHoOSjxwIVaSPbCh1FmgQo#v=onepage&q=biohydrogen%20production%20plant%20capacity&f=false, http://www.amazon.co.uk/Post-Oil-Energy-Technology-Solar-Hydrogen-Demonstration/dp/1420070258
+trl:  
+     level: ml
+     ref: Find no commercial examples
+     justification: 
+main: hydrogen

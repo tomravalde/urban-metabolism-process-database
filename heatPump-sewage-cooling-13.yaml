@@ -1,0 +1,19 @@
+process: heatPump-sewage-cooling-13
+flow: 
+     elec:
+          value: -0.2857143
+          unit: MJ
+     heat:
+          value: 1
+          unit: MJ
+     wastewater:
+          value: -17.14286
+          unit: kg
+capacity:  
+     value: 13
+     ref: http://www.districtenergy.org/blog/2013/07/08/norway-starts-world%E2%80%99s-largest-heat-pump-district-heating-plant/, http://www.acdirect.com/knowledge-base/heat-pump/info-sizing-heat-pumps-supplemental-heating
+trl:  
+     level: c
+     ref: http://www.treehugger.com/clean-technology/geothermal-system-taps-sewage-instead-bedrock.html
+     justification: Systems in China
+main: heat

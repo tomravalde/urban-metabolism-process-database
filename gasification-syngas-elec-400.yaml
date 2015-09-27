@@ -1,0 +1,22 @@
+process: gasification-syngas-elec-400
+flow: 
+     syngas:
+          value: -1.729323
+          unit: MJ
+     water:
+          value: -20.31907
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     CO2:
+          value: 0.2059722
+          unit: kg
+capacity:  
+     value: 400
+     ref: http://ac.els-cdn.com/S0360544212002162/1-s2.0-S0360544212002162-main.pdf?_tid=463512d4-d181-11e4-8621-00000aacb362&acdnat=1427131568_5073a443c24f9418e62c68dc26901d99
+trl:  
+     level: m
+     ref: http://ac.els-cdn.com/S0360544212002162/1-s2.0-S0360544212002162-main.pdf?_tid=463512d4-d181-11e4-8621-00000aacb362&acdnat=1427131568_5073a443c24f9418e62c68dc26901d99
+     justification: 400-450 MW of net electricity
+main: elec

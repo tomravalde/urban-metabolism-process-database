@@ -1,0 +1,28 @@
+process: heatingPlant-pyrolysis_biomass-oil-62
+flow: 
+     biomass:
+          value: -0.2516129
+          unit: kg
+     elec:
+          value: 0.2967742
+          unit: MJ
+     heat:
+          value: 1
+          unit: MJ
+     biooil:
+          value: 0.0003709677
+          unit: kg
+     CO2:
+          value: 2.693548e-05
+          unit: kg
+     slag:
+          value: 0.06290323
+          unit: kg
+capacity:  
+     value: 62
+     ref: 
+trl:  
+     level: c
+     ref: http://www.pyne.co.uk/Resources/user/Biomass%20pyrolysis%20-%20a%20guide%20to%20UK%20capabilities%20May%202011v2.pdf
+     justification: List of existing commercial (and test) plants
+main: heat

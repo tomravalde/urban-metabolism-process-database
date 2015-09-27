@@ -1,0 +1,25 @@
+process: mixedRawSludge_biogas-1.284
+flow: 
+     sludge:
+          value: -2.409607
+          unit: kg
+     biogas:
+          value: 1
+          unit: kg
+     heat:
+          value: -6.009691
+          unit: MJ
+     elec:
+          value: -0.3469834
+          unit: MJ
+     digestate:
+          value: 1.54128
+          unit: kg
+capacity:  
+     value: 1.284
+     ref: http://www.sciencedirect.com/science/article/pii/S1359431108001968
+trl:  
+     level: c
+     ref: http://www.sciencedirect.com/science/article/pii/S1359431108001968
+     justification: Real data
+main: biogas

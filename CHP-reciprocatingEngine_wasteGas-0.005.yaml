@@ -1,0 +1,22 @@
+process: CHP-reciprocatingEngine_wasteGas-0.005
+flow: 
+     gasWaste:
+          value: -2.941176
+          unit: MJ
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 1.308824
+          unit: MJ
+     CO2:
+          value: 0.1747059
+          unit: kg
+capacity:  
+     value: 0.005
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+trl:  
+     level: c
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
+     justification: 
+main: elec

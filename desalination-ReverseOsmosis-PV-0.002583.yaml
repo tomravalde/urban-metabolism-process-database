@@ -1,0 +1,19 @@
+process: desalination-ReverseOsmosis-PV-0.002583
+flow: 
+     seawater:
+          value: -3
+          unit: kg
+     water:
+          value: 1
+          unit: kg
+     solar:
+          value: -0.4146
+          unit: MJ
+capacity:  
+     value: 0.002583
+     ref: 
+trl:  
+     level: ml
+     ref: http://www.sciencedirect.com/science/article/pii/S0960148111002540
+     justification: Pilot plant
+main: water

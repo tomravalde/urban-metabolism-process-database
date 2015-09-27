@@ -1,0 +1,22 @@
+process: algae-production-photobioreactor-flatPlat-0.00000295
+flow: 
+     algae:
+          value: 1
+          unit: kg
+     water:
+          value: -370.3655
+          unit: kg
+     elec:
+          value: 6.9894
+          unit: MJ
+     CO2:
+          value: -1.8
+          unit: kg
+capacity:  
+     value: 2.95E-06
+     ref: http://pubs.acs.org/doi/abs/10.1021/ie901459u, http://www.water.rutgers.edu/Educational_Programs/Senior%20Design2008/Algae%20to%20Energy%20Report.pdf
+trl:  
+     level: m
+     ref: https://en.wikipedia.org/wiki/Photobioreactor
+     justification: 
+main: algae

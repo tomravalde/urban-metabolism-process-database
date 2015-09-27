@@ -1,0 +1,25 @@
+process: combustion-biomass-8.7
+flow: 
+     biomass:
+          value: -0.2666667
+          unit: kg
+     elec:
+          value: 1
+          unit: MJ
+     heat:
+          value: 2.333333
+          unit: MJ
+     water:
+          value: -0.7
+          unit: kg
+     ash:
+          value: 0.02666667
+          unit: kg
+capacity:  
+     value: 8.7
+     ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf
+trl:  
+     level: c
+     ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf
+     justification: Summarised in Table 1-2
+main: elec
