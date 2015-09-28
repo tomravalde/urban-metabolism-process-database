@@ -29,7 +29,12 @@ To contribute, clone the repository:
 
 Then make any edits and additions and push the changes back to GitHub
 
-[TODO: This should really by done via a pull-request on a `contribute` branch. I'll update instructions when I've worked out how this works.]
+## TODO
+
+- Add a changes.txt file
+- Add a `contribute` branch
+- Protect the `master` branch
+- Work out how to get contributions via pull-requests, and change Contributing instructions accordingly
 
 ## More information
 
