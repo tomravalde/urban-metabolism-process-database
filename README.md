@@ -34,15 +34,15 @@ Then make any edits and additions and push the changes back to GitHub
 - Protect the `master` branch
 - Work out how to get contributions via pull-requests, and change Contributing instructions accordingly
 
-## Licence
+## License
 
 Copyright (c) 2015 Tom Ravalde and James Keirstead
 
-This work is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ - See more at: http://opendatacommons.org/licenses/dbcl/1.0/
+This work is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
 If you use this data or work derived from it in an academic publication, please cite the following paper:
 
-Ravalde, T. and Keirstead, J. 2015. A database to facilitate a process-oriented approach to urban metabolism. *Working paper*.
+> Ravalde, T. and Keirstead, J. 2015. A database to facilitate a process-oriented approach to urban metabolism. *Working paper*.
 
 ## More information
 
