@@ -3,20 +3,24 @@ flow:
      heat:
           value: -0.02777778
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S036031990901876X, Figure 16.
      seawater:
           value: -2.999339
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S036031990901876X, Figure 16.
      hydrogen:
           value: 0.1102293
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S036031990901876X, Figure 16.
      water:
           value: 1
           unit: kg
+          ref: Assume all processes use 3kg of seawater to produce 1kg of desalinated water (http://www.sidem-desalination.com/en/Process/FAQ/)
 capacity:  
      value: 2.3148
      ref: https://en.wikipedia.org/wiki/Desalination
 trl:  
-     level: ml
-     ref: 
-     justification: No evidence of existing plants. Just research papers explaining the principle, e.g. http://www.sciencedirect.com/science/article/pii/S036031990901876X
+     level: l
+     ref: http://www.sciencedirect.com/science/article/pii/S036031990901876X
+     justification: Paper discusses the potential for the technology
 main: water

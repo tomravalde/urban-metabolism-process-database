@@ -3,14 +3,16 @@ flow:
      biodiesel:
           value: -0.03443333
           unit: kg
+          ref: http://ac.els-cdn.com/S0360544204001215/1-s2.0-S0360544204001215-main.pdf?_tid=3bab3f92-e760-11e4-a574-00000aacb35d&acdnat=1429536303_c75fb9294d87d9c0f19a3a90498aae5b, Table 2 (Boiler 1). Convert assuming 32.27 MJ/kg
      heat:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360544204001215/1-s2.0-S0360544204001215-main.pdf?_tid=3bab3f92-e760-11e4-a574-00000aacb35d&acdnat=1429536303_c75fb9294d87d9c0f19a3a90498aae5b, Table 2. (90% is a rough mean efficiency in Table 2.)
 capacity:  
      value: 0.512
      ref: http://ac.els-cdn.com/S0360544204001215/1-s2.0-S0360544204001215-main.pdf?_tid=3bab3f92-e760-11e4-a574-00000aacb35d&acdnat=1429536303_c75fb9294d87d9c0f19a3a90498aae5b
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://ac.els-cdn.com/S0360544204001215/1-s2.0-S0360544204001215-main.pdf?_tid=3bab3f92-e760-11e4-a574-00000aacb35d&acdnat=1429536303_c75fb9294d87d9c0f19a3a90498aae5b
+     justification: Example at reference
 main: heat

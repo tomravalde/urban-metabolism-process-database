@@ -3,24 +3,31 @@ flow:
      wood:
           value: -4.468937
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7
      water:
           value: -1.265778
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7
      elec:
           value: -2.39013
           unit: MJ
+          ref:  http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7, 11. elec= 9170 - 21278
      heat:
           value: 4.501727
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 11. Heat = 23749 - 944
      methanol:
           value: 1
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7
      wastewater:
           value: 1.493776
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7
      ash:
           value: 0.3445194
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7
 capacity:  
      value: 5.06
      ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960

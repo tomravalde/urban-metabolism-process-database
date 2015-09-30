@@ -3,21 +3,26 @@ flow:
      coal:
           value: -0.09338967
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319911028667/1-s2.0-S0360319911028667-main.pdf?_tid=c27d5166-e370-11e4-9947-00000aab0f02&acdnat=1429103596_ca35d1d67caf3c61839a598f4008f7b2, Table 6, case 3.
      biomass:
           value: -0.02334742
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319911028667/1-s2.0-S0360319911028667-main.pdf?_tid=c27d5166-e370-11e4-9947-00000aab0f02&acdnat=1429103596_ca35d1d67caf3c61839a598f4008f7b2, Table 6, case 3.
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360319911028667/1-s2.0-S0360319911028667-main.pdf?_tid=c27d5166-e370-11e4-9947-00000aab0f02&acdnat=1429103596_ca35d1d67caf3c61839a598f4008f7b2, Table 6, case 3.
      water:
           value: -0.0001242685
           unit: kg
+          ref: Calculated assuming 1.69 m3/MWh is required.
      CO2:
           value: 0.01838889
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319911028667/1-s2.0-S0360319911028667-main.pdf?_tid=c27d5166-e370-11e4-9947-00000aab0f02&acdnat=1429103596_ca35d1d67caf3c61839a598f4008f7b2, Table 6, case 3.
 capacity:  
      value: 422.59
-     ref: 
+     ref: http://ac.els-cdn.com/S0360319911028667/1-s2.0-S0360319911028667-main.pdf?_tid=5c2ffbce-6765-11e5-b1be-00000aacb35f&acdnat=1443612254_b40d8b04938abce77c9a5a248b5771fb, Table 6
 trl:  
      level: m
      ref: http://dc.engconfintl.org/cgi/viewcontent.cgi?article=1071&context=cfb10, http://www.hindawi.com/journals/ijfr/2012/363058/, http://eccc.uno.edu/pdf/Long-Wang-GT2011-45512.pdf

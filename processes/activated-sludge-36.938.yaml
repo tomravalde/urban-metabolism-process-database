@@ -3,26 +3,32 @@ flow:
      wastewater:
           value: 1.06383
           unit: kg
+          ref: http://ac.els-cdn.com/S0011916406013130/1-s2.0-S0011916406013130-main.pdf?_tid=bfc0db18-ea88-11e4-bc5f-00000aacb360&acdnat=1429883558_db3ac744d5362004110a08b183930488, Section 3.
      elec:
           value: 0.003255319
           unit: MJ
+          ref: http://ac.els-cdn.com/S0011916406013130/1-s2.0-S0011916406013130-main.pdf?_tid=bfc0db18-ea88-11e4-bc5f-00000aacb360&acdnat=1429883558_db3ac744d5362004110a08b183930488, Section 3.
      activatedSludge:
           value: 0.06595745
           unit: kg
+          ref:  http://epubs.surrey.ac.uk/108461/2/Inchauste-Daza-Saroj.pdf, Figure 4. Use ratio of (891+39)/15000=0.062
      sludge:
           value: -0.06595745
           unit: kg
+          ref:  http://epubs.surrey.ac.uk/108461/2/Inchauste-Daza-Saroj.pdf, Figure 4. Use ratio of (891+39)/15000=0.062
      effluent:
           value: -1
           unit: kg
+          ref: http://epubs.surrey.ac.uk/108461/2/Inchauste-Daza-Saroj.pdf, Figure 4. Use ratio of 14067/15000=
      CO2:
           value: -0.0006223404
           unit: kg
+          ref: http://ac.els-cdn.com/S0011916406013130/1-s2.0-S0011916406013130-main.pdf?_tid=bfc0db18-ea88-11e4-bc5f-00000aacb360&acdnat=1429883558_db3ac744d5362004110a08b183930488, Table 2.
 capacity:  
      value: 36.938
      ref: http://www.sciencedirect.com/science/article/pii/S0000000000000001
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.sciencedirect.com/science/article/pii/S0011916406013130
+     justification: Example at reference
 main: effluent

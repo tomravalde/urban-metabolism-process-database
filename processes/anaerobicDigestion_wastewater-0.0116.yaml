@@ -3,23 +3,28 @@ flow:
      wastewater:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852412009327/1-s2.0-S0960852412009327-main.pdf?_tid=6ad603a2-ee85-11e4-b904-00000aacb35e&acdnat=1430321932_c6621ebd43ae9cb7e6477526502d35f7, According to the introduction, the wastewater had come form a "domestic wastewater treatment plant", i.e. it was "primary clarifier effluent". Data from Table 1, Mode 3
      methane:
           value: 3.9e-05
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852412009327/1-s2.0-S0960852412009327-main.pdf?_tid=6ad603a2-ee85-11e4-b904-00000aacb35e&acdnat=1430321932_c6621ebd43ae9cb7e6477526502d35f7, Data from Table 5. Energy content of methan = 0.082 kWh/m3
      elec:
           value: -0.0001692
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960852412009327/1-s2.0-S0960852412009327-main.pdf?_tid=6ad603a2-ee85-11e4-b904-00000aacb35e&acdnat=1430321932_c6621ebd43ae9cb7e6477526502d35f7, Data from Table 5. Energy content of methan = 0.082 kWh/m3
      CO2:
           value: 0.01
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852412009327/1-s2.0-S0960852412009327-main.pdf?_tid=6ad603a2-ee85-11e4-b904-00000aacb35e&acdnat=1430321932_c6621ebd43ae9cb7e6477526502d35f7, Table 2
      digestate:
           value: 0.01
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852412009327/1-s2.0-S0960852412009327-main.pdf?_tid=6ad603a2-ee85-11e4-b904-00000aacb35e&acdnat=1430321932_c6621ebd43ae9cb7e6477526502d35f7, Abstract, Table 3 (Calculated from 0.12 g/L removal * 0.049 g/g BOD removal; confirmed in table.)
 capacity:  
      value: 0.0116
      ref: https://en.wikipedia.org/wiki/Membrane_bioreactor, http://www.sciencedirect.com/science/book/9781856174817
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: https://en.wikipedia.org/wiki/Membrane_bioreactor, http://www.sciencedirect.com/science/book/9781856174817
+     justification: Examples listed at reference
 main: wastewater

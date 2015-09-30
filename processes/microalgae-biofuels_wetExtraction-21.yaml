@@ -3,21 +3,27 @@ flow:
      algae:
           value: -5.042966
           unit: kg
+          ref: http://onlinelibrary.wiley.com/doi/10.1111/gcbb.12229/pdf. Work 'backwards' from the CO2 value using 59.8/30.4% assumption to calculate methane value: 0.408/30.4 * 59.8
      elec:
           value: -1.803102
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0960852411001386, Section 3.1.1 and Table 3 (Standard-N)
      heat:
           value: -17.1713
           unit: MJ
+          ref: -(0.071 + 0.065 + 1.614)GJ - (26.5 + 60 + 463 + 35.5 + 0.43)kWh
      biodiesel:
           value: 1
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0960852411001386, Section 3.1.1 and Table 3 (Standard-N)
      CO2:
           value: 0.0141203
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0960852411001386, Section 3.1.1 and Table 3 (Standard-N)
      methane:
           value: 0.02783717
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0960852411001386, Section 3.1.1 and Table 3 (Standard-N)
 capacity:  
      value: 21
      ref: http://www.cmclinnovations.com/wp-content/uploads/2014/01/The-future-viability-of-algae-derived-biodiesel-under-economic-and-technical-uncertainties.pdf

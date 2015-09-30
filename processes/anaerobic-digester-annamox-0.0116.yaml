@@ -3,26 +3,32 @@ flow:
      wastewater:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852410013404/1-s2.0-S0960852410013404-main.pdf?_tid=d7958898-c7e1-11e4-b28e-00000aab0f6b&acdnat=1426073532_b56f5de0eaa8d23ee7c757f76cca5fe2, Table 2. This is food waste (3936,504) + washwater (1490,000).     
      heat:
           value: -0.2961026
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960852410013404/1-s2.0-S0960852410013404-main.pdf?_tid=d7958898-c7e1-11e4-b28e-00000aab0f6b&acdnat=1426073532_b56f5de0eaa8d23ee7c757f76cca5fe2, Table 5: "Total parasitic heat requirement."
      elec:
           value: -0.1543716
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960852410013404/1-s2.0-S0960852410013404-main.pdf?_tid=d7958898-c7e1-11e4-b28e-00000aab0f6b&acdnat=1426073532_b56f5de0eaa8d23ee7c757f76cca5fe2, Table 5, using 'rest of plant parasitic' value (i.e. ignoring CHP), e.g. forwaste shredding, pumps etc. (Including CHP water pumps.)
      methane:
           value: 0.09341281
           unit: kg
+          ref: http://www.sciencemag.org/content/suppl/2010/05/06/328.5979.702.DC1/Kuenen.SOM.pdf, Table S1 (supplementary data, comparing cases A and C) shows a ratio of 70/38 times the methane-derived electrical energy (for anaerobic-digester.yaml).
      CO2:
           value: 0.08321619
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852410013404/1-s2.0-S0960852410013404-main.pdf?_tid=d7958898-c7e1-11e4-b28e-00000aab0f6b&acdnat=1426073532_b56f5de0eaa8d23ee7c757f76cca5fe2, Table 2
      digestate:
           value: 0.7314249
           unit: kg
+          ref:  http://ac.els-cdn.com/S0960852410013404/1-s2.0-S0960852410013404-main.pdf?_tid=d7958898-c7e1-11e4-b28e-00000aab0f6b&acdnat=1426073532_b56f5de0eaa8d23ee7c757f76cca5fe2, Table 2, (assuming all liquid digestate has been recirculated)
 capacity:  
      value: 0.0116
      ref: http://www.sciencedirect.com/science/article/pii/S0960852410013404
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.sciencedirect.com/science/article/pii/S0960852410013404
+     justification: Example at reference
 main: wastewater

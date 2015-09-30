@@ -3,15 +3,18 @@ flow:
      solar:
           value: -5.524862
           unit: MJ
+          ref: http://ac.els-cdn.com/S1364032113000634/1-s2.0-S1364032113000634-main.pdf?_tid=81d5dcf0-e442-11e4-8785-00000aab0f6c&acdnat=1429193682_91d0ac6a0ce538eb5276e31a846700eb, Table 1. (Assuming same characteristics as for CSP with storage and backup).
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S1364032113000634/1-s2.0-S1364032113000634-main.pdf?_tid=81d5dcf0-e442-11e4-8785-00000aab0f6c&acdnat=1429193682_91d0ac6a0ce538eb5276e31a846700eb, Table 2. (Assuming same characteristics as for CSP with storage and backup, with the 'molten salt'; without storage and backup, efficiency is 15.4%). 
      water:
           value: -0.07486188
           unit: kg
+          ref: Using 26-78 gal/MWh(= 0.118-0.355 m3/MWh) from http://www.cwatershedalliance.com/pdf/SolarDoc01.pdf, Table 2, with 18.1 MJ = 0.00503 MWh
 capacity:  
      value: 50
-     ref: 
+     ref: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/191058/small_scale_concentrated_solar_power_carbon_trust.pdf
 trl:  
      level: c
      ref: http://www.sciencedirect.com/science/article/pii/S1364032113000634

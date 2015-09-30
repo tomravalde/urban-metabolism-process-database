@@ -3,29 +3,36 @@ flow:
      sludge:
           value: -1.962081
           unit: kg
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 3.
      gasNatural:
           value: -0.04305109
           unit: kg
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 3.
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 3. (Heat is wasted or used to preheat combustion air, or heat buildings).
      heat:
           value: 5.069489
           unit: MJ
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 3. (Heat is wasted or used to preheat combustion air, or heat buildings)
      water:
           value: -0.6983025
           unit: kg
+          ref: Assume 553 gal/MWh (as for biomass, rather than natural gas)
      CO2:
           value: 0.1179409
           unit: kg
+          ref: Assume 0.184 kgCO2/kWh for natural gas (and zero for the sludge)
      ash:
           value: 0.1984127
           unit: kg
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 3. (Heat is wasted or used to preheat combustion air, or heat buildings).
 capacity:  
      value: 0.9474
      ref: file:///home/tr608/Downloads/OTE_OiA_Sludge_incineration_plant_ERZ_Zurich_Zuric.pdf
 trl:  
      level: c
-     ref: 
-     justification: Assume as above
+     ref: http://www.casaweb.org/biosolids/regulations/sewage-sludge-incineration
+     justification: Assume as for combustion_sludgeDigested
 main: elec

@@ -3,17 +3,20 @@ flow:
      solar:
           value: -909.0909
           unit: MJ
+          ref: ttp://www.sciencedirect.com/science/article/pii/S0360319912007033, Equation 15, Table 5
      hydrogen:
           value: 1
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319912007033, Equation 15, Table 5
      water:
           value: -1.830909
           unit: kg
+          ref: Hydrogen: 142 MJ/kg, 1.00794 g/mol. Water 18.015 g/mol
 capacity:  
      value: 41
      ref: https://books.google.com/books?id=p53AAgAAQBAJ&pg=PA355&lpg=PA355&dq=biohydrogen+production+plant+capacity&source=bl&ots=tT2iWdMkvx&sig=Z8dyxvstdEDckfl3dveczmwGOkk&hl=en&sa=X&ved=0CFAQ6AEwBmoVChMItcbHoOSjxwIVaSPbCh1FmgQo#v=onepage&q=biohydrogen%20production%20plant%20capacity&f=false, http://www.amazon.co.uk/Post-Oil-Energy-Technology-Solar-Hydrogen-Demonstration/dp/1420070258
 trl:  
-     level: ml
+     level: m
      ref: Assume as for solar-chemical_photochemical
      justification: Interest in commercial-scale
 main: hydrogen

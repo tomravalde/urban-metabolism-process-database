@@ -3,23 +3,28 @@ flow:
      biomass:
           value: -0.32
           unit: kg
+          ref: http://ac.els-cdn.com/S0301421508007301/1-s2.0-S0301421508007301-main.pdf?_tid=6a78ce1c-df67-11e4-aae9-00000aab0f6b&acdnat=1428659778_cbb45f2be8a5b6e4afa2c6db31696690, Taking typical conversion efficiency range of 25% from the introduction
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0301421508007301/1-s2.0-S0301421508007301-main.pdf?_tid=6a78ce1c-df67-11e4-aae9-00000aab0f6b&acdnat=1428659778_cbb45f2be8a5b6e4afa2c6db31696690, Taking typical conversion efficiency range of 25% from the introduction
      waterPotable:
           value: -0.68
           unit: kg
+          ref: Assume 553 gal/MWh (http://iopscience.iop.org/1748-9326/7/4/045802/pdf/1748-9326_7_4_045802.pdf, Table 1)
      heat:
           value: 3
           unit: MJ
+          ref: http://ac.els-cdn.com/S0301421508007301/1-s2.0-S0301421508007301-main.pdf?_tid=6a78ce1c-df67-11e4-aae9-00000aab0f6b&acdnat=1428659778_cbb45f2be8a5b6e4afa2c6db31696690, Taking typical conversion efficiency range of 25% from the introduction
      ash:
           value: 0.032
           unit: kg
+          ref: Assume 12.5 MJ/kg for biomass mass input, of which 10% becomes ash
 capacity:  
      value: 740
      ref: http://www.power-technology.com/features/featurepower-from-waste---the-worlds-biggest-biomass-power-plants-4205990/. http://biomassmagazine.com/plants/listplants/biomass/US/
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.power-technology.com/features/featurepower-from-waste---the-worlds-biggest-biomass-power-plants-4205990/. http://biomassmagazine.com/plants/listplants/biomass/US/
+     justification: List of facilities at reference
 main: elec

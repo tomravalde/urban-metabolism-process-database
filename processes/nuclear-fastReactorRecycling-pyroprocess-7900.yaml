@@ -3,17 +3,20 @@ flow:
      uranium:
           value: -3.428333e-06
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0301421511002801, Figure 3.
      elec:
           value: 1
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0301421511002801, Figure 3.
      water:
           value: -0.8486111
           unit: kg
+          ref: Assumging 672 gal/MWh = 3.055e6 m3/TWh, from http://www.cwatershedalliance.com/pdf/SolarDoc01.pdf, Table 2
 capacity:  
      value: 7900
      ref: https://en.wikipedia.org/wiki/List_of_small_nuclear_reactor_designs. https://en.wikipedia.org/wiki/List_of_nuclear_power_stations
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: https://en.wikipedia.org/wiki/List_of_small_nuclear_reactor_designs. https://en.wikipedia.org/wiki/List_of_nuclear_power_stations
+     justification: List of facilities at reference
 main: elec

@@ -3,26 +3,32 @@ flow:
      waste:
           value: -0.2384106
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('WtE')
      heat:
           value: -4.264901
           unit: MJ
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('WtE')
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('WtE') (elec out - in = 17.6-2.06=15.1)
      water:
           value: -0.4701987
           unit: kg
+          ref: Assuming 372 gal/MWl(= 1.69 m3/MWh), i.e. the coal value from http://www.cwatershedalliance.com/pdf/SolarDoc01.pdf, Table 2
      CO2:
           value: 0.3708609
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('WtE')
      ash:
           value: 0.02384106
           unit: kg
+          ref:  Assuming 10% of input mass
 capacity:  
      value: 7.6
      ref: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/221036/pb13889-incineration-municipal-waste.pdf
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/221036/pb13889-incineration-municipal-waste.pdf
+     justification: Facilities listed at reference
 main: elec

@@ -3,15 +3,19 @@ flow:
      wastewater:
           value: -1
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0960852412009327
      elec:
           value: -0.0001692
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0960852412009327
      methane:
           value: 1.59e-05
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0960852412009327
      effluent:
           value: 1
           unit: kg
+          ref: Assume same volume of influent and effluent
 capacity:  
      value: 0.00657
      ref: http://enr.construction.com/infrastructure/water_dams/2012/extras/0328/slideshow.asp?slide=2

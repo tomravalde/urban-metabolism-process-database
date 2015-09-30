@@ -3,21 +3,27 @@ flow:
      elec:
           value: 0
           unit: MJ
+          ref: http://ac.els-cdn.com/S0961953410004757/1-s2.0-S0961953410004757-main.pdf?_tid=15418732-ce27-11e4-8d28-00000aab0f26&acdnat=1426762978_9fc104828a28c42b88e50e8b58fc062b, Table 2 (elec-in = elec-out)
      heat:
           value: 0.07826087
           unit: MJ
+          ref: http://ac.els-cdn.com/S0961953410004757/1-s2.0-S0961953410004757-main.pdf?_tid=15418732-ce27-11e4-8d28-00000aab0f26&acdnat=1426762978_9fc104828a28c42b88e50e8b58fc062b, Table 2 (heat-out - heat-in = 8.9 - 6.4)
      biogas:
           value: 0.0001289565
           unit: kg
+          ref: http://ac.els-cdn.com/S0961953410004757/1-s2.0-S0961953410004757-main.pdf?_tid=15418732-ce27-11e4-8d28-00000aab0f26&acdnat=1426762978_9fc104828a28c42b88e50e8b58fc062b, Table 2 (1-22%) of 15.7 ML produced, since 22% is used as input  
      CNG:
           value: 0.1509565
           unit: kg
+          ref: http://ac.els-cdn.com/S0961953410004757/1-s2.0-S0961953410004757-main.pdf?_tid=15418732-ce27-11e4-8d28-00000aab0f26&acdnat=1426762978_9fc104828a28c42b88e50e8b58fc062b, Table 2
      MSW:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S0961953410004757/1-s2.0-S0961953410004757-main.pdf?_tid=15418732-ce27-11e4-8d28-00000aab0f26&acdnat=1426762978_9fc104828a28c42b88e50e8b58fc062b, Conclusions
      digestate:
           value: 0.3
           unit: kg
+          ref: Assuming 30% of effluent quantity
 capacity:  
      value: 0.254
      ref: http://www.biocycle.net/2010/02/23/anaerobic-digestion-of-msw-in-europe/. almost 200 digesters in Europe by end of 2010, assume as for biogas-agri.yaml

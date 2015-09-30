@@ -3,17 +3,20 @@ flow:
      waterBrackish:
           value: -3
           unit: kg
+          ref: Assume all processes use 3kg of seawater to produce 1kg of desalinated water: http://www.sidem-desalination.com/en/Process/FAQ/
      water:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S1364032110001553/1-s2.0-S1364032110001553-main.pdf?_tid=98e568ac-e811-11e4-9bfc-00000aacb362&acdnat=1429612480_da8783c382d76482cc37946b8cd2bc71, Section 4.1.3
      elec:
           value: -1.095
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960148108002103/1-s2.0-S0960148108002103-main.pdf?_tid=8dd5dcbe-e80f-11e4-b646-00000aacb35f&acdnat=1429611603_30d1c1f3fc3784133b77d7867abe42fa
 capacity:  
      value: 34.72
-     ref: 
+     ref: http://www.sciencedirect.com/science/article/pii/S1364032110001553
 trl:  
      level: c
      ref: http://www.sciencedirect.com/science/article/pii/S1364032110001553
-     justification: 
+     justification: Examples listed in reference (Table 12)
 main: water

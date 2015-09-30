@@ -3,23 +3,28 @@ flow:
      waste:
           value: -0.4141531
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('High temperature gasification + CC with steam injection').
      heat:
           value: -7.470998
           unit: MJ
+          ref:  http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('High temperature gasification + CC with steam injection').
      elec:
           value: 1
           unit: MJ
+          ref:  http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('High temperature gasification + CC with steam injection'). Elec = 10.93-2.31
      water:
           value: -5.916473
           unit: kg
+          ref: Calculated assuming 1.69 m3/MWh is required, using 10.93 MW of electricity generation
      CO2:
           value: 0.649652
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('High temperature gasification + CC with steam injection').
 capacity:  
      value: 0.04
      ref: https://www.netl.doe.gov/File%20Library/Research/Coal/energy%20systems/gasification/gasifipedia/5-ASADAL_BOARD_bbs02.pdf
 trl:  
      level: c
-     ref: 
-     justification: 8.62 MW
+     ref: https://www.netl.doe.gov/File%20Library/Research/Coal/energy%20systems/gasification/gasifipedia/5-ASADAL_BOARD_bbs02.pdf
+     justification: List of commercial plants
 main: elec

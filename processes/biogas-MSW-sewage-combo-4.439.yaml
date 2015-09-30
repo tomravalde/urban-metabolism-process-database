@@ -3,24 +3,31 @@ flow:
      MSW:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S0304389406007953/1-s2.0-S0304389406007953-main.pdf?_tid=7ba95f50-d24a-11e4-8c25-00000aab0f6c&acdnat=1427217987_628936a9d6ac728a2c77de3d88c349b5, Fig. 2
      wastewater:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S0304389406007953/1-s2.0-S0304389406007953-main.pdf?_tid=7ba95f50-d24a-11e4-8c25-00000aab0f6c&acdnat=1427217987_628936a9d6ac728a2c77de3d88c349b5, Fig. 2
      methane:
           value: 0.09524138
           unit: kg
+          ref: http://ac.els-cdn.com/S0304389406007953/1-s2.0-S0304389406007953-main.pdf?_tid=7ba95f50-d24a-11e4-8c25-00000aab0f6c&acdnat=1427217987_628936a9d6ac728a2c77de3d88c349b5, Fig. 2
      heat:
           value: -0.576
           unit: MJ
+          ref: Using assumption heat = 0.08 kWh/kg of influent (calculated from anaerobic-digester-anammox.yaml)
      elec:
           value: -0.288
           unit: MJ
+          ref: Using assumption heat = 0.04 kWh/kg of influent (calculated from anaerobic-digester-anammox.yaml)
      CO2:
           value: 0.1453103
           unit: kg
+          ref: http://ac.els-cdn.com/S0304389406007953/1-s2.0-S0304389406007953-main.pdf?_tid=7ba95f50-d24a-11e4-8c25-00000aab0f6c&acdnat=1427217987_628936a9d6ac728a2c77de3d88c349b5, Fig. 2
      digestate:
           value: 0.6
           unit: kg
+          ref: Using 30% of solids assumption (e.g. http://www.forestry.gov.uk/pdf/rrps_AD250309_optimising_anaerobic_digestion.pdf/$FILE/rrps_AD250309_optimising_anaerobic_digestion.pdf, slide 13)
 capacity:  
      value: 4.439
      ref: http://www.biocycle.net/2010/02/23/anaerobic-digestion-of-msw-in-europe/. almost 200 digesters in Europe by end of 2010, assume as for biogas-agri.yaml

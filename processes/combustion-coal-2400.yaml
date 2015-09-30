@@ -3,26 +3,32 @@ flow:
      coal:
           value: -0.1212121
           unit: kg
+          ref: Taking efficiency value of 33% from http://en.wikipedia.org/wiki/Fossil-fuel_power_station
      elec:
           value: 1
           unit: MJ
+          ref: Taking efficiency value of 33% from http://en.wikipedia.org/wiki/Fossil-fuel_power_station
      heat:
           value: 2.030303
           unit: MJ
+          ref: Taking efficiency value of 33% from http://en.wikipedia.org/wiki/Fossil-fuel_power_station
      water:
           value: -0.8666667
           unit: kg
+          ref: Assuming 687 gal/MWh
      CO2:
           value: 0.280303
           unit: kg
+          ref: Assuming 0.333 kg/kWh
      ash:
           value: 0.01212121
           unit: kg
+          ref: Assuming 10% of input mass, with 25.46 MJ/kg for coal
 capacity:  
      value: 2400
      ref: http://en.wikipedia.org/wiki/Combined_cycle
 trl:  
      level: c
      ref: http://en.wikipedia.org/wiki/Combined_cycle
-     justification: 
+     justification: Examples listed at reference
 main: elec

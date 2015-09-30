@@ -3,17 +3,21 @@ flow:
      wastewater:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S1364032112003541/1-s2.0-S1364032112003541-main.pdf?_tid=997e1f6e-e8f4-11e4-9319-00000aacb360&acdnat=1429709977_5235f11424e6818e315303a73dcd7331, Figure 7.
      elec:
           value: -0.01044
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960852410010163/1-s2.0-S0960852410010163-main.pdf?_tid=08e82938-d46b-11e4-92cf-00000aab0f26&acdnat=1427451870_e27788e01214cfa91a3375b6badfed54, Section 6 (California, irrigation) # (this is the balance, so doesn't include pumping, but does include distribution. For just pumping, the value is 0.073 kWh/m3)
+
      waterIrrigation:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S1364032112003541/1-s2.0-S1364032112003541-main.pdf?_tid=997e1f6e-e8f4-11e4-9319-00000aacb360&acdnat=1429709977_5235f11424e6818e315303a73dcd7331, Figure 7.
 capacity:  
      value: 0.0116
      ref: http://www.water-technology.net/projects/as-samra-wastewater-treatment-plant-jordan/
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.water-technology.net/projects/as-samra-wastewater-treatment-plant-jordan/
+     justification: Current projects outlined at reference
 main: wastewaterwaterIrrigation

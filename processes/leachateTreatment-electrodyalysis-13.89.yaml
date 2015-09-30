@@ -3,12 +3,15 @@ flow:
      leachate:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S0255270113002596/1-s2.0-S0255270113002596-main.pdf?_tid=6dd0f8be-f95c-11e4-afea-00000aacb362&acdnat=1431513790_ba87b65534df7860a15db74a29876177, Section 3.4
      elec:
           value: 0.162
           unit: MJ
+          ref: http://ac.els-cdn.com/S0255270113002596/1-s2.0-S0255270113002596-main.pdf?_tid=6dd0f8be-f95c-11e4-afea-00000aacb362&acdnat=1431513790_ba87b65534df7860a15db74a29876177, Section 3.4
      effluent:
           value: 1
           unit: kg
+          ref: Assume same volume of effluent released as leachate input
 capacity:  
      value: 13.89
      ref: http://www.sciencedirect.com/science/article/pii/0011916494851840

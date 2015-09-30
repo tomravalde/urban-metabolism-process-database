@@ -3,18 +3,23 @@ flow:
      sludge:
           value: -0.6880952
           unit: kg
+          ref:  http://ac.els-cdn.com/S0196890408000502/1-s2.0-S0196890408000502-main.pdf?_tid=9d99a024-e745-11e4-b8a4-00000aacb35d&acdnat=1429524871_4bf9a9d88fede665c8aa127a7c1245da, Figure 3.
      heat:
           value: 0.002380952
           unit: MJ
+          ref: 2.73 + 1.84 - 4.56 = 0.01 (From Fig. 3 of the reference).
      elec:
           value: 1
           unit: MJ
+          ref:  2.85 + 1.35
      water:
           value: -0.4761905
           unit: kg
+          ref: Using assumption of 1.69 m3/MWh: 4.2 MW * 1.69 m3/MWh = 0.002 m3/s. (Over a day this is 170 m3, which feels about right!). 
      slag:
           value: 0.0006904762
           unit: kg
+          ref: 
 capacity:  
      value: 0.62
      ref: http://ac.els-cdn.com/S0196890408000502/1-s2.0-S0196890408000502-main.pdf?_tid=9d99a024-e745-11e4-b8a4-00000aacb35d&acdnat=1429524871_4bf9a9d88fede665c8aa127a7c1245da

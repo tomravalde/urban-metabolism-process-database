@@ -3,23 +3,28 @@ flow:
      biomass:
           value: -90.56
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319907004065/1-s2.0-S0360319907004065-main.pdf?_tid=13a87760-d3a3-11e4-ae8e-00000aab0f02&acdnat=1427365989_167d006cc39df77d449758f4ea8a5b7e, Table 3.
      elec:
           value: 23.112
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360319907004065/1-s2.0-S0360319907004065-main.pdf?_tid=13a87760-d3a3-11e4-ae8e-00000aab0f02&acdnat=1427365989_167d006cc39df77d449758f4ea8a5b7e, Table 3.
      hydrogen:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319907004065/1-s2.0-S0360319907004065-main.pdf?_tid=13a87760-d3a3-11e4-ae8e-00000aab0f02&acdnat=1427365989_167d006cc39df77d449758f4ea8a5b7e, Table 3.
      CO2:
           value: 12.39
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319907004065/1-s2.0-S0360319907004065-main.pdf?_tid=13a87760-d3a3-11e4-ae8e-00000aab0f02&acdnat=1427365989_167d006cc39df77d449758f4ea8a5b7e, Table 3.
      methane:
           value: 0.54
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319907004065/1-s2.0-S0360319907004065-main.pdf?_tid=13a87760-d3a3-11e4-ae8e-00000aab0f02&acdnat=1427365989_167d006cc39df77d449758f4ea8a5b7e, Table 3.
 capacity:  
      value: 0.2913
      ref: https://books.google.com/books?id=p53AAgAAQBAJ&pg=PA355&lpg=PA355&dq=biohydrogen+production+plant+capacity&source=bl&ots=tT2iWdMkvx&sig=Z8dyxvstdEDckfl3dveczmwGOkk&hl=en&sa=X&ved=0CFAQ6AEwBmoVChMItcbHoOSjxwIVaSPbCh1FmgQo#v=onepage&q=biohydrogen%20production%20plant%20capacity&f=false
 trl:  
-     level: ml
+     level: l
      ref: http://www.sciencedirect.com/science/article/pii/S0360319907004065, http://www.sciencedirect.com/science/article/pii/S0000000000000001
      justification: Not yet at commercial-scale (only lab)
 main: hydrogen

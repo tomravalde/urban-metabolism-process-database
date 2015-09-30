@@ -3,18 +3,23 @@ flow:
      coal:
           value: -0.08534684
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319913004588, Table 3
      elec:
           value: 1
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319913004588, Table 3
      CO2:
           value: 0.0108106
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319913004588, Table 3
      waterPotable:
           value: -0.6819619
           unit: kg
+          ref: Assume 540 gal/MWh
      ash:
           value: 0.008534684
           unit: kg
+          ref: Assume 10% of coal input mass
 capacity:  
      value: 10
      ref: https://en.wikipedia.org/wiki/Fusina_hydrogen_power_station

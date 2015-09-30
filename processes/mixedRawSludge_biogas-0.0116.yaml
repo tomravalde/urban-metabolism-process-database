@@ -3,23 +3,28 @@ flow:
      sludge:
           value: -2.409607
           unit: kg
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 4.
      biogas:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 4.
      heat:
           value: -6.009691
           unit: MJ
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 4.
      elec:
           value: -0.3469834
           unit: MJ
+          ref: Using assumption fo annamox-anaerobic-digester.yaml: 0.04 kWh/kg of influent
      digestate:
           value: 1.54128
           unit: kg
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf
 capacity:  
      value: 0.0116
      ref: http://www.sciencedirect.com/science/article/pii/S1359431108001968
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.sciencedirect.com/science/article/pii/S1359431108001968
+     justification: Real data
 main: biogas

@@ -3,23 +3,28 @@ flow:
      coal:
           value: -0.07843137
           unit: kg
+          ref: Taking efficiency value of 33% from http://en.wikipedia.org/wiki/Combined_cycle
      elec:
           value: 1
           unit: MJ
+          ref: Taking efficiency value of 33% from http://en.wikipedia.org/wiki/Combined_cycle
      heat:
           value: 0.9607843
           unit: MJ
+          ref: Taking efficiency value of 33% from http://en.wikipedia.org/wiki/Combined_cycle
      water:
           value: -0.8627451
           unit: kg
+          ref: Assuming 687 gal/MWh
      ash:
           value: 0.007843137
           unit: kg
+          ref: Assuming 25.46 MJ/kg for coal, and 10% of input mass
 capacity:  
      value: 2400
      ref: http://en.wikipedia.org/wiki/Combined_cycle
 trl:  
      level: c
      ref: http://en.wikipedia.org/wiki/Combined_cycle
-     justification: 
+     justification: Examples listed at reference
 main: elec

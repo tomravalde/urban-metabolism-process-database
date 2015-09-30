@@ -3,12 +3,15 @@ flow:
      leachate:
           value: -2906977
           unit: kg
+          ref:  http://ac.els-cdn.com/S0304389410012471/1-s2.0-S0304389410012471-main.pdf?_tid=d24c7604-ef22-11e4-90a0-00000aacb361&acdnat=1430389536_cba3bb7b52af16363583b524fa6600e1, Conclusions
      elec:
           value: 1
           unit: MJ
+          ref:  http://ac.els-cdn.com/S0304389410012471/1-s2.0-S0304389410012471-main.pdf?_tid=d24c7604-ef22-11e4-90a0-00000aacb361&acdnat=1430389536_cba3bb7b52af16363583b524fa6600e1, Conclusions
      wastewater:
           value: 2906977
           unit: kg
+          ref:  http://ac.els-cdn.com/S0304389410012471/1-s2.0-S0304389410012471-main.pdf?_tid=d24c7604-ef22-11e4-90a0-00000aacb361&acdnat=1430389536_cba3bb7b52af16363583b524fa6600e1, Introduction: the leachate becomes suitable for use in wastewater treatment (i.e., the fuel cell is 'pretreatment').
 capacity:  
      value: 0.015
      ref: Assume as for fuelCell_ethanol, http://www.sciencedirect.com/science/article/pii/S030626191500094X

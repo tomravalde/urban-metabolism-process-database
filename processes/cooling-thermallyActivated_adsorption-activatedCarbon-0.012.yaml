@@ -3,14 +3,16 @@ flow:
      heat:
           value: -4
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0360128510000493, Table 7
      cooling:
           value: 1
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0360128510000493, Table 7
 capacity:  
      value: 0.012
      ref: http://www.sciencedirect.com/science/article/pii/S0360128510000493
 trl:  
      level: c
      ref: http://www.sciencedirect.com/science/article/pii/S0360128510000493
-     justification: 
+     justification: Review of existing technologies
 main: cooling

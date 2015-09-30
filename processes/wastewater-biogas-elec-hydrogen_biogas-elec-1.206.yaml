@@ -3,17 +3,20 @@ flow:
      biogas:
           value: -0.03496683
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319910025103/1-s2.0-S0360319910025103-main.pdf?_tid=b3547d7c-d146-11e4-aaa5-00000aacb35f&acdnat=1427106411_39b6fac2eed013750946b6d59110968c, Table 4 and Figure 4.
      heat:
           value: 0.2578773
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360319910025103/1-s2.0-S0360319910025103-main.pdf?_tid=b3547d7c-d146-11e4-aaa5-00000aacb35f&acdnat=1427106411_39b6fac2eed013750946b6d59110968c, Table 4 and Figure 4. In the form of flue-gas. This could be waste heat? 
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360319910025103/1-s2.0-S0360319910025103-main.pdf?_tid=b3547d7c-d146-11e4-aaa5-00000aacb35f&acdnat=1427106411_39b6fac2eed013750946b6d59110968c, Table 4 and Figure 4. (Summing W_{elec} + Q.)
 capacity:  
      value: 1.206
-     ref: 
+     ref: http://www.sciencedirect.com/science/article/pii/S0360319910025103
 trl:  
      level: c
      ref: http://www.sciencedirect.com/science/article/pii/S0360319910025103
-     justification: Òactual data from a factoryÓ
+     justification: Òactual data from a factory
 main: elec

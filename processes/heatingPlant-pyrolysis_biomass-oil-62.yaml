@@ -3,24 +3,30 @@ flow:
      biomass:
           value: -0.2516129
           unit: kg
+          ref:  http://pubs.acs.org/doi/pdf/10.1021/ef401143v, Table 4, Jan
      elec:
           value: 0.2967742
           unit: MJ
+          ref:  http://pubs.acs.org/doi/pdf/10.1021/ef401143v, Table 4, Jan
      heat:
           value: 1
           unit: MJ
+          ref:  http://pubs.acs.org/doi/pdf/10.1021/ef401143v, , Reading from barchart (Jan) in Figure 5.
      biooil:
           value: 0.0003709677
           unit: kg
+          ref:  http://pubs.acs.org/doi/pdf/10.1021/ef401143v, Table 4, Jan
      CO2:
           value: 2.693548e-05
           unit: kg
+          ref: Use ratio from biomass-pyrolysis.yaml: 0.00859 kgCO2/0.08 kg biomass = 0.11 kgCO2/kgBiomass. So 15.6 kg/s biomass results in 1.67 kgCO2/s
      slag:
           value: 0.06290323
           unit: kg
+          ref: Assume slag is 25% of the input material: http://www.mbt.landfill-site.com/Pyrolysis_-_Gasification/pyrolysis_-_gasification.html
 capacity:  
      value: 62
-     ref: 
+     ref: http://www.trmiles.com/Presentations/Gasification%20Pyrolysis/Miles_Gas_Pyro_02_09_10.pdf
 trl:  
      level: c
      ref: http://www.pyne.co.uk/Resources/user/Biomass%20pyrolysis%20-%20a%20guide%20to%20UK%20capabilities%20May%202011v2.pdf

@@ -3,26 +3,32 @@ flow:
      coal:
           value: -0.1333333
           unit: kg
+          ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf, Table 1-2. Taking an efficicny value of 30% (which looks about median)
      elec:
           value: 1
           unit: MJ
+          ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf, Table 1-2. Taking an efficicny value of 30% (which looks about median)
      heat:
           value: 2.333333
           unit: MJ
+          ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf, Table 1-2. Taking an efficicny value of 30% (which looks about median)
      water:
           value: -0.8666667
           unit: kg
+          ref: Assume 687 gal/MWh (from http://iopscience.iop.org/1748-9326/7/4/045802/pdf/1748-9326_7_4_045802.pdf)
      CO2:
           value: 0.3083333
           unit: kg
+          ref: Assume 0.333 kgCO2/kWh for coal
      ash:
           value: 0.01333333
           unit: kg
+          ref: Assume 25.46 MJ/kg for coal
 capacity:  
      value: 8.7
      ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf
 trl:  
      level: c
      ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf
-     justification: 
+     justification: Summarised in Table 1-2 of reference
 main: elec

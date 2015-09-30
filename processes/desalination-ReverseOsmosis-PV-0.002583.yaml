@@ -3,17 +3,20 @@ flow:
      seawater:
           value: -3
           unit: kg
+          ref: Assume all processes use 3kg of seawater to produce 1kg of desalinated water: http://www.sidem-desalination.com/en/Process/FAQ/
      water:
           value: 1
           unit: kg
+          ref:  http://www.sciencedirect.com/science/article/pii/S0960148111002540, Conclusion
      solar:
           value: -0.4146
           unit: MJ
+          ref:  http://www.sciencedirect.com/science/article/pii/S0960148111002540, Conclusion
 capacity:  
      value: 0.002583
-     ref: 
+     ref: http://www.sciencedirect.com/science/article/pii/S0960148111002540
 trl:  
-     level: ml
+     level: m
      ref: http://www.sciencedirect.com/science/article/pii/S0960148111002540
      justification: Pilot plant
 main: water

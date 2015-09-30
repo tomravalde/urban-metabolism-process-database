@@ -3,27 +3,35 @@ flow:
      MSW:
           value: -0.680828
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11004788/1-s2.0-S0956053X11004788-main.pdf?_tid=f8096462-d215-11e4-b43e-00000aab0f6b&acdnat=1427195432_886b7c4a3d1866576bdab48685fc27f0, Table 2, 'The plant A'.
      coke:
           value: -0.03056918
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11004788/1-s2.0-S0956053X11004788-main.pdf?_tid=f8096462-d215-11e4-b43e-00000aab0f6b&acdnat=1427195432_886b7c4a3d1866576bdab48685fc27f0, Table 2, 'The plant A'.
      gasNatural:
           value: -0.001992733
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11004788/1-s2.0-S0956053X11004788-main.pdf?_tid=f8096462-d215-11e4-b43e-00000aab0f6b&acdnat=1427195432_886b7c4a3d1866576bdab48685fc27f0, Table 2, 'The plant A'.
      slag:
           value: 0.1177832
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11004788/1-s2.0-S0956053X11004788-main.pdf?_tid=f8096462-d215-11e4-b43e-00000aab0f6b&acdnat=1427195432_886b7c4a3d1866576bdab48685fc27f0, Table 2, 'The plant A'.
      metal:
           value: 0.01838235
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11004788/1-s2.0-S0956053X11004788-main.pdf?_tid=f8096462-d215-11e4-b43e-00000aab0f6b&acdnat=1427195432_886b7c4a3d1866576bdab48685fc27f0, Table 2, 'The plant A'.
      ash:
           value: 0.02246732
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11004788/1-s2.0-S0956053X11004788-main.pdf?_tid=f8096462-d215-11e4-b43e-00000aab0f6b&acdnat=1427195432_886b7c4a3d1866576bdab48685fc27f0, Table 2, 'The plant A'.
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0956053X11004788/1-s2.0-S0956053X11004788-main.pdf?_tid=f8096462-d215-11e4-b43e-00000aab0f6b&acdnat=1427195432_886b7c4a3d1866576bdab48685fc27f0, Table 2, 'The plant A'.
      water:
           value: -191.6667
           unit: kg
+          ref: Calculated assuming 1.69 m3/MWh is required.
 capacity:  
      value: 50
      ref: http://www.sciencedirect.com/science/article/pii/S0956053X11004788

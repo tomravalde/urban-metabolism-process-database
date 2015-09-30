@@ -3,15 +3,19 @@ flow:
      elec:
           value: -0.4743552
           unit: MJ
+          ref:  http://www.sciencedirect.com/science/article/pii/S0956053X11005861, Table 2
      water:
           value: -21.37563
           unit: kg
+          ref:  http://www.sciencedirect.com/science/article/pii/S0956053X11005861, Table 2
      biogas:
           value: -3.018974
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0956053X11005861, Table 2, using the biomethane output and assuming 59.8% is methane, total biogas volume = 511/59.8 * 100
      methane:
           value: 1
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0956053X11005861, Table 2, using the biomethane output and assuming 59.8% is methane, total biogas volume = 511/59.8 * 100
 capacity:  
      value: 0.254
      ref: http://www.iea-biogas.net/files/daten-redaktion/download/publi-task37/upgrading_rz_low_final.pdf, http://www.engineeringtoolbox.com/gas-density-d_158.html

@@ -3,12 +3,15 @@ flow:
      ethanol:
           value: -0.08813953
           unit: kg
+          ref: http://ac.els-cdn.com/S030626191500094X/1-s2.0-S030626191500094X-main.pdf?_tid=53ccfe0c-ed88-11e4-aa06-00000aacb35d&acdnat=1430213230_225d6695b00d168fe4737afa1e75dabe, Table 3.
      elec:
           value: 1
           unit: MJ
+          ref:  http://ac.els-cdn.com/S030626191500094X/1-s2.0-S030626191500094X-main.pdf?_tid=53ccfe0c-ed88-11e4-aa06-00000aacb35d&acdnat=1430213230_225d6695b00d168fe4737afa1e75dabe, Table 3, 43% efficiency
      CO2:
           value: 0.1545116
           unit: kg
+          ref: http://ac.els-cdn.com/S030626191500094X/1-s2.0-S030626191500094X-main.pdf?_tid=53ccfe0c-ed88-11e4-aa06-00000aacb35d&acdnat=1430213230_225d6695b00d168fe4737afa1e75dabe. From Eqn 3, there are 2 mols CO2 produce for every mol of ethanol. Ethanol is 8 kWh/kg, and 0.046 kg/mol, therefore 0.368 kWh/mol. 100 MJ = 27.8 kWh -> mols ethanol = 75.48. Thus mols CO2 = 150.97. CO2 is 44.01e-3 kg/mol, therefore mass CO2 = 150.97 * (44.01e-3) = 6.64 kg.
 capacity:  
      value: 0.015
      ref: http://www.sciencedirect.com/science/article/pii/S030626191500094X

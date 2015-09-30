@@ -3,15 +3,19 @@ flow:
      methane:
           value: -0.07122544
           unit: kg
+          ref: http://ac.els-cdn.com/S037877881200196X/1-s2.0-S037877881200196X-main.pdf?_tid=ffe05d26-e2be-11e4-93e3-00000aab0f02&acdnat=1429027249_bd04d3c5057a4889d69b1868ba6c0b2c, Table 2. Convert using specific energy: 0.267 kg = 15.318 MJ       
      heat:
           value: 1.707342
           unit: MJ
+          ref: http://ac.els-cdn.com/S037877881200196X/1-s2.0-S037877881200196X-main.pdf?_tid=ffe05d26-e2be-11e4-93e3-00000aab0f02&acdnat=1429027249_bd04d3c5057a4889d69b1868ba6c0b2c, Table 2. (Energy of hot water, not exergy.)
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S037877881200196X/1-s2.0-S037877881200196X-main.pdf?_tid=ffe05d26-e2be-11e4-93e3-00000aab0f02&acdnat=1429027249_bd04d3c5057a4889d69b1868ba6c0b2c, Table 2.
      CO2:
           value: 0.2024302
           unit: kg
+          ref: Assume 0.184 kgCO2/kWh from https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/224437/pb13988-emission-factor-methodology-130719.pdf, Table 11. Convert methane quantity: 15.318 MJ = 4.255 kWh. CO2 = 4.255 * 0.184 = 0.783.
 capacity:  
      value: 0.001
      ref: http://www.sciencedirect.com/science/article/pii/S037877881200196X

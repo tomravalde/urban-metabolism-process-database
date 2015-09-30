@@ -3,26 +3,32 @@ flow:
      biomassAgriWaste:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S0306261999000562/1-s2.0-S0306261999000562-main.pdf?_tid=aaacd4d2-d248-11e4-9b75-00000aacb360&acdnat=1427217207_eff98681384f9b153afa76de5ec58131, Tables 6
      heat:
           value: -0.288
           unit: MJ
+          ref: Using assumption heat = 0.08 kWh/kg of influent (calculated from anaerobic-digester-anammox.yaml)
      elec:
           value: -0.144
           unit: MJ
+          ref: Using assumption heat = 0.04 kWh/kg of influent (calculated from anaerobic-digester-anammox.yaml)
      methane:
           value: 0.29
           unit: kg
+          ref: http://ac.els-cdn.com/S0306261999000562/1-s2.0-S0306261999000562-main.pdf?_tid=aaacd4d2-d248-11e4-9b75-00000aacb360&acdnat=1427217207_eff98681384f9b153afa76de5ec58131, Tables 6
      CO2:
           value: 0.4356
           unit: kg
+          ref: http://ac.els-cdn.com/S0306261999000562/1-s2.0-S0306261999000562-main.pdf?_tid=aaacd4d2-d248-11e4-9b75-00000aacb360&acdnat=1427217207_eff98681384f9b153afa76de5ec58131, Tables 6
      digestate:
           value: 0.3
           unit: kg
+          ref: Using 30% of solids assumption (e.g. http://www.forestry.gov.uk/pdf/rrps_AD250309_optimising_anaerobic_digestion.pdf/$FILE/rrps_AD250309_optimising_anaerobic_digestion.pdf, slide 13)
 capacity:  
      value: 4.439
      ref: http://www.biocycle.net/2010/02/23/anaerobic-digestion-of-msw-in-europe/. almost 200 digesters in Europe by end of 2010
 trl:  
      level: c
      ref: http://www.biocycle.net/2010/02/23/anaerobic-digestion-of-msw-in-europe/. almost 200 digesters in Europe by end of 2010
-     justification: 
+     justification: Examples listed at reference
 main: biomassAgriWaste

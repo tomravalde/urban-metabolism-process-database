@@ -3,29 +3,36 @@ flow:
      wastewater:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852413008079/1-s2.0-S0960852413008079-main.pdf?_tid=758f7ac2-e8d0-11e4-9bdf-00000aacb35d&acdnat=1429694455_f487d00ffb2ca7135cba5c4369e4e5e4, Poultry manure addition of, so sludge:manure ratio = 70:30
      effluent:
           value: 0.7793534
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852413008079/1-s2.0-S0960852413008079-main.pdf?_tid=758f7ac2-e8d0-11e4-9bdf-00000aacb35d&acdnat=1429694455_f487d00ffb2ca7135cba5c4369e4e5e4, Poultry manure addition of, so sludge:manure ratio = 70:30
      water:
           value: 0.01152664
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852413008079/1-s2.0-S0960852413008079-main.pdf?_tid=758f7ac2-e8d0-11e4-9bdf-00000aacb35d&acdnat=1429694455_f487d00ffb2ca7135cba5c4369e4e5e4, Poultry manure addition of, so sludge:manure ratio = 70:30
      digestate:
           value: 0.0009663982
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852413008079/1-s2.0-S0960852413008079-main.pdf?_tid=758f7ac2-e8d0-11e4-9bdf-00000aacb35d&acdnat=1429694455_f487d00ffb2ca7135cba5c4369e4e5e4, Poultry manure addition of, so sludge:manure ratio = 70:30
      methane:
           value: 0.001665283
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148112003552/1-s2.0-S0960148112003552-main.pdf?_tid=43963cb6-e83c-11e4-bf6e-00000aacb362&acdnat=1429630805_cc9f41a9f3bf3858a1d9072f609a2ff9, Calculated assuming 59.8% and 30.4% of methane and CO2 in 0.129(=2.91 kw) kg/s of biogas
      CO2:
           value: 1.519739e-05
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148112003552/1-s2.0-S0960148112003552-main.pdf?_tid=43963cb6-e83c-11e4-bf6e-00000aacb362&acdnat=1429630805_cc9f41a9f3bf3858a1d9072f609a2ff9, Calculated assuming 59.8% and 30.4% of methane and CO2 in 0.129(=2.91 kw) kg/s of biogas
      elec:
           value: -0.0008116965
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960148112003552/1-s2.0-S0960148112003552-main.pdf?_tid=43963cb6-e83c-11e4-bf6e-00000aacb362&acdnat=1429630805_cc9f41a9f3bf3858a1d9072f609a2ff9, Bullet point 6.
 capacity:  
      value: 0.0116
      ref: http://www.sciencedirect.com/science/article/pii/S0960148112003552
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.sciencedirect.com/science/article/pii/S0960148112003552
+     justification: Thermoeconomic assessment on existing plants
 main: wastewater

@@ -3,23 +3,28 @@ flow:
      MSW:
           value: -0.02412
           unit: kg
+          ref: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/221036/pb13889-incineration-municipal-waste.pdf, Table 3. Assume 25% efficiency. 
      elec:
           value: 1
           unit: MJ
+          ref: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/221036/pb13889-incineration-municipal-waste.pdf, Table 3. Assume 25% efficiency. 
      water:
           value: 0.868
           unit: kg
+          ref: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/221036/pb13889-incineration-municipal-waste.pdf, Table 3. Assume 80% overall efficiency.
      ash:
           value: 0.0608
           unit: kg
+          ref: Use 25% of input mass (https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/221036/pb13889-incineration-municipal-waste.pdf, Table 2), assuming 16.4 MJ/kg (http://wmr.sagepub.com/content/31/7/674.short)
      CO2:
           value: 0.1708
           unit: kg
+          ref: Use 70% of input mass (https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/221036/pb13889-incineration-municipal-waste.pdf, Table 2), assuming 16.4 MJ/kg (http://wmr.sagepub.com/content/31/7/674.short)
 capacity:  
      value: 7.6
      ref: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/221036/pb13889-incineration-municipal-waste.pdf
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/221036/pb13889-incineration-municipal-waste.pdf
+     justification: Facilities listed at reference
 main: elec

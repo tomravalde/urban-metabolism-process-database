@@ -3,12 +3,15 @@ flow:
      biomass:
           value: -0.1781077
           unit: kg
+          ref: http://ac.els-cdn.com/S0360544213005458/1-s2.0-S0360544213005458-main.pdf?_tid=58c7e8ea-ef1d-11e4-819a-00000aab0f6b&acdnat=1430387185_cc961cf8892dfd81eaead22b5937795b, Table 5 (mass=1150 kg/h, LHV=9.58 MJ/kg (Table 1))
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360544213005458/1-s2.0-S0360544213005458-main.pdf?_tid=58c7e8ea-ef1d-11e4-819a-00000aab0f6b&acdnat=1430387185_cc961cf8892dfd81eaead22b5937795b, Table 5
      heat:
           value: 0.8449782
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360544213005458/1-s2.0-S0360544213005458-main.pdf?_tid=58c7e8ea-ef1d-11e4-819a-00000aab0f6b&acdnat=1430387185_cc961cf8892dfd81eaead22b5937795b, Table 5
 capacity:  
      value: 0.005
      ref: http://www.sciencedirect.com/science/article/pii/S0360544213005458

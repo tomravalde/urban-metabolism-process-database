@@ -3,14 +3,17 @@ flow:
      sludge:
           value: -160.5652
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852413003726/1-s2.0-S0960852413003726-main.pdf?_tid=28e5c1b8-ef47-11e4-8c5b-00000aab0f27&acdnat=1430405143_fd3b712bf5e31fe65e8659ebfd59e42a, Table 3 (Operation)
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960852413003726/1-s2.0-S0960852413003726-main.pdf?_tid=28e5c1b8-ef47-11e4-8c5b-00000aab0f27&acdnat=1430405143_fd3b712bf5e31fe65e8659ebfd59e42a, Table 3 (Operation)
      methane:
           value: 0.2231856
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852413003726/1-s2.0-S0960852413003726-main.pdf?_tid=28e5c1b8-ef47-11e4-8c5b-00000aab0f27&acdnat=1430405143_fd3b712bf5e31fe65e8659ebfd59e42a, Table 3 (Operation)
 capacity:  
-     value: 3E-06
+     value: 0.000003
      ref: Assume as for fuelCell_ethanol, http://www.sciencedirect.com/science/article/pii/S030626191500094X
 trl:  
      level: ml

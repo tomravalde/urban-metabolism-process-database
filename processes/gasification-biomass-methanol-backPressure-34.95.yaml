@@ -3,15 +3,19 @@ flow:
      biomass:
           value: -3.089996
           unit: kg
+          ref:  http://www.sciencedirect.com/science/article/pii/S0360544212005397, Figure 8.
      water:
           value: -1.544998
           unit: kg
+          ref: Calculated assuming 1.69 m3/MWh is required; 8.2 MJ = 2.28 kWh = 0.00228 MWh; 1.69 * 0.00228 = 0.00389 m3
      methanol:
           value: 1
           unit: kg
+          ref:  http://www.sciencedirect.com/science/article/pii/S0360544212005397, Figure 8.
      elec:
           value: 3.167246
           unit: MJ
+          ref:  http://www.sciencedirect.com/science/article/pii/S0360544212005397, Figure 8. (elec = 9 - 0.8 MJ)
 capacity:  
      value: 34.95
      ref: http://www.sciencedirect.com/science/article/pii/S0360544212005397

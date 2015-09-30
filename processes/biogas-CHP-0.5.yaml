@@ -3,20 +3,24 @@ flow:
      biogas:
           value: -0.0003123362
           unit: kg
+          ref: http://ac.els-cdn.com/S096014811200691X/1-s2.0-S096014811200691X-main.pdf?_tid=7be0911c-ce55-11e4-8411-00000aacb35d&acdnat=1426782907_a510d4ceb917621196e0727492446d1e, Table 4, scenario 1, using Energy to CHP row
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S096014811200691X/1-s2.0-S096014811200691X-main.pdf?_tid=7be0911c-ce55-11e4-8411-00000aacb35d&acdnat=1426782907_a510d4ceb917621196e0727492446d1e, Table 4, scenario 1, using Energy to CHP row. Subtract elec-in:Therefore elec-out = 21844 - 1619
      heat:
           value: 1.032583
           unit: MJ
+          ref: http://ac.els-cdn.com/S096014811200691X/1-s2.0-S096014811200691X-main.pdf?_tid=7be0911c-ce55-11e4-8411-00000aacb35d&acdnat=1426782907_a510d4ceb917621196e0727492446d1e, Table 4, scenario 1. Deduct the 'heat in' value:therefore heat-out = 24080 - 3197
      CO2:
           value: 0
           unit: kg
+          ref: Assume carbon neutral:http://biogas.ifas.ufl.edu/FAQ.asp
 capacity:  
      value: 0.5
      ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf, Assume as for other similar CHP processes
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf, Assume as for other similar CHP processes
+     justification: Reference catalogues existing technologies
 main: elec

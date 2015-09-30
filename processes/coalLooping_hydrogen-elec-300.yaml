@@ -3,24 +3,31 @@ flow:
      coal:
           value: -0.09347222
           unit: kg
+          ref:  http://www.sciencedirect.com/science/article/pii/S0360319913028863, Table 8, Case 1.
      water:
           value: -0.1393333
           unit: kg
+          ref:  http://www.sciencedirect.com/science/article/pii/S0360319913028863, Table 8, Case 1.
      elec:
           value: 1
           unit: MJ
+          ref:  http://www.sciencedirect.com/science/article/pii/S0360319913028863, Table 8, Case 1.
      CO2:
           value: 0.002316667
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319913028863, Table 8, Case 1., Capture rate "almost 99%" (of 834.08 kg)
      ash:
           value: 0.03966111
           unit: kg
+          ref:  http://www.sciencedirect.com/science/article/pii/S0360319913028863, Table 8, Case 1.
      wastewater:
           value: 0.1491694
           unit: kg
+          ref:  http://www.sciencedirect.com/science/article/pii/S0360319913028863, Table 8, Case 1.
      heat:
           value: 1.01
           unit: MJ
+          ref:  http://www.sciencedirect.com/science/article/pii/S0360319913028863, Table 8, Case 1.
 capacity:  
      value: 300
      ref: http://www.sciencedirect.com/science/article/pii/S0360319913028863

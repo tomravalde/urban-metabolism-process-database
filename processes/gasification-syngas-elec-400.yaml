@@ -3,15 +3,19 @@ flow:
      syngas:
           value: -1.729323
           unit: MJ
+          ref: http://ac.els-cdn.com/S0306261909004279/1-s2.0-S0306261909004279-main.pdf?_tid=3ef344c0-d189-11e4-99ac-00000aab0f6b&acdnat=1427134992_0788cb5ae8b76212d0306ceca6648518, Fig. 10 (b)
      water:
           value: -20.31907
           unit: kg
+          ref: http://ac.els-cdn.com/S0360544212002162/1-s2.0-S0360544212002162-main.pdf?_tid=463512d4-d181-11e4-8621-00000aacb362&acdnat=1427131568_5073a443c24f9418e62c68dc26901d99, Table 7 (Case 1a). 
      elec:
           value: 1
           unit: MJ
+          ref:  http://ac.els-cdn.com/S0360544212002162/1-s2.0-S0360544212002162-main.pdf?_tid=463512d4-d181-11e4-8621-00000aacb362&acdnat=1427131568_5073a443c24f9418e62c68dc26901d99, Table 5 (Case 1a, net electric power output).
      CO2:
           value: 0.2059722
           unit: kg
+          ref: http://ac.els-cdn.com/S0360544212002162/1-s2.0-S0360544212002162-main.pdf?_tid=463512d4-d181-11e4-8621-00000aacb362&acdnat=1427131568_5073a443c24f9418e62c68dc26901d99, Table 5 (Case 1a, net electric power output).
 capacity:  
      value: 400
      ref: http://ac.els-cdn.com/S0360544212002162/1-s2.0-S0360544212002162-main.pdf?_tid=463512d4-d181-11e4-8621-00000aacb362&acdnat=1427131568_5073a443c24f9418e62c68dc26901d99

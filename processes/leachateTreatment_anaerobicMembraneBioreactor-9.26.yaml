@@ -3,18 +3,23 @@ flow:
      leachate:
           value: -1
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0011916411010320, Table 6, Tunisian pilot plant
      elec:
           value: -0.0001692
           unit: MJ
+          ref: From anaerobicDigestion_municipalWasteWater.yaml, assume 0.047 kWh/m3 of influent
      methane:
           value: 0.000468
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0011916411010320, Table 6, Tunisian pilot plant
      CO2:
           value: 0.00071
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0011916411010320, Table 6, Tunisian pilot plant
      effluent:
           value: 1
           unit: kg
+          ref: Assume equal to influent
 capacity:  
      value: 9.26
      ref: http://www.scirp.org/journal/PaperInformation.aspx?paperID=42423

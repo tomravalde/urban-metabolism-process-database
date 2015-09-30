@@ -3,17 +3,20 @@ flow:
      hydrogen:
           value: -0.0175
           unit: kg
+          ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c3, Section 2.1.1
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c3, Section 2.1.1
      water:
           value: 0.139
           unit: kg
+          ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c3, Section 2.1.1
 capacity:  
      value: 3
-     ref: 
+     ref: 50 kW Ð to 3 MW of Òelectric and heat generationÓ
 trl:  
-     level: cm
+     level: m
      ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c4
      justification: Different types and different stages of commercial availability
 main: elec

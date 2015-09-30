@@ -3,29 +3,36 @@ flow:
      digestate:
           value: -4.644097
           unit: kg
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 4.
      gasNatural:
           value: -0.2361241
           unit: kg
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 5
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 5. (Heat is wasted or used to preheat combustion air, or heat buildings
      heat:
           value: 11.25781
           unit: MJ
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf, Figure 4. (Heat is wasted or used to preheat combustion air, or heat buildings).
      ash:
           value: 0.78125
           unit: kg
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf
      water:
           value: -40.53819
           unit: kg
+          ref: http://ac.els-cdn.com/S1359431108001968/1-s2.0-S1359431108001968-main.pdf?_tid=cf187628-e4ea-11e4-b1eb-00000aacb35d&acdnat=1429265967_b1db074d27f3536bf1b012d8adb17bbf
      CO2:
           value: 0.646875
           unit: kg
+          ref: Assume 0.184 kgCO2/kWh for natural gas, and zero for digestate
 capacity:  
      value: 0.00935
      ref: file:///home/tr608/Downloads/OTE_OiA_Sludge_incineration_plant_ERZ_Zurich_Zuric.pdf, http://www.seas.columbia.edu/earth/wtert/sofos/Ellyin_Thesis.pdf
 trl:  
      level: c
      ref: http://www.casaweb.org/biosolids/regulations/sewage-sludge-incineration
-     justification: 
+     justification: Examples listed at reference
 main: elec

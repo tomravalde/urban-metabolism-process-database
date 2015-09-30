@@ -3,24 +3,31 @@ flow:
      algaeDry:
           value: -5.617978
           unit: kg
+          ref: http://onlinelibrary.wiley.com/doi/10.1111/gcbb.12229/pdf, Table 6. 
      elec:
           value: -22.92135
           unit: MJ
+          ref: http://onlinelibrary.wiley.com/doi/10.1111/gcbb.12229/pdf, Table 6. 
      heat:
           value: -26.51685
           unit: MJ
+          ref: http://onlinelibrary.wiley.com/doi/10.1111/gcbb.12229/pdf, Table 6. 
      biodiesel:
           value: 1
           unit: kg
+          ref: http://onlinelibrary.wiley.com/doi/10.1111/gcbb.12229/pdf, Table 6. 
      digestate:
           value: 1.741573
           unit: kg
+          ref: http://onlinelibrary.wiley.com/doi/10.1111/gcbb.12229/pdf, Table 6. 
      CO2:
           value: 2.292135
           unit: kg
+          ref: http://onlinelibrary.wiley.com/doi/10.1111/gcbb.12229/pdf, Table 6. 
      methane:
           value: 4.511236
           unit: kg
+          ref: http://onlinelibrary.wiley.com/doi/10.1111/gcbb.12229/pdf, Abstract: 71g CO2-eq per MJ of biodiesel (0.071 * 5.75 = 0.40825 kg)
 capacity:  
      value: 0.00317
      ref: http://www.cmclinnovations.com/wp-content/uploads/2014/01/The-future-viability-of-algae-derived-biodiesel-under-economic-and-technical-uncertainties.pdf

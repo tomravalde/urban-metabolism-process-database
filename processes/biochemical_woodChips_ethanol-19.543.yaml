@@ -3,26 +3,32 @@ flow:
      biomass:
           value: -2.36895
           unit: kg
+          ref:  http://link.springer.com/article/10.1007/s00267-010-9494-2#page-13, Table 2.
      water:
           value: -1.807496
           unit: kg
+          ref:  http://link.springer.com/article/10.1007/s00267-010-9494-2#page-13, Table 2.
      CO2:
           value: 1.586629
           unit: kg
+          ref:  http://link.springer.com/article/10.1007/s00267-010-9494-2#page-13, Table 2.
      ethanol:
           value: 0.3224513
           unit: kg
+          ref:  http://link.springer.com/article/10.1007/s00267-010-9494-2#page-13, Table 2.
      elec:
           value: 1
           unit: MJ
+          ref:  http://link.springer.com/article/10.1007/s00267-010-9494-2#page-13, Table 2.
      waste:
           value: 0.07878638
           unit: kg
+          ref:  http://link.springer.com/article/10.1007/s00267-010-9494-2#page-13, Table 2.
 capacity:  
      value: 19.543
      ref: http://link.springer.com/article/10.1007/s00267-010-9494-2#page-10
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://link.springer.com/article/10.1007/s00267-010-9494-2#page-10
+     justification: Example at reference
 main: elec

@@ -3,20 +3,24 @@ flow:
      seawater:
           value: 3
           unit: kg
+          ref: Assume all processes use 3kg of seawater to produce 1kg of desalinated water: http://www.sidem-desalination.com/en/Process/FAQ/
      water:
           value: 1
           unit: kg
+          ref: http://www.desware.net/desa4.aspx, Table 1.
      elec:
           value: 0.0072
           unit: MJ
+          ref: http://www.desware.net/desa4.aspx, Table 1, Taking a value in the range 1.5-2.5 kWh/m3
      heat:
           value: 0.32
           unit: MJ
+          ref: http://www.desware.net/desa4.aspx, Table 1, Taking a value in the range 230-390 kWh/m3
 capacity:  
      value: 2.3148
      ref: https://en.wikipedia.org/wiki/Desalination
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: https://en.wikipedia.org/wiki/Desalination
+     justification: List of facilities
 main: water

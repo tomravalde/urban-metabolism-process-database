@@ -3,12 +3,15 @@ flow:
      solar:
           value: -0.0006209524
           unit: MJ
+          ref:  http://www.sciencedirect.com/science/article/pii/S0378778811001812, Table 4, Area=40m^2
      elec:
           value: -7.857619e-06
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0378778811001812, Table 4, Area=40m^2
      heat:
           value: 1
           unit: MJ
+          ref:  http://www.sciencedirect.com/science/article/pii/S0378778811001812, Table 4, Area=40m^2
 capacity:  
      value: 0.01
      ref: http://www.sciencedirect.com/science/article/pii/S0378778811001812,

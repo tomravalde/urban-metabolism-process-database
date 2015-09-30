@@ -3,23 +3,28 @@ flow:
      waste:
           value: -0.296173
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('High temperature gasification + CC with steam injection + CC with steam injection').
      heat:
           value: -5.357737
           unit: MJ
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('High temperature gasification + CC with steam injection + CC with steam injection').
      elec:
           value: 1
           unit: MJ
+          ref:  http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('High temperature gasification + CC with steam injection + CC with steam injection'). Elec = 24.4-12.38
      water:
           value: -0.9151414
           unit: kg
+          ref: Calculated assuming 1.69 m3/MWh is required; using 24.4 MW generation
      CO2:
           value: 0.4658902
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('High temperature gasification + CC with steam injection + CC with steam injection').
 capacity:  
      value: 0.04
      ref: https://www.netl.doe.gov/File%20Library/Research/Coal/energy%20systems/gasification/gasifipedia/5-ASADAL_BOARD_bbs02.pdf
 trl:  
      level: c
-     ref: 
-     justification: 12.02 MW, small-scale 40 kW (file:///home/tr608/Downloads/JDW2E_NSRDEC_Backup-StateOfTheArt_v20130909.pdf)
+     ref: https://www.netl.doe.gov/File%20Library/Research/Coal/energy%20systems/gasification/gasifipedia/5-ASADAL_BOARD_bbs02.pdf
+     justification: List of commercial plants
 main: elec

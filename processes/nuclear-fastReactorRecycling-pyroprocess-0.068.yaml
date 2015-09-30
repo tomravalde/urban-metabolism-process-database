@@ -3,17 +3,20 @@ flow:
      uranium:
           value: -3.428333e-06
           unit: kg
+          ref: uranium
      elec:
           value: 1
           unit: MJ
+          ref: elec
      water:
           value: -0.8486111
           unit: kg
+          ref: water
 capacity:  
      value: 0.068
      ref: https://en.wikipedia.org/wiki/List_of_small_nuclear_reactor_designs. https://en.wikipedia.org/wiki/List_of_nuclear_power_stations
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: https://en.wikipedia.org/wiki/List_of_small_nuclear_reactor_designs. https://en.wikipedia.org/wiki/List_of_nuclear_power_stations
+     justification: List of facilities at reference
 main: elec

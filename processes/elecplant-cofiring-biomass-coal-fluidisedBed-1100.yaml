@@ -3,29 +3,36 @@ flow:
      coal:
           value: -0.88
           unit: kg
+          ref: http://ac.els-cdn.com/S0301421508007301/1-s2.0-S0301421508007301-main.pdf?_tid=6a78ce1c-df67-11e4-aae9-00000aab0f6b&acdnat=1428659778_cbb45f2be8a5b6e4afa2c6db31696690, Biomass takes a 15% energy share of input fuel for a fluidised bed. Due to its low share, biomass is assumed not to alter electrical conversion efficiency, which is age dependendt (30% for the oldest plants, to 45% for plants under construction and planning in 2009).
      biomass:
           value: -0.032
           unit: kg
+          ref: http://ac.els-cdn.com/S0301421508007301/1-s2.0-S0301421508007301-main.pdf?_tid=6a78ce1c-df67-11e4-aae9-00000aab0f6b&acdnat=1428659778_cbb45f2be8a5b6e4afa2c6db31696690, Biomass takes a 15% energy share of input fuel for a fluidised bed. Due to its low share, biomass is assumed not to alter electrical conversion efficiency, which is age dependendt (30% for the oldest plants, to 45% for plants under construction and planning in 2009).
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0301421508007301/1-s2.0-S0301421508007301-main.pdf?_tid=6a78ce1c-df67-11e4-aae9-00000aab0f6b&acdnat=1428659778_cbb45f2be8a5b6e4afa2c6db31696690, Biomass takes a 15% energy share of input fuel for a fluidised bed. Due to its low share, biomass is assumed not to alter electrical conversion efficiency, which is age dependendt (30% for the oldest plants, to 45% for plants under construction and planning in 2009).
      heat:
           value: 1.666667
           unit: MJ
+          ref: http://ac.els-cdn.com/S0301421508007301/1-s2.0-S0301421508007301-main.pdf?_tid=6a78ce1c-df67-11e4-aae9-00000aab0f6b&acdnat=1428659778_cbb45f2be8a5b6e4afa2c6db31696690, Biomass takes a 15% energy share of input fuel for a fluidised bed. Due to its low share, biomass is assumed not to alter electrical conversion efficiency, which is age dependendt (30% for the oldest plants, to 45% for plants under construction and planning in 2009).
      water:
           value: -0.8666667
           unit: kg
+          ref: Assume 687 gal/MWh (from http://iopscience.iop.org/1748-9326/7/4/045802/pdf/1748-9326_7_4_045802.pdf)
      CO2:
           value: 0.2096667
           unit: kg
+          ref: Assume 0.333 kgCO2/kWh (assume no emissons for biomass)
      ash:
           value: 0.01210667
           unit: kg
+          ref: Assume 10% of coal + biomass input mass = 0.1(0.85/25.46 + 0.15/12.5)
 capacity:  
      value: 1100
      ref: https://en.wikipedia.org/wiki/List_of_largest_power_stations_in_the_world#Biomass
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: https://en.wikipedia.org/wiki/List_of_largest_power_stations_in_the_world#Biomass
+     justification: List of facilities at reference
 main: elec

@@ -3,27 +3,35 @@ flow:
      sludge:
           value: -26.3
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148113000086/1-s2.0-S0960148113000086-main.pdf?_tid=a73f108c-c8c3-11e4-8fb0-00000aacb35e&acdnat=1426170517_be1e7a38d14bc1a2ecbcaac2c3ddf957, Table 5
      heat:
           value: -2.84
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960148113000086/1-s2.0-S0960148113000086-main.pdf?_tid=a73f108c-c8c3-11e4-8fb0-00000aacb35e&acdnat=1426170517_be1e7a38d14bc1a2ecbcaac2c3ddf957, Table 5
      methanol:
           value: -0.10381
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148113000086/1-s2.0-S0960148113000086-main.pdf?_tid=a73f108c-c8c3-11e4-8fb0-00000aacb35e&acdnat=1426170517_be1e7a38d14bc1a2ecbcaac2c3ddf957, Table 5
      elec:
           value: -2.1024
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960148113000086/1-s2.0-S0960148113000086-main.pdf?_tid=a73f108c-c8c3-11e4-8fb0-00000aacb35e&acdnat=1426170517_be1e7a38d14bc1a2ecbcaac2c3ddf957, Table 5
      water:
           value: -0.505
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148113000086/1-s2.0-S0960148113000086-main.pdf?_tid=a73f108c-c8c3-11e4-8fb0-00000aacb35e&acdnat=1426170517_be1e7a38d14bc1a2ecbcaac2c3ddf957, Table 5
      biodiesel:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148113000086/1-s2.0-S0960148113000086-main.pdf?_tid=a73f108c-c8c3-11e4-8fb0-00000aacb35e&acdnat=1426170517_be1e7a38d14bc1a2ecbcaac2c3ddf957, Table 5
      waste:
           value: 0.00455
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148113000086/1-s2.0-S0960148113000086-main.pdf?_tid=a73f108c-c8c3-11e4-8fb0-00000aacb35e&acdnat=1426170517_be1e7a38d14bc1a2ecbcaac2c3ddf957, Table 5
      fertilizer:
           value: 0.00497
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148113000086/1-s2.0-S0960148113000086-main.pdf?_tid=a73f108c-c8c3-11e4-8fb0-00000aacb35e&acdnat=1426170517_be1e7a38d14bc1a2ecbcaac2c3ddf957, Table 5
 capacity:  
      value: 0.00317
      ref: http://www.cmclinnovations.com/wp-content/uploads/2014/01/The-future-viability-of-algae-derived-biodiesel-under-economic-and-technical-uncertainties.pdf, http://www.susana.org/en/resources/library/details/1808

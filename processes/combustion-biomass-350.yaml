@@ -3,23 +3,28 @@ flow:
      biomass:
           value: -0.2666667
           unit: kg
+          ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf, Table 1-2. Taking an efficicny value of 30% (which looks about median)
      elec:
           value: 1
           unit: MJ
+          ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf, Table 1-2. Taking an efficicny value of 30% (which looks about median)
      heat:
           value: 2.333333
           unit: MJ
+          ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf, Table 1-2. Taking an efficicny value of 30% (which looks about median)
      water:
           value: -0.7
           unit: kg
+          ref: Assume 553 gal/MWh (http://iopscience.iop.org/1748-9326/7/4/045802/pdf/1748-9326_7_4_045802.pdf, Table 1)
      ash:
           value: 0.02666667
           unit: kg
+          ref: Assume 12.5 MJ/kg for biomass mass input, of which 10% becomes ash
 capacity:  
      value: 350
      ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf
 trl:  
      level: c
      ref: https://setis.ec.europa.eu/system/files/4.Efficiencyofheatandelectricityproductiontechnologies.pdf
-     justification: Summarised in Table 1-2
+     justification: Summarised in Table 1-2 of reference
 main: elec

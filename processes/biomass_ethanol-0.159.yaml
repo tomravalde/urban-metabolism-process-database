@@ -3,21 +3,27 @@ flow:
      biomass:
           value: -4.157161
           unit: kg
+          ref: http://ac.els-cdn.com/S0360544205002240/1-s2.0-S0360544205002240-main.pdf?_tid=399e356e-edb0-11e4-89c5-00000aacb361&acdnat=1430230366_2898dd98b1af09bdece92a26bc02ce65, Table 5, configuration 5 calculation
      ethanol:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S0360544205002240/1-s2.0-S0360544205002240-main.pdf?_tid=399e356e-edb0-11e4-89c5-00000aacb361&acdnat=1430230366_2898dd98b1af09bdece92a26bc02ce65, Table 6
      heat:
           value: -2.95057
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360544205002240/1-s2.0-S0360544205002240-main.pdf?_tid=399e356e-edb0-11e4-89c5-00000aacb361&acdnat=1430230366_2898dd98b1af09bdece92a26bc02ce65, Table 6
      elec:
           value: -0.7376426
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360544205002240/1-s2.0-S0360544205002240-main.pdf?_tid=399e356e-edb0-11e4-89c5-00000aacb361&acdnat=1430230366_2898dd98b1af09bdece92a26bc02ce65, Table 6 (Total enery input is between 2.25 and 3.55 MJ/L EtOH; we assume 20% is electricity, since the majority of processes require heat.)
      water:
           value: -0.7338403
           unit: kg
+          ref: From biomass_biogas-biodiesel.yaml, 667.3 kg water is required for 230.7 kg ethanol; thus ratio of 2.89 kg water / kg EtOH. Combined the water assumption (above) with assumption of 80% water recycling. But only the wastewater is replaced
      wastewater:
           value: 0.7338403
           unit: kg
+          ref: From biomass_biogas-biodiesel.yaml, 667.3 kg water is required for 230.7 kg ethanol; thus ratio of 2.89 kg water / kg EtOH. Combined the water assumption (above) with assumption of 80% water recycling. But only the wastewater is replaced
 capacity:  
      value: 0.159
      ref: https://en.wikipedia.org/wiki/Cellulosic_ethanol_commercialization

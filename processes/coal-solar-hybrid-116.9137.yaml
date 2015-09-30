@@ -3,26 +3,32 @@ flow:
      coal:
           value: -0.02309396
           unit: kg
+          ref: http://ac.els-cdn.com/S0038092X10003579/1-s2.0-S0038092X10003579-main.pdf?_tid=1a0b674a-e43b-11e4-81ca-00000aab0f26&acdnat=1429190501_060240121a4d342af3824f25a3c98ac3, Table 1, Case D. 
      solar:
           value: -2.221083
           unit: MJ
+          ref: http://ac.els-cdn.com/S0038092X10003579/1-s2.0-S0038092X10003579-main.pdf?_tid=1a0b674a-e43b-11e4-81ca-00000aab0f26&acdnat=1429190501_060240121a4d342af3824f25a3c98ac3, Table 1, Case D. 
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0038092X10003579/1-s2.0-S0038092X10003579-main.pdf?_tid=1a0b674a-e43b-11e4-81ca-00000aab0f26&acdnat=1429190501_060240121a4d342af3824f25a3c98ac3, Table 1, Case D. 
      water:
           value: -0.009921848
           unit: kg
+          ref: Because of solar input, we assume recirculaing plant, with consumption of median(725, 1109) gal/MWh) = 917 gal/MWh = 1.16e-3 m3/s/kW
      CO2:
           value: 0.05371483
           unit: kg
+          ref: Using 0.333 kgCO2/kWh. 67906 * 0.333/3600 = 6.28 kg/s. (This is backed up by calculation based on data from http://people.exeter.ac.uk/TWDavies/energy_conversion/Calculation%20of%20CO2%20emissions%20from%20fuels.htm)
      ash:
           value: 0.002283736
           unit: kg
+          ref: Assume 10% of coal weight. With specific energy 25.46 MJ/kg we have 2.67 kg/s
 capacity:  
      value: 116.9137
      ref: http://ac.els-cdn.com/S0038092X10003579/1-s2.0-S0038092X10003579-main.pdf?_tid=1a0b674a-e43b-11e4-81ca-00000aab0f26&acdnat=1429190501_060240121a4d342af3824f25a3c98ac3
 trl:  
-     level: ml
+     level: m
      ref: http://www.gizmag.com/first-solarcoal-hybrid-power-station/15728/
      justification: First demonstration project in Colorado (2010)
 main: elec

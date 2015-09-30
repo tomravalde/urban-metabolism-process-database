@@ -3,14 +3,16 @@ flow:
      elec:
           value: 1.248223
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0306261900000660, Abstract
      cooling:
           value: 1
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0306261900000660, Abstract
 capacity:  
      value: 0.003517
      ref: http://www.sciencedirect.com/science/article/pii/S0306261900000660
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.sciencedirect.com/science/article/pii/S0306261900000660
+     justification: Reports data from conventional air conditioning units
 main: cooling

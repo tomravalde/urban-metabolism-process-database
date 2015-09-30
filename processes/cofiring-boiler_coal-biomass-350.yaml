@@ -3,24 +3,31 @@ flow:
      coal:
           value: -0.08640035
           unit: kg
+          ref: http://ac.els-cdn.com/S0961953408001797/1-s2.0-S0961953408001797-main.pdf?_tid=9054e558-e76e-11e4-99fc-00000aacb361&acdnat=1429542458_8fa13b9fa3c009856181ae11f56fe962, Table 2.
      biomass:
           value: -0.01006873
           unit: kg
+          ref: http://ac.els-cdn.com/S0961953408001797/1-s2.0-S0961953408001797-main.pdf?_tid=9054e558-e76e-11e4-99fc-00000aacb361&acdnat=1429542458_8fa13b9fa3c009856181ae11f56fe962, Table 2.
      heat:
           value: 1.162791
           unit: MJ
+          ref: http://ac.els-cdn.com/S0961953408001797/1-s2.0-S0961953408001797-main.pdf?_tid=9054e558-e76e-11e4-99fc-00000aacb361&acdnat=1429542458_8fa13b9fa3c009856181ae11f56fe962, Table 2.
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0961953408001797/1-s2.0-S0961953408001797-main.pdf?_tid=9054e558-e76e-11e4-99fc-00000aacb361&acdnat=1429542458_8fa13b9fa3c009856181ae11f56fe962, Table 2.
      water:
           value: -0.8672778
           unit: kg
+          ref: Take value of 687 gal/MWh from http://iopscience.iop.org/1748-9326/7/4/045802/pdf/1748-9326_7_4_045802.pdf
      CO2:
           value: 0.09249366
           unit: kg
+          ref: Using 0.333 kgCO2/kWh (assume 0 kgCO2/kWh for biomass emisssions)
      ash:
           value: 0.09647067
           unit: kg
+          ref: Assume 10% of input coal and biomass. Using specific energies: coal = 25.46 MJ/kg, biomass = 12.5 MJ/kg. Coal + biomass = 108.1885 + 12.6 kg
 capacity:  
      value: 350
      ref: http://www.sciencedirect.com/science/article/pii/S0961953408001797, Fig 2

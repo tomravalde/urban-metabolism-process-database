@@ -3,20 +3,24 @@ flow:
      algae:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852409012449/1-s2.0-S0960852409012449-main.pdf?_tid=031a9aee-cbe8-11e4-a4e4-00000aacb362&acdnat=1426515987_a04b1830e834ea893e1eae720cf83686, Table 2. 
      water:
           value: -2857.184
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852409012449/1-s2.0-S0960852409012449-main.pdf?_tid=031a9aee-cbe8-11e4-a4e4-00000aacb362&acdnat=1426515987_a04b1830e834ea893e1eae720cf83686, Table 2. 
      elec:
           value: -3.7845
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960852409012449/1-s2.0-S0960852409012449-main.pdf?_tid=031a9aee-cbe8-11e4-a4e4-00000aacb362&acdnat=1426515987_a04b1830e834ea893e1eae720cf83686, Table 2. 
      CO2:
           value: -1.8
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852409012449/1-s2.0-S0960852409012449-main.pdf?_tid=031a9aee-cbe8-11e4-a4e4-00000aacb362&acdnat=1426515987_a04b1830e834ea893e1eae720cf83686, Table 2. 
 capacity:  
      value: 0.00405
      ref: http://www.sciencedirect.com/science/article/pii/S0960852409012449, Assume as above, for a production pond
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.sciencedirect.com/science/article/pii/S0960852409012449
+     justification: Example at reference
 main: algae

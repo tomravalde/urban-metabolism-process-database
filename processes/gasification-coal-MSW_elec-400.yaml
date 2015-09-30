@@ -3,18 +3,23 @@ flow:
      coal:
           value: -0.09868819
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319911028667/1-s2.0-S0360319911028667-main.pdf?_tid=c27d5166-e370-11e4-9947-00000aab0f02&acdnat=1429103596_ca35d1d67caf3c61839a598f4008f7b2, Table 6, case 5.
      MSW:
           value: -0.02467205
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319911028667/1-s2.0-S0360319911028667-main.pdf?_tid=c27d5166-e370-11e4-9947-00000aab0f02&acdnat=1429103596_ca35d1d67caf3c61839a598f4008f7b2, Table 6, case 5.
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360319911028667/1-s2.0-S0360319911028667-main.pdf?_tid=c27d5166-e370-11e4-9947-00000aab0f02&acdnat=1429103596_ca35d1d67caf3c61839a598f4008f7b2, Table 6, case 5.
      water:
           value: -0.4692166
           unit: kg
+          ref: Calculated assuming 1.69 m3/MWh is required.
      CO2:
           value: 0.019775
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319911028667/1-s2.0-S0360319911028667-main.pdf?_tid=c27d5166-e370-11e4-9947-00000aab0f02&acdnat=1429103596_ca35d1d67caf3c61839a598f4008f7b2, Table 6, case 5.
 capacity:  
      value: 400
      ref: http://www.sciencedirect.com/science/article/pii/S0000000000000001

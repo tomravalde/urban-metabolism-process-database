@@ -3,20 +3,24 @@ flow:
      algae:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852409012449/1-s2.0-S0960852409012449-main.pdf?_tid=031a9aee-cbe8-11e4-a4e4-00000aacb362&acdnat=1426515987_a04b1830e834ea893e1eae720cf83686, Table 2.
      water:
           value: -178.485
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852409012449/1-s2.0-S0960852409012449-main.pdf?_tid=031a9aee-cbe8-11e4-a4e4-00000aacb362&acdnat=1426515987_a04b1830e834ea893e1eae720cf83686, Table 2.
      elec:
           value: -158.958
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960852409012449/1-s2.0-S0960852409012449-main.pdf?_tid=031a9aee-cbe8-11e4-a4e4-00000aacb362&acdnat=1426515987_a04b1830e834ea893e1eae720cf83686, Table 2.
      CO2:
           value: -1.8
           unit: kg
+          ref: Using 1.8 * biomass assumption from http://link.springer.com/article/10.1007/s11027-010-9271-9#page-3
 capacity:  
-     value: 2.95E-06
+     value: 0.00000295
      ref: http://pubs.acs.org/doi/abs/10.1021/ie901459u
 trl:  
      level: m
      ref: https://en.wikipedia.org/wiki/Photobioreactor
-     justification: 
+     justification: Not yet at commercial-scale
 main: algae

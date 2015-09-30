@@ -3,20 +3,24 @@ flow:
      gasNatural:
           value: -0.0622
           unit: kg
+          ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf, Table 1-3.
      elec:
           value: 1
           unit: MJ
+          ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf, Table 1-3 (see footnote: I'm adopting a value of 30).
      heat:
           value: 1.2
           unit: MJ
+          ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf, Table 1-3.      
      CO2:
           value: 0.1703333
           unit: kg
+          ref: Emissions factor of 0.184 kgCO2/kWh from https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/224437/pb13988-emission-factor-methodology-130719.pdf, Table 11. 100 MJ = 27.79 kWh. 27.79*0.184=5.11
 capacity:  
      value: 300
      ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
 trl:  
      level: c
      ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf
-     justification: 
+     justification: Catalogue of CHP processes
 main: elec

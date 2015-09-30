@@ -3,15 +3,18 @@ flow:
      elec:
           value: -483.7758
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360319910025103/1-s2.0-S0360319910025103-main.pdf?_tid=b3547d7c-d146-11e4-aaa5-00000aacb35f&acdnat=1427106411_39b6fac2eed013750946b6d59110968c, Table 4 and Figure 4. (Sum of tow E_{biogas} terms.)
      water:
           value: -7522.124
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319910025103/1-s2.0-S0360319910025103-main.pdf?_tid=b3547d7c-d146-11e4-aaa5-00000aacb35f&acdnat=1427106411_39b6fac2eed013750946b6d59110968c, Table 4 (Ref. states 17, 18 and 19) and Figure 4
      hydrogen:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319910025103/1-s2.0-S0360319910025103-main.pdf?_tid=b3547d7c-d146-11e4-aaa5-00000aacb35f&acdnat=1427106411_39b6fac2eed013750946b6d59110968c, Table 5 (calculating hydrogen outputs from efficiencies of electrolysis techniques).
 capacity:  
-     value: 1.82E-07
-     ref: 
+     value: 0.000000182
+     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000002
 trl:  
      level: c
      ref: http://www.sciencedirect.com/science/article/pii/S0000000000000002

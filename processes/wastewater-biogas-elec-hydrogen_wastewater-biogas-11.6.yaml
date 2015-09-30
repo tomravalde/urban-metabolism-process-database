@@ -3,20 +3,24 @@ flow:
      wastewater:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319910025103/1-s2.0-S0360319910025103-main.pdf?_tid=b3547d7c-d146-11e4-aaa5-00000aacb35f&acdnat=1427106411_39b6fac2eed013750946b6d59110968c, Table 4 and Figure 4.
      heat:
           value: -0.03301724
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360319910025103/1-s2.0-S0360319910025103-main.pdf?_tid=b3547d7c-d146-11e4-aaa5-00000aacb35f&acdnat=1427106411_39b6fac2eed013750946b6d59110968c, Table 4 and Figure 4. (Sum of the two E_{React heating-H} terms in Figure 4.)
      elec:
           value: -0.05965517
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360319910025103/1-s2.0-S0360319910025103-main.pdf?_tid=b3547d7c-d146-11e4-aaa5-00000aacb35f&acdnat=1427106411_39b6fac2eed013750946b6d59110968c, Table 4 and Figure 4. (Sum of E_{Rf} + W_{pump}.)
      biogas:
           value: 0.007433621
           unit: kg
+          ref: http://ac.els-cdn.com/S0360319910025103/1-s2.0-S0360319910025103-main.pdf?_tid=b3547d7c-d146-11e4-aaa5-00000aacb35f&acdnat=1427106411_39b6fac2eed013750946b6d59110968c, Table 4 and Figure 4. (Sum of tow E_{biogas} terms.)
 capacity:  
      value: 11.6
-     ref: 
+     ref: http://www.sciencedirect.com/science/article/pii/S0360319910025103
 trl:  
      level: c
-     ref: http://www.sciencedirect.com/science/article/pii/S0000000000000005
-     justification: Òactual data from a factoryÓ
+     ref: http://www.sciencedirect.com/science/article/pii/S0360319910025103
+     justification: Òactual data from a factory
 main: wastewater

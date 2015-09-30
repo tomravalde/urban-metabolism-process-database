@@ -3,23 +3,28 @@ flow:
      wastewater:
           value: -60.60606
           unit: kg
+          ref: http://pubs.acs.org/doi/pdf/10.1021/es5027689, Figure 3
      fuel:
           value: -36.36364
           unit: MJ
+          ref: http://pubs.acs.org/doi/pdf/10.1021/es5027689, Figure 3
      algae:
           value: 1
           unit: kg
+          ref: http://pubs.acs.org/doi/pdf/10.1021/es5027689, Figure 3 (I.e., dry algae contains one MJ). But apply a heating value of 30 MJ/kg of dry matter (http://www.hindawi.com/journals/jc/2012/285185/)
      CO2:
           value: -15.15152
           unit: kg
+          ref: http://pubs.acs.org/doi/pdf/10.1021/es5027689, Figure 3
      effluent:
           value: 30.30303
           unit: kg
+          ref: http://pubs.acs.org/doi/pdf/10.1021/es5027689, Figure 3
 capacity:  
-     value: 2.95E-06
+     value: 0.00000295
      ref: http://pubs.acs.org/doi/abs/10.1021/ie901459u
 trl:  
-     level: ml
+     level: m
      ref: http://pubs.acs.org/doi/pdf/10.1021/es5027689
-     justification: 
+     justification: Not yet commercial
 main: algae

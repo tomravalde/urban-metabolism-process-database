@@ -3,15 +3,18 @@ flow:
      gasNatural:
           value: -0.05331429
           unit: MJ
+          ref: http://ac.els-cdn.com/S0301421504001715/1-s2.0-S0301421504001715-main.pdf?_tid=a7d4b58e-e99c-11e4-a857-00000aab0f01&acdnat=1429782156_3e08c80ab98112113d7145ecb8c45538, Table 1.
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0301421504001715/1-s2.0-S0301421504001715-main.pdf?_tid=a7d4b58e-e99c-11e4-a857-00000aab0f01&acdnat=1429782156_3e08c80ab98112113d7145ecb8c45538, Table 1.
      CO2:
           value: 0.1602857
           unit: kg
+          ref: Assume natural gas, and use IPCC default of 56.1 tCO2/tJ (http://acm.eionet.europa.eu/docs/ETCACC_TechnPaper_2003_10_CO2_EF_fuels.pdf)
 capacity:  
      value: 0.03
-     ref: 
+     ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c4
 trl:  
      level: c
      ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c5

@@ -3,18 +3,23 @@ flow:
      leachate:
           value: -1
           unit: kg
+          ref:  http://www.sciencedirect.com/science/article/pii/S1385894711006796, Table 3.
      elec:
           value: 0.036
           unit: MJ
+          ref:  http://www.sciencedirect.com/science/article/pii/S1385894711006796, Table 3, summing the energy requirements
      methanol:
           value: -0.003
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S1385894711006796, Table 3, methanol used as a carbon source
      sludge:
           value: 0.00135
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S1385894711006796, Table 3, from summing the TSS values
      effluent:
           value: 1
           unit: kg
+          ref: Assume the same amount as leachate in
 capacity:  
      value: 9.26
      ref: Assume the same as commercial models of AnMBRs

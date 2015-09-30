@@ -3,24 +3,31 @@ flow:
      biooil:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148110003186/1-s2.0-S0960148110003186-main.pdf?_tid=0666d5be-cc8d-11e4-bfa6-00000aacb361&acdnat=1426586859_76f12faeb6fe4337e08d3890667c6334, Table 5.
      biomass:
           value: -2.797203
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148110003186/1-s2.0-S0960148110003186-main.pdf?_tid=0666d5be-cc8d-11e4-bfa6-00000aacb361&acdnat=1426586859_76f12faeb6fe4337e08d3890667c6334, Table 5.
      water:
           value: -251.7483
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148110003186/1-s2.0-S0960148110003186-main.pdf?_tid=0666d5be-cc8d-11e4-bfa6-00000aacb361&acdnat=1426586859_76f12faeb6fe4337e08d3890667c6334, Table 5.
      elec:
           value: -2.517483
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960148110003186/1-s2.0-S0960148110003186-main.pdf?_tid=0666d5be-cc8d-11e4-bfa6-00000aacb361&acdnat=1426586859_76f12faeb6fe4337e08d3890667c6334, Table 5.
      gasNatural:
           value: -2.84965e-05
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148110003186/1-s2.0-S0960148110003186-main.pdf?_tid=0666d5be-cc8d-11e4-bfa6-00000aacb361&acdnat=1426586859_76f12faeb6fe4337e08d3890667c6334, Table 5.
      CO2:
           value: 0.3003497
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148110003186/1-s2.0-S0960148110003186-main.pdf?_tid=0666d5be-cc8d-11e4-bfa6-00000aacb361&acdnat=1426586859_76f12faeb6fe4337e08d3890667c6334, Table 5.
      slag:
           value: 0.6993007
           unit: kg
+          ref: Assume slag is 25% of the input material: http://www.mbt.landfill-site.com/Pyrolysis_-_Gasification/pyrolysis_-_gasification.html
 capacity:  
      value: 4
      ref: http://www.soci.org/~/media/Files/Conference%20Downloads/2012/Processing%20Lignocellulosic%20Biomass%20Nov%202012/R036_C_Peacocke_CPI_8th_Nov_2012_PUBLISH.ashx

@@ -3,20 +3,24 @@ flow:
      biomass:
           value: -118.3432
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852412012916/1-s2.0-S0960852412012916-main.pdf?_tid=7331762c-d3cc-11e4-bb36-00000aab0f27&acdnat=1427383758_04805507ba0f9c40fd97139bb13a85d3, Figure 1.
      hydrogen:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852412012916/1-s2.0-S0960852412012916-main.pdf?_tid=7331762c-d3cc-11e4-bb36-00000aab0f27&acdnat=1427383758_04805507ba0f9c40fd97139bb13a85d3, Figure 1.
      heat:
           value: -34.08284
           unit: MJ
+          ref:  Assuming 0.08 kWh/kg of influent
      digestate:
           value: 35.50296
           unit: kg
+          ref: Assuming 30% of influent mass
 capacity:  
      value: 3.56
      ref: http://www.ecn.nl/docs/library/report/2009/l09117.pdf, http://www.greencarcongress.com/2005/07/boosting_biomas.htmlAssume same as ethanol fermentation
 trl:  
-     level: ml
+     level: l
      ref: http://www.algaeindustrymagazine.com/developing-efficient-hydrogen-production-algae/
      justification: No commercial examples found. Not yet economically competative
 main: hydrogen

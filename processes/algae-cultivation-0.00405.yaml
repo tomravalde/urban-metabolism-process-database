@@ -3,20 +3,24 @@ flow:
      elec:
           value: -9.785714
           unit: MJ
+          ref: http://pubs.acs.org/doi/pdf/10.1021/es200109z, Discussion section      
      water:
           value: -982.1429
           unit: kg
+          ref:  http://pubs.acs.org/doi/pdf/10.1021/es200109z, Water Balance section/Figure 1
      algae:
           value: 1
           unit: kg
+          ref: http://pubs.acs.org/doi/pdf/10.1021/es200109z, Discussion section
      CO2:
           value: -1.8
           unit: kg
+          ref: Using 1.8 * biomass assumption from http://link.springer.com/article/10.1007/s11027-010-9271-9#page-3
 capacity:  
      value: 0.00405
      ref: http://www.sciencedirect.com/science/article/pii/S0960852409012449
 trl:  
      level: c
      ref: http://allaboutalgae.com/open-pond/, Currently in use in the US
-     justification: 
+     justification: Example at reference
 main: algae

@@ -3,18 +3,23 @@ flow:
      coal:
           value: -0.1592
           unit: kg
+          ref: http://www1.eere.energy.gov/hydrogenandfuelcells/pdfs/27637.pdf, Table 9
      water:
           value: -19.8
           unit: kg
+          ref: http://www1.eere.energy.gov/hydrogenandfuelcells/pdfs/27637.pdf, Table 9
      hydrogen:
           value: 1
           unit: kg
+          ref: http://www1.eere.energy.gov/hydrogenandfuelcells/pdfs/27637.pdf, Table 9
      waste:
           value: 0.2016
           unit: kg
+          ref: http://www1.eere.energy.gov/hydrogenandfuelcells/pdfs/27637.pdf, Table 9
      CO2:
           value: 8.889
           unit: kg
+          ref: http://www1.eere.energy.gov/hydrogenandfuelcells/pdfs/27637.pdf, Table 4, 83.7% of 10620 g
 capacity:  
      value: 1.56
      ref: http://www1.eere.energy.gov/hydrogenandfuelcells/pdfs/27637.pdf

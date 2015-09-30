@@ -3,26 +3,32 @@ flow:
      coal:
           value: -0.1012658
           unit: kg
+          ref: http://ac.els-cdn.com/S0301421508007301/1-s2.0-S0301421508007301-main.pdf?_tid=6a78ce1c-df67-11e4-aae9-00000aab0f6b&acdnat=1428659778_cbb45f2be8a5b6e4afa2c6db31696690, Taking typical conversion efficiency range of 36% to 43% from the introduction
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0301421508007301/1-s2.0-S0301421508007301-main.pdf?_tid=6a78ce1c-df67-11e4-aae9-00000aab0f6b&acdnat=1428659778_cbb45f2be8a5b6e4afa2c6db31696690, Taking typical conversion efficiency range of 36% to 43% from the introduction
      heat:
           value: 1.56962
           unit: MJ
+          ref: http://ac.els-cdn.com/S0301421508007301/1-s2.0-S0301421508007301-main.pdf?_tid=6a78ce1c-df67-11e4-aae9-00000aab0f6b&acdnat=1428659778_cbb45f2be8a5b6e4afa2c6db31696690, Taking typical conversion efficiency range of 36% to 43% from the introduction
      water:
           value: -0.8670886
           unit: kg
+          ref: Assume 687 gal/MWh (from http://iopscience.iop.org/1748-9326/7/4/045802/pdf/1748-9326_7_4_045802.pdf)
      CO2:
           value: 0.2341772
           unit: kg
+          ref: Assume 0.333 kgCO2/kWh for coal
      ash:
           value: 0.01012658
           unit: kg
+          ref: Assume 25.46 MJ/kg for coal
 capacity:  
      value: 10
      ref: https://en.wikipedia.org/wiki/List_of_coal_power_stations. http://www.eia.doe.gov/electricity/
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: https://en.wikipedia.org/wiki/List_of_coal_power_stations. http://www.eia.doe.gov/electricity/
+     justification: List of facilities at reference
 main: elec

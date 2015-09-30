@@ -3,26 +3,32 @@ flow:
      foodWaste:
           value: 6.923098
           unit: kg
+          ref: http://ac.els-cdn.com/S0306261999000562/1-s2.0-S0306261999000562-main.pdf?_tid=aaacd4d2-d248-11e4-9b75-00000aacb360&acdnat=1427217207_eff98681384f9b153afa76de5ec58131, Tables 6
      methane:
           value: -1.453851
           unit: kg
+          ref: http://ac.els-cdn.com/S0306261999000562/1-s2.0-S0306261999000562-main.pdf?_tid=aaacd4d2-d248-11e4-9b75-00000aacb360&acdnat=1427217207_eff98681384f9b153afa76de5ec58131, Tables 6
      heat:
           value: 1.993852
           unit: MJ
+          ref: Using assumption heat = 0.08 kWh/kg of influent (calculated from anaerobic-digester-anammox.yaml)
      elec:
           value: 1
           unit: MJ
+          ref: Using assumption heat = 0.04 kWh/kg of influent (calculated from anaerobic-digester-anammox.yaml)
      CO2:
           value: -2.250007
           unit: kg
+          ref: Using assumption heat = 0.04 kWh/kg of influent (calculated from anaerobic-digester-anammox.yaml)
      digestate:
           value: -2.076929
           unit: kg
+          ref: Using 30% of solids assumption (e.g. http://www.forestry.gov.uk/pdf/rrps_AD250309_optimising_anaerobic_digestion.pdf/$FILE/rrps_AD250309_optimising_anaerobic_digestion.pdf, slide 13)
 capacity:  
      value: 4.439
      ref: http://www.biocycle.net/2010/02/23/anaerobic-digestion-of-msw-in-europe/. almost 200 digesters in Europe by end of 2010, assume as for biogas-agri.yaml
 trl:  
-     level: c
+     level: m
      ref: http://www.sciencedirect.com/science/article/pii/S0960148111005957
-     justification: 
+     justification: Possible designs discussed at reference
 main: elec

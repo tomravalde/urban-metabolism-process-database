@@ -3,32 +3,40 @@ flow:
      wastewater:
           value: -1
           unit: kg
+          ref: http://ac.els-cdn.com/S0306261913001736/1-s2.0-S0306261913001736-main.pdf?_tid=66694b4e-e8d6-11e4-8316-00000aacb35e&acdnat=1429697006_c3be31e8d4a99145d52176efb5490add, Section 4, 19% of feedstock is oil.
      oilUsed:
           value: -0.2345679
           unit: kg
+          ref: http://ac.els-cdn.com/S0306261913001736/1-s2.0-S0306261913001736-main.pdf?_tid=66694b4e-e8d6-11e4-8316-00000aacb35e&acdnat=1429697006_c3be31e8d4a99145d52176efb5490add, Section 4, 19% of feedstock is oil.
      effluent:
           value: 0.9621648
           unit: kg
+          ref: http://ac.els-cdn.com/S0306261913001736/1-s2.0-S0306261913001736-main.pdf?_tid=66694b4e-e8d6-11e4-8316-00000aacb35e&acdnat=1429697006_c3be31e8d4a99145d52176efb5490add, Section 4, 19% of feedstock is oil.
      water:
           value: 0.01423042
           unit: kg
+          ref: http://ac.els-cdn.com/S0306261913001736/1-s2.0-S0306261913001736-main.pdf?_tid=66694b4e-e8d6-11e4-8316-00000aacb35e&acdnat=1429697006_c3be31e8d4a99145d52176efb5490add, Section 4, 19% of feedstock is oil.
      digestate:
           value: 0.001193084
           unit: kg
+          ref: http://ac.els-cdn.com/S0306261913001736/1-s2.0-S0306261913001736-main.pdf?_tid=66694b4e-e8d6-11e4-8316-00000aacb35e&acdnat=1429697006_c3be31e8d4a99145d52176efb5490add, Section 4, 19% of feedstock is oil.
      methane:
           value: 7.408669e-05
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148112003552/1-s2.0-S0960148112003552-main.pdf?_tid=43963cb6-e83c-11e4-bf6e-00000aacb362&acdnat=1429630805_cc9f41a9f3bf3858a1d9072f609a2ff9, Calculated assuming 59.8% and 30.4% of methane and CO2 in 0.258(=5.82 kw) kg/s of biogas
      CO2:
           value: 3.752443e-05
           unit: kg
+          ref: http://ac.els-cdn.com/S0960148112003552/1-s2.0-S0960148112003552-main.pdf?_tid=43963cb6-e83c-11e4-bf6e-00000aacb362&acdnat=1429630805_cc9f41a9f3bf3858a1d9072f609a2ff9, Calculated assuming 59.8% and 30.4% of methane and CO2 in 0.258(=5.82 kw) kg/s of biogas
      elec:
           value: -0.001002095
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960148112003552/1-s2.0-S0960148112003552-main.pdf?_tid=43963cb6-e83c-11e4-bf6e-00000aacb362&acdnat=1429630805_cc9f41a9f3bf3858a1d9072f609a2ff9, Bullet point 6.
 capacity:  
      value: 0.0116
      ref: http://www.sciencedirect.com/science/article/pii/S0960148112003552
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.sciencedirect.com/science/article/pii/S0960148112003552
+     justification: Thermoeconomic assessment on existing plants
 main: wastewater

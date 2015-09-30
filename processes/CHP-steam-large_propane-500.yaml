@@ -3,20 +3,24 @@ flow:
      propane:
           value: -0.0504
           unit: kg
+          ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf, Table 1-3.
      elec:
           value: 1
           unit: MJ
+          ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf, Table 1-3 (see footnote: I'm adopting a value of 30).
      heat:
           value: 1
           unit: MJ
+          ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdf, Table 1-3.
      CO2:
           value: 0.1475
           unit: kg
+          ref: 100 MJ = 0.09478 MBtu. Use emissions factor of 62.3 kgCO2/MBtu from http://www.propanecouncil.org/uploadedFiles/REP_15964%20Propane%20Reduces%20GHG%20Emissions%202009.pdf, Table 2.2. to get 5.9 kg
 capacity:  
      value: 500500
      ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdf
 trl:  
      level: cc
      ref: http://www.epa.gov/chp/documents/catalog_chptech_full.pdfhttp://www.epa.gov/chp/documents/catalog_chptech_full.pdf
-     justification: 
+     justification: Catalogue of CHP processesCatalogue of CHP processes
 main: elecheat

@@ -3,18 +3,22 @@ flow:
      diesel:
           value: -0.052075
           unit: kg
+          ref: http://ac.els-cdn.com/S0301421504001715/1-s2.0-S0301421504001715-main.pdf?_tid=a7d4b58e-e99c-11e4-a857-00000aab0f01&acdnat=1429782156_3e08c80ab98112113d7145ecb8c45538, Table 1. 
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0301421504001715/1-s2.0-S0301421504001715-main.pdf?_tid=a7d4b58e-e99c-11e4-a857-00000aab0f01&acdnat=1429782156_3e08c80ab98112113d7145ecb8c45538, Table 1. 
      heat:
           value: 1
           unit: MJ
+          ref:  http://www.sciencedirect.com/science/article/pii/S0196890413003142
      CO2:
           value: 0.18525
           unit: kg
+          ref: Use IPCC default value of 74.1 tCO2/TJ (http://acm.eionet.europa.eu/docs/ETCACC_TechnPaper_2003_10_CO2_EF_fuels.pdf)
 capacity:  
      value: 3
-     ref: 
+     ref: N/A
 trl:  
      level: c
      ref: http://ac.els-cdn.com/S0301421504001715/1-s2.0-S0301421504001715-main.pdf?_tid=a7d4b58e-e99c-11e4-a857-00000aab0f01&acdnat=1429782156_3e08c80ab98112113d7145ecb8c45538

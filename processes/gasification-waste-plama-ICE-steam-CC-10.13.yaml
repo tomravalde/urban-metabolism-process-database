@@ -3,21 +3,26 @@ flow:
      waste:
           value: -0.219151
           unit: kg
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('Plasma gasification + ICE/Steam CC')
      heat:
           value: -3.957552
           unit: MJ
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('Plasma gasification + ICE/Steam CC')
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('Plasma gasification + ICE/Steam CC'). Elec = 14.9-4.77
      water:
           value: -0.06910168
           unit: kg
+          ref: Calculated assuming 1.69 m3/MWh is required, using 10.13 MW generation     
      CO2:
           value: 0.3445212
           unit: kg
+          ref:  http://ac.els-cdn.com/S0956053X11003266/1-s2.0-S0956053X11003266-main.pdf?_tid=5297ca40-d21b-11e4-8290-00000aab0f26&acdnat=1427197732_8831cf4ebfe5daabef572671d5356cde, Table 19 ('Plasma gasification + ICE/Steam CC')
 capacity:  
      value: 10.13
-     ref: 
+     ref: http://www.nytimes.com/2012/09/11/science/plasma-gasification-raises-hopes-of-clean-energy-from-garbage.html
 trl:  
      level: c
      ref: https://www.netl.doe.gov/File%20Library/Research/Coal/energy%20systems/gasification/gasifipedia/5-ASADAL_BOARD_bbs02.pdf

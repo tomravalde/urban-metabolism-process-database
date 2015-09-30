@@ -3,20 +3,24 @@ flow:
      biomassAgriWaste:
           value: -25.78306
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852411008327/1-s2.0-S0960852411008327-main.pdf?_tid=2143612e-e824-11e4-8025-00000aab0f6b&acdnat=1429620440_f665bfb829e58eeea1dd638c6cfdd4d2, Table 6, Mix 2.
      biodiesel:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852411008327/1-s2.0-S0960852411008327-main.pdf?_tid=2143612e-e824-11e4-8025-00000aab0f6b&acdnat=1429620440_f665bfb829e58eeea1dd638c6cfdd4d2, Table 6, Mix 2.
      elec:
           value: 10.07723
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960852411008327/1-s2.0-S0960852411008327-main.pdf?_tid=2143612e-e824-11e4-8025-00000aab0f6b&acdnat=1429620440_f665bfb829e58eeea1dd638c6cfdd4d2, Table 6, Mix 2, 6238 - (439 + 598)
      heat:
           value: 13.26684
           unit: MJ
+          ref:  http://ac.els-cdn.com/S0960852411008327/1-s2.0-S0960852411008327-main.pdf?_tid=2143612e-e824-11e4-8025-00000aab0f6b&acdnat=1429620440_f665bfb829e58eeea1dd638c6cfdd4d2, Table 6, Mix 2.
 capacity:  
      value: 0.634
-     ref: 
+     ref: http://www.sciencedirect.com/science/article/pii/S0960852411008327
 trl:  
      level: c
      ref: http://www.sciencedirect.com/science/article/pii/S0960852411008327
-     justification: 
+     justification: Examples at reference
 main: biodiesel

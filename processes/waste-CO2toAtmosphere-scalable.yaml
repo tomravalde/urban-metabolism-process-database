@@ -1,0 +1,18 @@
+process: waste-CO2toAtmosphere-scalable
+flow: 
+     waste:
+          value: -1
+          unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0956053X09005017, Discussion and Conclusions
+     CO2:
+          value: 0.06375
+          unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0956053X09005017, Discussion and Conclusions
+capacity:  
+     value: 1000000000
+     ref: N/A
+trl:  
+     level: c
+     ref: N/A
+     justification: N/A
+main: waste

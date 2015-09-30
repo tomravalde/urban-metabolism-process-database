@@ -3,23 +3,28 @@ flow:
      coal:
           value: -0.2707533
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319912004624, Table 4
      elec:
           value: 1
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319912004624, Table 4
      water:
           value: -0.4697334
           unit: kg
+          ref: Assuming 372 gal/MWh required (http://www.cwatershedalliance.com/pdf/SolarDoc01.pdf, Table 2
      hydrogen:
           value: 0.01676623
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319912004624, Table 4
      ash:
           value: 0.02782137
           unit: kg
+          ref: Assuming 10% of coal mass (25.46 MJ/kg) remains as ash
 capacity:  
      value: 3.78
      ref: http://www.sciencedirect.com/science/article/pii/S0360319912004624
 trl:  
      level: m
-     ref: `
+     ref: http://www.sciencedirect.com/science/article/pii/S0360319912004624
      justification: Simulation
 main: elec

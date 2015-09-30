@@ -3,23 +3,28 @@ flow:
      oilUsed:
           value: -1.054545
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S1364032114000896, Table 2. (-23.16 MJ/L-biodiesel). Waste coking oil is oil that has already been used
      elec:
           value: -0.05318182
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S1364032114000896, Table 2. (-0.15 MJ/L-biodiesel)
      methanol:
           value: -0.0967375
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S1364032114000896, Table 2. (-5.84 MJ/L-biodiesel), output-input = 0.110-0.219=-0.109
      biodiesel:
           value: 1
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S1364032114000896, Table 2. (37.25 MJ/L-biodiesel)
      water:
           value: 0.01136364
           unit: kg
+          ref:  http://www.sciencedirect.com/science/article/pii/S1364032114000896, Table 2.
 capacity:  
      value: 0.12
      ref: http://www.extension.org/pages/27537/commercial-and-large-scale-biodiesel-production-systems#.Va4YrR9Pabk, http://www.vegetableoildiesel.co.uk/
 trl:  
      level: c
      ref: http://www.extension.org/pages/27537/commercial-and-large-scale-biodiesel-production-systems#.Va4YrR9Pabk
-     justification: 
+     justification: Examples listed at reference
 main: biodiesel

@@ -3,15 +3,19 @@ flow:
      coal:
           value: -0.003865424
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319910009183, Table 4.
      elec:
           value: 1
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319910009183, Table 4.
      water:
           value: -0.4712136
           unit: kg
+          ref: Calculated assuming 1.69 m3/MWh is required.
      hydrogen:
           value: 3.386848e-05
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0360319910009183, Table 4.
 capacity:  
      value: 2.7
      ref: http://www.sciencedirect.com/science/article/pii/S0360319910009183

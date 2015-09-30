@@ -3,12 +3,15 @@ flow:
      biomass:
           value: -21.87557
           unit: kg
+          ref: http://ac.els-cdn.com/S036031990901355X/1-s2.0-S036031990901355X-main.pdf?_tid=f69409ea-d3ad-11e4-a0a6-00000aacb361&acdnat=1427370664_594299d3b79607eaf1b4d3810400c797, Table 3, Case 2.
      water:
           value: -4.35359
           unit: kg
+          ref:  http://ac.els-cdn.com/S036031990901355X/1-s2.0-S036031990901355X-main.pdf?_tid=f69409ea-d3ad-11e4-a0a6-00000aacb361&acdnat=1427370664_594299d3b79607eaf1b4d3810400c797, Table 3, Case 2.
      methane:
           value: 1
           unit: kg
+          ref:  http://ac.els-cdn.com/S036031990901355X/1-s2.0-S036031990901355X-main.pdf?_tid=f69409ea-d3ad-11e4-a0a6-00000aacb361&acdnat=1427370664_594299d3b79607eaf1b4d3810400c797, Table 3, Case 2.
 capacity:  
      value: 0.0001319
      ref: http://www.sciencedirect.com/science/article/pii/S036031990901355X

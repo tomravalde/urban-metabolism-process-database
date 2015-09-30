@@ -3,29 +3,36 @@ flow:
      coal:
           value: -0.07714286
           unit: kg
+          ref: Assume 10% of coal weight. With specific energy 25.46 MJ/kg we have 2.67 kg/s
      biomass:
           value: -0.06857143
           unit: kg
+          ref: Assume 10% of coal weight. With specific energy 25.46 MJ/kg we have 2.67 kg/s
      elec:
           value: 1
           unit: MJ
+          ref: Assume 10% of coal weight. With specific energy 25.46 MJ/kg we have 2.67 kg/s
      heat:
           value: 1.857143
           unit: MJ
+          ref: Assume 10% of coal weight. With specific energy 25.46 MJ/kg we have 2.67 kg/s
      water:
           value: -0.8571429
           unit: kg
+          ref: Assume 687 gal/MWh
      CO2:
           value: 0.185
           unit: kg
+          ref: Assume 0.333 kgCO2/kWh (assume no emissons for biomass)
      ash:
           value: 0.015
           unit: kg
+          ref: Assume 10% of coal + biomass input mass = 0.1(0.0286 + 0.024)
 capacity:  
      value: 1131
      ref: http://www.rwe.com/web/cms/en/1754834/rwe-generation-se/about-us/energy-mix/biomass/
 trl:  
      level: c
      ref: http://www.rwe.com/web/cms/en/1754834/rwe-generation-se/about-us/energy-mix/biomass/
-     justification: 
+     justification: Examples listed at reference
 main: elec

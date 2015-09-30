@@ -3,15 +3,19 @@ flow:
      coal:
           value: -0.08426184
           unit: kg
+          ref: http://ac.els-cdn.com/S0360544212002162/1-s2.0-S0360544212002162-main.pdf?_tid=463512d4-d181-11e4-8621-00000aacb362&acdnat=1427131568_5073a443c24f9418e62c68dc26901d99, Table 5 (Case 1a).
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S0360544212002162/1-s2.0-S0360544212002162-main.pdf?_tid=463512d4-d181-11e4-8621-00000aacb362&acdnat=1427131568_5073a443c24f9418e62c68dc26901d99, Table 5 (Case 1a).
      water:
           value: -0.5399946
           unit: kg
+          ref: Calculated assuming 1.69 m3/MWh is required, calculated from Gross electric power output (558.69 MWe)
      CO2:
           value: 0.2058369
           unit: kg
+          ref: http://ac.els-cdn.com/S0360544212002162/1-s2.0-S0360544212002162-main.pdf?_tid=463512d4-d181-11e4-8621-00000aacb362&acdnat=1427131568_5073a443c24f9418e62c68dc26901d99, Table 5 (Case 1a).
 capacity:  
      value: 400
      ref: http://www.sciencedirect.com/science/article/pii/S0360544212002162

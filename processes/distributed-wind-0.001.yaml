@@ -3,12 +3,14 @@ flow:
      wind:
           value: -3.333333
           unit: MJ
+          ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c3, Section 2.1.5
      elec:
           value: 1
           unit: MJ
+          ref: http://www.globalwindday.org/faqs/how-efficient-are-wind-turbines/, Typical annual efficiency of 30%
 capacity:  
      value: 0.001
-     ref: 
+     ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c7
 trl:  
      level: c
      ref: http://ac.els-cdn.com/S1364032109002561/1-s2.0-S1364032109002561-main.pdf?_tid=b2eba922-e99d-11e4-9261-00000aab0f26&acdnat=1429782604_d1f12ba07b3a6f97548260fa2b72c9c7

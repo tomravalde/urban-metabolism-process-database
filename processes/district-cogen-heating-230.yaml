@@ -3,23 +3,28 @@ flow:
      fuel:
           value: -1.666667
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243, Section 2.3
      elec:
           value: 0.4166667
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243, Section 2.3 
      water:
           value: -0.1956667
           unit: kg
+          ref: Assume 1.69 m3/MWh of elec
      heat:
           value: 1
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243, Section 2.3
      CO2:
           value: 0.1576667
           unit: kg
+          ref: Assuming coal, using IPCC default of 94.6 tCO2/TJ.
 capacity:  
      value: 230
      ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243
 trl:  
      level: c
      ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243
-     justification: 
+     justification: Example at reference
 main: heat

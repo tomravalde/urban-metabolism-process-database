@@ -3,29 +3,36 @@ flow:
      wood:
           value: -31.57691
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7
      water:
           value: -9.460287
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7
      elec:
           value: -6.570941
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7, 12. Elec = 9400 - 14111
      heat:
           value: 26.82495
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 12. heat = 19725 - 402
      hydrogen:
           value: 1
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7
      wastewater:
           value: 8.563348
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7
      ash:
           value: 2.434328
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0961953411002960, table 7
 capacity:  
      value: 1.58
      ref: http://www.vtt.fi/inf/pdf/workingpapers/2009/W131.pdf
 trl:  
-     level: ml
+     level: m
      ref: http://www.vtt.fi/inf/pdf/workingpapers/2009/W131.pdf
      justification: Several demo plants to produce transport fuels, which could be adapted.
 main: hydrogen

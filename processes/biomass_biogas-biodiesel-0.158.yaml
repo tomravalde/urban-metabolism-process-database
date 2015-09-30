@@ -3,21 +3,27 @@ flow:
      biomass:
           value: -2.018464
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852408007633/1-s2.0-S0960852408007633-main.pdf?_tid=35359e28-ed91-11e4-8476-00000aab0f27&acdnat=1430217044_71e1594ae8e7dea513dff135ad2994d8, Table 3 (configuration 3).
      water:
           value: -0.2112154
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852408007633/1-s2.0-S0960852408007633-main.pdf?_tid=35359e28-ed91-11e4-8476-00000aab0f27&acdnat=1430217044_71e1594ae8e7dea513dff135ad2994d8, Table 3 (configuration 3). We assume 80% of water (667.3 kg) is cleaned and reused, and 20% becomes wastewater. (Adopting principles from http://www.extension.org/pages/27660/waste-management-in-biodiesel-production#.VW7MM7ySH7A). Only the wastewater is replaced as 'water'.
      wastewater:
           value: 0.2112154
           unit: kg
+          ref: We assume 80% of water (667.3 kg) is cleaned and reused, and 20% becomes wastewater. (Adopting principles from http://www.extension.org/pages/27660/waste-management-in-biodiesel-production#.VW7MM7ySH7A). Only the wastewater is replaced as 'water'.
      biodiesel:
           value: 1
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852408007633/1-s2.0-S0960852408007633-main.pdf?_tid=35359e28-ed91-11e4-8476-00000aab0f27&acdnat=1430217044_71e1594ae8e7dea513dff135ad2994d8, Table 3 (configuration 3).
      ethanol:
           value: 0.2434058
           unit: kg
+          ref: http://ac.els-cdn.com/S0960852408007633/1-s2.0-S0960852408007633-main.pdf?_tid=35359e28-ed91-11e4-8476-00000aab0f27&acdnat=1430217044_71e1594ae8e7dea513dff135ad2994d8, Table 3 (configuration 3).
      heat:
           value: -5.037983
           unit: MJ
+          ref: http://ac.els-cdn.com/S0960852408007633/1-s2.0-S0960852408007633-main.pdf?_tid=35359e28-ed91-11e4-8476-00000aab0f27&acdnat=1430217044_71e1594ae8e7dea513dff135ad2994d8, Table 4 (configuration 4 as the most efficient). Assume heat, as this is referred to many times in the text.
 capacity:  
      value: 0.158
      ref: http://www.biofuelstp.eu/btl.html

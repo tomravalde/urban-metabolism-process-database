@@ -3,18 +3,23 @@ flow:
      wastewater:
           value: -1
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S1383586613004024
      elec:
           value: -0.0216
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S1383586613004024
      methane:
           value: 4.4e-05
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S1383586613004024, Biogas value calculated from Table 1, and then apply 58.9/30.4 methane/CO2 assumption. 
      CO2:
           value: 2.26e-05
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S1383586613004024, Biogas value calculated from Table 1, and then apply 58.9/30.4 methane/CO2 assumption.
      effluent:
           value: 1
           unit: kg
+          ref: Assume that the concentrate is recycled, so eventually wastewater = effluent(permeate) + concentrate
 capacity:  
      value: 0.0116
      ref: https://en.wikipedia.org/wiki/Membrane_bioreactor, http://www.sciencedirect.com/science/book/9781856174817

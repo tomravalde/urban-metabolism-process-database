@@ -3,14 +3,16 @@ flow:
      elec:
           value: -0.5263158
           unit: MJ
+          ref:  http://en.wikipedia.org/wiki/Heat_pump
      heat:
           value: 1
           unit: MJ
+          ref:  http://en.wikipedia.org/wiki/Heat_pump
 capacity:  
      value: 0.005
      ref: http://www.districtenergy.org/blog/2013/07/08/norway-starts-world%E2%80%99s-largest-heat-pump-district-heating-plant/, http://www.acdirect.com/knowledge-base/heat-pump/info-sizing-heat-pumps-supplemental-heating
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.districtenergy.org/blog/2013/07/08/norway-starts-world%E2%80%99s-largest-heat-pump-district-heating-plant/, http://www.acdirect.com/knowledge-base/heat-pump/info-sizing-heat-pumps-supplemental-heating
+     justification: Norwiegen example
 main: heat

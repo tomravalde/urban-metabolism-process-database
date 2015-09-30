@@ -1,0 +1,22 @@
+process: amineScrubbing-scalable
+flow: 
+     elec:
+          value: -1.332
+          unit: MJ
+          ref: http://www.sciencemag.org/content/325/5948/1652.full.pdf, Table 1.
+     CO2:
+          value: -1
+          unit: kg
+          ref: http://www.sciencemag.org/content/325/5948/1652.full.pdf, Table 1.
+     water:
+          value: -0.0303
+          unit: kg
+          ref: http://pubs.acs.org/doi/pdf/10.1021/es1034443, Table 4. (L/Mwh). (Withdrawal is 83.3.)
+capacity:  
+     value: 1000000000000
+     ref: N/A
+trl:  
+     level: c
+     ref: http://www.sciencemag.org/content/325/5948/1652.full.pdf
+     justification: Used since the 1930s
+main: CO2

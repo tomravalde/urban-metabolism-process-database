@@ -3,21 +3,27 @@ flow:
      biomass:
           value: -0.02800179
           unit: kg
+          ref: http://www.biomassenergycentre.org.uk/pls/portal/docs/PAGE/RESOURCES/REF_LIB_RES/PUBLICATIONS/GUIDANCE/RENEWABLES%20EAST%20-%20GASIFICATION%20%28FULL%20REPORT%29.PDF, Figure 21.
      CO2:
           value: 0.008092518
           unit: kg
+          ref: Calculated from syngas volume (2590 Nm3/hr = 1174 kg/hr), from http://www.biomassenergycentre.org.uk/pls/portal/docs/PAGE/RESOURCES/REF_LIB_RES/PUBLICATIONS/GUIDANCE/RENEWABLES%20EAST%20-%20GASIFICATION%20%28FULL%20REPORT%29.PDF, Figure 21.) And using the 'Unknown process gas' value (0.246 kgCO2/kWh) from https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/224437/pb13988-emission-factor-methodology-130719.pdf, Table 11
      elec:
           value: 1
           unit: MJ
+          ref: http://www.biomassenergycentre.org.uk/pls/portal/docs/PAGE/RESOURCES/REF_LIB_RES/PUBLICATIONS/GUIDANCE/RENEWABLES%20EAST%20-%20GASIFICATION%20%28FULL%20REPORT%29.PDF, Figure 21. (1000 kW output - 80 kW input) (9920 kW_e for one hour = 9920 kWh!!!)
      heat:
           value: 0.1814516
           unit: MJ
+          ref: http://www.biomassenergycentre.org.uk/pls/portal/docs/PAGE/RESOURCES/REF_LIB_RES/PUBLICATIONS/GUIDANCE/RENEWABLES%20EAST%20-%20GASIFICATION%20%28FULL%20REPORT%29.PDF, Figure 21. (1000 kW output - 80 kW input) (1800 kW for one hour = 1800 kWh!!!)
      ash:
           value: 0.002240143
           unit: kg
+          ref: http://www.biomassenergycentre.org.uk/pls/portal/docs/PAGE/RESOURCES/REF_LIB_RES/PUBLICATIONS/GUIDANCE/RENEWABLES%20EAST%20-%20GASIFICATION%20%28FULL%20REPORT%29.PDF, Figure 23.
      water:
           value: -0.46931
           unit: kg
+          ref: Using our assumption of 1.69 m3/MWh (calculated from http://www.cwatershedalliance.com/pdf/SolarDoc01.pdf, Table 2), for 9920 kWh = 9.92 MWh.
 capacity:  
      value: 0.14
      ref: https://www.ashden.org/biomass-gasification

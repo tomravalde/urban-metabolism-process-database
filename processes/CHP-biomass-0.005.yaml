@@ -3,17 +3,20 @@ flow:
      biomass:
           value: -0.6153846
           unit: kg
+          ref: http://www.turboden.eu/en/public/downloads/report_on_lienz_plant.pdf, Figure 6 (Sankey diagram).
      elec:
           value: 1
           unit: MJ
+          ref: http://www.turboden.eu/en/public/downloads/report_on_lienz_plant.pdf, Figure 6 (Sankey diagram). Subract elec-loss
      heat:
           value: 6.692308
           unit: MJ
+          ref: http://www.turboden.eu/en/public/downloads/report_on_lienz_plant.pdf, Figure 6 (Sankey diagram). Subtract heat-loss
 capacity:  
      value: 0.005
      ref: http://www.turboden.eu/en/public/downloads/report_on_lienz_plant.pdf
 trl:  
      level: c
-     ref: 
-     justification: 
+     ref: http://www.turboden.eu/en/public/downloads/report_on_lienz_plant.pdf
+     justification: Report on existing plant
 main: elec

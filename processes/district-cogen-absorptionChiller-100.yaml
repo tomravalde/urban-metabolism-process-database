@@ -3,14 +3,16 @@ flow:
      heat:
           value: -1.492537
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243, Section 2.3
      cooling:
           value: 1
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243, Section 2.3 
 capacity:  
      value: 100
      ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243
 trl:  
      level: c
      ref: http://www.sciencedirect.com/science/article/pii/S1359431104001243
-     justification: 
+     justification: Example at reference
 main: cooling

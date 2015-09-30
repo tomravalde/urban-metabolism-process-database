@@ -3,12 +3,15 @@ flow:
      solar:
           value: -7.042254
           unit: MJ
+          ref: http://ac.els-cdn.com/S1364032113000634/1-s2.0-S1364032113000634-main.pdf?_tid=81d5dcf0-e442-11e4-8785-00000aab0f6c&acdnat=1429193682_91d0ac6a0ce538eb5276e31a846700eb, Table 1.
      elec:
           value: 1
           unit: MJ
+          ref: http://ac.els-cdn.com/S1364032113000634/1-s2.0-S1364032113000634-main.pdf?_tid=81d5dcf0-e442-11e4-8785-00000aab0f6c&acdnat=1429193682_91d0ac6a0ce538eb5276e31a846700eb, Table 1.
      water:
           value: -0.06566901
           unit: kg
+          ref: Using 26-78 gal/MWh(= 0.118-0.355 m3/MWh) from http://www.cwatershedalliance.com/pdf/SolarDoc01.pdf, Table 2, with 18.1 MJ = 0.00503 MWh
 capacity:  
      value: 0.25
      ref: http://solarlove.org/largest-solar-power-plants-world/

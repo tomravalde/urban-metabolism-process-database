@@ -3,18 +3,23 @@ flow:
      biomass:
           value: -3.587444
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0360544212005397, Figure 8.
      water:
           value: -0.2690583
           unit: kg
+          ref: Calculated assuming 1.69 m3/MWh is required.
      methanol:
           value: 1
           unit: kg
+          ref: http://www.sciencedirect.com/science/article/pii/S0360544212005397, Figure 8.
      elec:
           value: 0.5829596
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0360544212005397, Figure 8.
      heat:
           value: 2.690583
           unit: MJ
+          ref: http://www.sciencedirect.com/science/article/pii/S0360544212005397, Figure 8.
 capacity:  
      value: 30.17
      ref: http://www.sciencedirect.com/science/article/pii/S0360544212005397
