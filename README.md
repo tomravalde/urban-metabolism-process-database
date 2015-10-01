@@ -4,17 +4,15 @@ This repository contains a database of processes to facilitate process-oriented 
 
 ## Content
 
-- [`literature-search/`](literture-search): this specifies the list of keywords used in the systematic literature search method described in Ravalde and Keirstead (2015).
-- `processes/`: this contains the YAML files which define the following attributes of a process:
+- [`literature-search/`](literature-search): this specifies the list of keywords used in the systematic literature search method described in Ravalde and Keirstead (2015).
+- [`processes/`](processes): this contains the YAML files which define the following attributes of a process:
 	- process name
 	- resource inputs and outputs
 	- process capacity
 	- technology readiness level
 	- the main resource managed by the process.
-
 For details on the database construction, see the 'Data collection and database assembly' section of Ravalde and Keirstead (2015).
-
-- `complimentary-datasets/`: this lists other datasets which can compliment our dataset (as discussed in the 'Reflections: interacting with other datasets' section of Ravalde and Keirstead (2015).
+- [`complimentary-datasets/`](complimentary-datasets.md): this lists other datasets which can compliment our dataset (as discussed in the 'Reflections: interacting with other datasets' section of Ravalde and Keirstead (2015).
 - `tools/`: this lists  which can make use of our data.
 
 ## Contributing
