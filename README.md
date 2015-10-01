@@ -4,7 +4,7 @@ This repository contains a database of processes to facilitate process-oriented 
 
 ## Content
 
-- `literature-search/`: this specifies the list of keywords used in the systematic literature search method described in Ravalde and Keirstead (2015).
+- [`literature-search/`](literture-search): this specifies the list of keywords used in the systematic literature search method described in Ravalde and Keirstead (2015).
 - `processes/`: this contains the YAML files which define the following attributes of a process:
 	- process name
 	- resource inputs and outputs
