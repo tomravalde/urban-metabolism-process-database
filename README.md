@@ -1,19 +1,19 @@
-# Urban metabolic flow database
+# Urban metabolism process database
 
 This repository contains a database of processes to facilitate process-oriented urban metabolism studies, as advocated in Ravalde and Keirstead (2015), (forthcoming).
 
 ## Content
 
-- [literature-search/](literature-search): this specifies the list of keywords used in the systematic literature search method described in Ravalde and Keirstead (2015).
-- [processes/](processes): this contains the YAML files which define the following attributes of a process:
+- [literature-search/](literature-search) lists the keywords used in the systematic literature search method described in Ravalde and Keirstead (2015).
+- [processes/](processes) contains the YAML files which define process attributes (discussed in detail in the 'Data collection and database assembly' section of Ravalde and Keirstead (2015)):
 	- process name
 	- resource inputs and outputs
 	- process capacity
 	- technology readiness level
 	- the main resource managed by the process.
 For details on the database construction, see the 'Data collection and database assembly' section of Ravalde and Keirstead (2015).
-- [complimentary-datasets](complimentary-datasets.md): this lists other datasets which can compliment our dataset (as discussed in the 'Reflections: interacting with other datasets' section of Ravalde and Keirstead (2015).
-- [tools](tools.md): this lists  which can make use of our data.
+- [complimentary-datasets](complimentary-datasets.md) lists other datasets which can compliment our dataset (as discussed in the 'Reflections: interacting with other datasets' section of Ravalde and Keirstead (2015).
+- [tools](tools.md) lists tools  which can make use of our data.
 
 ## Contributing
 
@@ -22,11 +22,11 @@ We encourage users to contribute to the database in two ways:
 1. Editing existing processes (to fill in missing information, or to revise inaccurate information).
 2. Adding new processes to the database.
 
-Additionally, we invite users to contribute auxiliary information and tools which can compliment our data in process-oriented urban metabolism studies
+Additionally, we invite users to contribute to [complimentary datasets](complimentary-datasets.md) and [tools](tools.md).
 
 To contribute, first clone the repository:
 
-	git clone git@github.com:tomravalde/metabolism-database.git
+	git clone git@github.com:tomravalde/urban-metabolism-process-database.git
 
 Then make any edits and additions and then [create a pull request](https://github.com/tomravalde/metabolism-database/pulls).
 
