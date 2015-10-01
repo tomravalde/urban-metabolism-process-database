@@ -42,7 +42,7 @@ If you use this data or work derived from it in an academic publication, please 
 
 ## TODO
 
-- Add a changes.txt file
+- List items 'to do' here
 
 ## More information
 
