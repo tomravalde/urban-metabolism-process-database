@@ -21,26 +21,26 @@ We encourage users to contribute to the database in two ways:
 1. Editing existing processes (to fill in missing information, or to revise inaccurate information).
 2. Adding new processes to the database.
 
-To contribute, clone the repository:
+Additionally, we invite users to contribute auxiliary information and tools which can compliment our data in process-oriented urban metabolism studies.
+
+1. Adding links to other open datasets in [Link](link).
+2. Adding links to tools which can make use of our data [Link](link).
+
+To contribute, first clone the repository:
 
 	git clone git@github.com:tomravalde/metabolism-database.git
 
-Then make any edits and additions and push the changes back to GitHub
+Then make any edits and additions and then [create a pull request](https://github.com/tomravalde/metabolism-database/pulls).
 
 ## TODO
 
 - Add a changes.txt file
-- Add a `contribute` branch
-- Protect the `master` branch
-- Work out how to get contributions via pull-requests, and change Contributing instructions accordingly
 
 ## License
 
 Copyright (c) 2015 Tom Ravalde and James Keirstead
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 If you use this data or work derived from it in an academic publication, please cite the following paper:
 
