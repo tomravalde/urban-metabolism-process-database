@@ -11,7 +11,6 @@ This repository contains a database of processes to facilitate process-oriented 
 	- process capacity
 	- technology readiness level
 	- the main resource managed by the process.
-For details on the database construction, see the 'Data collection and database assembly' section of Ravalde and Keirstead (2015).
 - [complimentary-datasets](complimentary-datasets.md) lists other datasets which can compliment our dataset (as discussed in the 'Reflections: interacting with other datasets' section of Ravalde and Keirstead (2015).
 - [tools](tools.md) lists tools  which can make use of our data.
 
