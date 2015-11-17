@@ -1,6 +1,6 @@
 Urban metabolism process database
 
-techReview-0.1.0 (XX XX XX)
+techReview-0.1.0 (17 November 2015)
 ================================
 
 * Initial version of the repository.
