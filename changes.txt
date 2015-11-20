@@ -1,5 +1,10 @@
 Urban metabolism process database
 
+techReview-0.1.2 (20 November 2015)
+================================
+
+* Tidied one more process file containing errors
+
 techReview-0.1.1 (20 November 2015)
 ================================
 
