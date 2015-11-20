@@ -12,18 +12,6 @@ flow:
           value: 0.01764
           unit: MJ
           ref:  http://www.modernwater.com/assets/pdfs/PERTH%20Sept11%20-%20FO%20Desal%20A%20Commercial%20Reality.pdf, p.14
-     seawater:
-          value: -1
-          unit: kg
-          ref:  http://www.desware.net/desa4.aspx, Table 1. 
-     water:
-          value: 1
-          unit: kg
-          ref: http://www.desware.net/desa4.aspx, Table 1.
-     elec:
-          value: -0.036
-          unit: MJ
-          ref: http://www.desware.net/desa4.aspx, Table 1, Taking a value in the range 7-12 kWh/m3
 capacity:  
      value: 9259.259
      ref: https://en.wikipedia.org/wiki/Desalination
@@ -31,4 +19,4 @@ trl:
      level: c
      ref: https://en.wikipedia.org/wiki/Desalination
      justification: List of facilities
-main: waterseawaterwater
+main: water
