@@ -37,7 +37,7 @@ Copyright (c) 2015 Tom Ravalde and James Keirstead
 
 If you use this data or work derived from it in an academic publication, please cite the following paper:
 
-> Ravalde, T. and Keirstead, J. 2015. A database to facilitate a process-oriented approach to urban metabolism. *Working paper*.
+> Ravalde, T. and Keirstead, J. (forthcoming) 2016. A database to facilitate a process-oriented approach to urban metabolism. *Journal of Industrial Ecology*
 
 ## TODO
 
